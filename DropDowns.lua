@@ -10,6 +10,7 @@ function RecipeRadar_DropDowns_Init()
    RecipeRadar_RealmAvailDropDown_OnLoad()
    RecipeRadar_Prof2DropDown_OnLoad()
    RecipeRadar_PersonAvailDropDown_OnLoad()
+   RecipeRadar_ZoneDropDown_OnLoad()
 
    -- initialize the recipe filters and recipe tab icon
    RecipeRadar_SetProf2Filter(RecipeRadar_Options.CurrentProfession)
@@ -370,6 +371,96 @@ function RecipeRadar_SetProf2Filter(prof)
 end
 
 -----------------------------------------------------------------------------
+-- Zone drop down and filtering (for recipes tab); a continent submenu of
+-- zone entries, since ~140 zones don't fit a flat list.
+-----------------------------------------------------------------------------
+
+function RecipeRadar_ZoneDropDown_OnLoad()
+
+   local dropdown = getglobal("RecipeRadar_ZoneDropDown")
+   UIDropDownMenu_Initialize(dropdown, RecipeRadar_ZoneDropDown_Init)
+   UIDropDownMenu_SetWidth(dropdown, 135)
+   RecipeRadar_ZoneDropDown_UpdateText()
+
+end
+
+function RecipeRadar_ZoneDropDown_UpdateText()
+
+   local text = RecipeRadar_Options.CurrentZoneFilter or RRS("All Zones")
+   UIDropDownMenu_SetText(getglobal("RecipeRadar_ZoneDropDown"), text)
+
+end
+
+-- Builds the top-level continent list, or (on level 2, hovering a
+-- continent's arrow) a submenu of that continent's zones, alphabetically.
+function RecipeRadar_ZoneDropDown_Init(self, level)
+
+   if (level == 2) then
+
+      local zones = { }
+      for name, region in pairs(RecipeRadar_RegionData) do
+         if (region.Continent == UIDROPDOWNMENU_MENU_VALUE) then
+            table.insert(zones, name)
+         end
+      end
+      table.sort(zones)
+
+      for _, name in pairs(zones) do
+         local item = { }
+         item.text = name
+         item.value = name
+         item.func = RecipeRadar_ZoneDropDown_OnClick
+         item.checked = (RecipeRadar_Options.CurrentZoneFilter == name)
+         UIDropDownMenu_AddButton(item, 2)
+      end
+
+      return
+
+   end
+
+   local all = { }
+   all.text = RRS("All Zones")
+   all.func = RecipeRadar_ZoneDropDown_OnClick
+   all.checked = (RecipeRadar_Options.CurrentZoneFilter == nil)
+   UIDropDownMenu_AddButton(all)
+
+   for continent = 1, 4 do
+      local item = { }
+      item.text = RecipeRadar_Continents[continent]
+      item.hasArrow = true
+      item.value = continent
+      item.notCheckable = true
+      UIDropDownMenu_AddButton(item)
+   end
+
+end
+
+function RecipeRadar_ZoneDropDown_OnClick()
+
+   UIDropDownMenu_SetSelectedID(RecipeRadar_ZoneDropDown, this:GetID())
+   RecipeRadar_SetZoneFilter(this.value)
+   CloseDropDownMenus()
+   RecipeRadarListScrollFrameScrollBar:SetValue(0)
+
+end
+
+function RecipeRadar_SetZoneFilter(zone)
+
+   RecipeRadar_Options.CurrentZoneFilter = zone
+   RecipeRadar_ZoneDropDown_UpdateText()
+   RecipeRadar_InitRecipeFilters()
+   RecipeRadar_FrameUpdate()
+
+end
+
+function RecipeRadar_IsZoneFiltered(region_name)
+
+   local zone = RecipeRadar_Options.CurrentZoneFilter
+   return zone ~= nil and zone ~= region_name
+
+end
+
+-----------------------------------------------------------------------------
 -- Radar tab filtering code
 -----------------------------------------------------------------------------
 
@@ -522,7 +613,8 @@ function RecipeRadar_FilterRecipes(filter_type, filter_on, is_filtered)
 
             if (filter_on == location.Team) then
 
-               location.IsFiltered = is_filtered
+               location.IsFiltered = is_filtered or
+                     RecipeRadar_IsZoneFiltered(location.Region)
 
                -- if the to-be-filtered recipe is selected, unselect it
                if (RecipeRadarRecipesTabFrame.SelectedLocation ==
@@ -552,8 +644,8 @@ function RecipeRadar_InitRecipeFilters()
       RecipeRadar_Availability_SetAvailabilityFilter(recipe)
 
       for _, location in pairs(recipe.Locations) do
-         -- set team filter
-         location.IsFiltered = RecipeRadar_IsTeamFiltered(location.Team)
+         location.IsFiltered = RecipeRadar_IsTeamFiltered(location.Team) or
+               RecipeRadar_IsZoneFiltered(location.Region)
       end
 
    end

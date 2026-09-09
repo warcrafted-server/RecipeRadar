@@ -65,6 +65,9 @@ if (GetLocale() == "sample") then
    RecipeRadar_Strings["Factions"] = ""
    RecipeRadar_Strings["Neutral"] = ""
 
+   -- default entry in the zone filtering dropdown (recipes tab)
+   RecipeRadar_Strings["All Zones"] = ""
+
    -- profession filtering dropdown - these strings must match those returned by GetTradeSkillLine() and GetCraftDisplaySkillLine()
    RecipeRadar_Strings["Professions"] = ""
    RecipeRadar_Strings["Alchemy"] = ""
@@ -1318,6 +1321,7 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["No recipes for sale in this region."] = "No hay recetas para la venta en esta región."
    RecipeRadar_Strings["Shift-click a vendor to add or remove her location on the world map."] = "Haz Shift+Click en un vendedor para agregar o quitar su localización en el mapa del mundo."
    RecipeRadar_Strings["Locate Vendor on Map"] = "Localizar a Vendedor en Mapa"
+   RecipeRadar_Strings["All Zones"] = "Todas las Zonas"
    RecipeRadar_Strings["Factions"] = "Bandos"
    RecipeRadar_Strings["Alchemy"] = "Alquimia"
    RecipeRadar_Strings["Blacksmithing"] = "Herrería"

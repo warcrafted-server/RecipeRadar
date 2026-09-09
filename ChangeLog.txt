@@ -1,6 +1,12 @@
 
 Recipe Radar ChangeLog
 
+v1.39; September 9, 2026
+
+- Added a zone filter to the recipes tab, next to Factions and
+  Professions. Pick a continent and then a zone to only show recipes
+  with a source there; pick "All Zones" to go back to showing everything.
+
 v1.38; September 9, 2026
 
 - Fixed the skill-up colours not appearing on recipes the client had not
