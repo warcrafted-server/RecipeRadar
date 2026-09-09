@@ -7,6 +7,9 @@ v1.38; September 9, 2026
   cached yet, which was most of them. Asking the client for an uncached
   item's tooltip fills it in a moment later and rebuilds it from scratch,
   which threw the line away; it is now re-added once the item arrives.
+  (The first attempt at this used a HookScript call that doesn't exist on
+  this client, silently breaking the addon's startup; fixed to use
+  GetScript/SetScript instead.)
 - Fixed the same colours never appearing in the recipe list tooltip for
   uncached recipes, which took an early exit before reaching them.
 - The version in the .toc was still 1.32, several releases behind.

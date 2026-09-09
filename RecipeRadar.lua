@@ -20,14 +20,20 @@ function RecipeRadar_OnLoad()
    this:RegisterEvent("CHAT_MSG_SYSTEM")
    this:RegisterEvent("PLAYER_ENTERING_WORLD")
 
-   GameTooltip:HookScript("OnTooltipSetItem", function()
+   -- 3.3.5 has no HookScript; chain onto whatever OnTooltipSetItem/OnHide
+   -- FrameXML already wired up (both are nil by default on GameTooltip).
+   local prevOnTooltipSetItem = GameTooltip:GetScript("OnTooltipSetItem")
+   GameTooltip:SetScript("OnTooltipSetItem", function()
+      if (prevOnTooltipSetItem) then prevOnTooltipSetItem() end
       if (GameTooltip.RecipeRadar_SkillUp) then
          GameTooltip:AddLine(GameTooltip.RecipeRadar_SkillUp)
          GameTooltip:Show()
       end
    end)
 
-   GameTooltip:HookScript("OnHide", function()
+   local prevOnHide = GameTooltip:GetScript("OnHide")
+   GameTooltip:SetScript("OnHide", function()
+      if (prevOnHide) then prevOnHide() end
       GameTooltip.RecipeRadar_SkillUp = nil
    end)
 
