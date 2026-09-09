@@ -32,7 +32,7 @@ function RecipeRadar_RecipesTab_Init()
 
    RecipeRadar_Prof1DropDown:Hide()
    RecipeRadar_Prof2DropDown:Show()
-   RecipeRadar_ZoneDropDown:Hide()
+   RecipeRadar_ZoneDropDown:Show()
 
    RecipeRadar_SetActiveTab(2)
    RecipeRadar_ZoneDropDown_UpdateText()

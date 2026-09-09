@@ -253,9 +253,9 @@
          </Frame>
          <Frame name="RecipeRadar_ZoneDropDown" inherits="UIDropDownMenuTemplate">
             <Anchors>
-               <Anchor point="TOPRIGHT" relativeTo="RecipeRadar_TeamDropDown" relativePoint="BOTTOMRIGHT">
+               <Anchor point="TOPRIGHT" relativeTo="RecipeRadar_PersonAvailDropDown" relativePoint="TOPLEFT">
                   <Offset>
-                     <AbsDimension x="0" y="4"/>
+                     <AbsDimension x="30" y="0"/>
                   </Offset>
                </Anchor>
             </Anchors>
@@ -340,7 +340,9 @@
                </OnLoad>
                <OnEnter>
                   GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
-                  GameTooltip:SetText(RRS("Shift-click a vendor to add or remove her location on the world map."), nil, nil, nil, nil, 1)
+                  GameTooltip:SetText(RRS("Locate Vendor on Map"))
+                  GameTooltip:AddLine(RRS("Shift-click a vendor to add or remove her location on the world map."), nil, nil, nil, 1)
+                  GameTooltip:Show()
                </OnEnter>
                <OnLeave>
                   GameTooltip:Hide()

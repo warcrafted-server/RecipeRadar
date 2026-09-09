@@ -379,7 +379,8 @@ function RecipeRadar_ZoneDropDown_OnLoad()
 
    local dropdown = getglobal("RecipeRadar_ZoneDropDown")
    UIDropDownMenu_Initialize(dropdown, RecipeRadar_ZoneDropDown_Init)
-   UIDropDownMenu_SetWidth(dropdown, 135)
+   -- narrower than the others: it shares row 1 with the map radio
+   UIDropDownMenu_SetWidth(dropdown, 105)
    RecipeRadar_ZoneDropDown_UpdateText()
 
 end

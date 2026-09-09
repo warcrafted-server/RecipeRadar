@@ -1,6 +1,14 @@
 
 Recipe Radar ChangeLog
 
+v1.42; September 9, 2026
+
+- The zone dropdown is back, on the top row. The map radio next to it now
+  reads just "Map", with the full sentence in its tooltip, which is what
+  made room for it without resizing the window or shrinking the list.
+- On the recipes tab it filters recipes down to one zone; on the radar
+  tab it picks which region to look at. Dungeons are under "Instances".
+
 v1.41; September 9, 2026
 
 - The skill-up levels finally show on the radar tab. They never could:

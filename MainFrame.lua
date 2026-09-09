@@ -11,7 +11,9 @@ function RecipeRadar_MainFrame_Init()
    RecipeRadarListScrollFrameScrollBar.scrollBarHideable = 1
    
    RecipeRadarOptionsButton:SetText(RRS("Options"))
-   RecipeRadarMapVendorIndicatorText:SetText(RRS("Locate Vendor on Map"))
+   -- short label; the full sentence is in this frame's tooltip, and the
+   -- room it frees on this row is where the zone dropdown goes
+   RecipeRadarMapVendorIndicatorText:SetText(RRS("On Map"))
    RecipeRadar_UpdateLock()
    
    RecipeRadar_RadarTab_Init()

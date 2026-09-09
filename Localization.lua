@@ -57,8 +57,10 @@ if (GetLocale() == "sample") then
    -- some regions don't have any recipes for sale
    RecipeRadar_Strings["No recipes for sale in this region."] = ""
 
-   -- radio button (and tooltip) that indicates a mapped vendor
+   -- radio button (and tooltip) that indicates a mapped vendor; the short
+   -- one is the label, the long one heads its tooltip
    RecipeRadar_Strings["Locate Vendor on Map"] = ""
+   RecipeRadar_Strings["On Map"] = ""
    RecipeRadar_Strings["Shift-click a vendor to add or remove her location on the world map."] = ""
 
    -- strings in the faction filtering dropdown; we don't need 'Horde' or 'Alliance' because Blizzard provides them for us
@@ -1321,6 +1323,7 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["No recipes for sale in this region."] = "No hay recetas para la venta en esta región."
    RecipeRadar_Strings["Shift-click a vendor to add or remove her location on the world map."] = "Haz Shift+Click en un vendedor para agregar o quitar su localización en el mapa del mundo."
    RecipeRadar_Strings["Locate Vendor on Map"] = "Localizar a Vendedor en Mapa"
+   RecipeRadar_Strings["On Map"] = "Mapa"
    RecipeRadar_Strings["All Zones"] = "Todas las Zonas"
    RecipeRadar_Strings["Factions"] = "Bandos"
    RecipeRadar_Strings["Alchemy"] = "Alquimia"
