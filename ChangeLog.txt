@@ -3,9 +3,13 @@ Recipe Radar ChangeLog
 
 v1.34; September 9, 2026
 
-- Added drop, quest reward and trainer recipes to the database (previously vendor-only),
-  sourced from AzerothCore's world database: 395 new recipes plus 36 additional sources for
-  recipes already tracked, each with a real map pin where server data allowed it.
+- Added drop, quest reward and trainer recipes to the database, which until now only knew
+  about vendors. The database goes from 983 to 1551 recipes, with 3383 sources in total.
+- Sources show a map pin when the NPC's spawn is known, and otherwise name the zone or the
+  dungeon they are found in. Drops also show their drop chance and, for dungeon bosses,
+  whether it is the heroic version.
+- Data comes from the server's own world database. A handful of old dungeon bosses whose
+  spawns that database doesn't carry were completed from Wowhead.
 
 v1.33; August 11, 2009
 
