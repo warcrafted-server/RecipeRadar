@@ -512,6 +512,18 @@
                         </Anchor>
                      </Anchors>
                   </FontString>
+                  <FontString name="RecipeDetailSkillUpText" inherits="GameFontNormalSmall" justifyH="LEFT">
+                     <Size>
+                        <AbsDimension x="393" y="0"/>
+                     </Size>
+                     <Anchors>
+                        <Anchor point="TOPLEFT" relativeTo="RecipeDetailNoteText" relativePoint="BOTTOMLEFT">
+                           <Offset>
+                              <AbsDimension x="0" y="-4"/>
+                           </Offset>
+                        </Anchor>
+                     </Anchors>
+                  </FontString>
                </Layer>
             </Layers>
             <Frames>

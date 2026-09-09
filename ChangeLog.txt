@@ -1,6 +1,13 @@
 
 Recipe Radar ChangeLog
 
+v1.37; September 9, 2026
+
+- The recipe detail panel now also shows the skill-up colour breakpoints: yellow, green and
+  grey skill values, so you know at a glance when a recipe stops being worth crafting. Data
+  comes from the server's own database; a handful of profession-tier recipes (the ones that
+  just unlock the next skill cap, with nothing to actually craft) don't show this.
+
 v1.36; September 9, 2026
 
 - The recipe detail panel now shows the profession and the minimum skill rank required to

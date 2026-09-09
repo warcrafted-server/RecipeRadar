@@ -206,6 +206,7 @@ function RecipeRadar_HideRecipeDetails()
    RecipeDetailMoneyFrame:Hide()
    RecipeDetailNoteText:Hide()
    RecipeDetailRequirements:Hide()
+   RecipeDetailSkillUpText:Hide()
    RecipeRadarRegionMap:Hide()
 
    -- reset the mapped indicator to red/off
@@ -281,6 +282,22 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
    else
       RecipeDetailNoteText:Hide()
       RecipeDetailRequirements:Hide()
+   end
+
+   -- skill-up colors: orange (guaranteed) below Yellow, then Yellow, Green,
+   -- and Grey (never skills up again) -- a few recipes (profession tier
+   -- books) have no crafting spell and thus no range to show
+   if (recipe.SkillYellow) then
+      RecipeDetailSkillUpText:SetText(
+            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
+                  FONT_COLOR_CODE_CLOSE)
+      RecipeDetailSkillUpText:Show()
+   else
+      RecipeDetailSkillUpText:Hide()
    end
 
    -- sets the color on the little radio button at the top
