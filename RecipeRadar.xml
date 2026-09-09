@@ -16,7 +16,7 @@
 
    <Frame name="RecipeRadarFrame" toplevel="true" movable="true" parent="UIParent" enableMouse="true" hidden="true">
       <Size>
-         <AbsDimension x="452" y="648"/>
+         <AbsDimension x="452" y="680"/>
       </Size>
       <Anchors>
          <Anchor point="TOPLEFT">
@@ -109,7 +109,7 @@
                <Anchors>
                   <Anchor point="TOPLEFT">
                      <Offset>
-                        <AbsDimension x="15" y="-221"/>
+                        <AbsDimension x="15" y="-253"/>
                      </Offset>
                   </Anchor>
                </Anchors>
@@ -121,7 +121,7 @@
                <Anchors>
                   <Anchor point="TOPRIGHT">
                      <Offset>
-                        <AbsDimension x="-39" y="-221"/>
+                        <AbsDimension x="-39" y="-253"/>
                      </Offset>
                   </Anchor>
                </Anchors>
@@ -269,7 +269,7 @@
             <Anchors>
                <Anchor point="TOPRIGHT" relativeTo="RecipeRadarFrame" relativePoint="TOPRIGHT">
                   <Offset>
-                     <AbsDimension x="-67" y="-96"/>
+                     <AbsDimension x="-67" y="-128"/>
                   </Offset>
                </Anchor>
             </Anchors>
@@ -352,7 +352,7 @@
             <Anchors>
                <Anchor point="TOPLEFT" relativeTo="RecipeRadarFrame">
                   <Offset>
-                     <AbsDimension x="22" y="-96"/>
+                     <AbsDimension x="22" y="-128"/>
                   </Offset>
                </Anchor>
             </Anchors>

@@ -138,7 +138,7 @@ function RecipeRadar_RadarTab_AddVendor(key, vendor)
       -- decide the horizontal offset of this button
       if (index == 1) then
          button:SetPoint("TOPLEFT", "RecipeRadarFrame",
-               "TOPLEFT", 22, -96)
+               "TOPLEFT", 22, -128)
       elseif (RecipeRadar_last_button == "recipe") then
          button:SetPoint("TOPLEFT", "RecipeRadarVendor" .. index - 1,
                "BOTTOMLEFT", -RECIPERADAR_VENDOR_OFFSET, 0)
@@ -238,7 +238,7 @@ function RecipeRadar_RadarTab_AddVendor(key, vendor)
             -- decide the horizontal offset of this button
             if (index == 1) then
                button:SetPoint("TOPLEFT", "RecipeRadarFrame",
-                     "TOPLEFT", 22 + RECIPERADAR_VENDOR_OFFSET, -96)
+                     "TOPLEFT", 22 + RECIPERADAR_VENDOR_OFFSET, -128)
             elseif (RecipeRadar_last_button == "recipe") then
                button:SetPoint("TOPLEFT", "RecipeRadarVendor" .. index - 1,
                      "BOTTOMLEFT", 0, 0)

@@ -3,9 +3,16 @@ Recipe Radar ChangeLog
 
 v1.39; September 9, 2026
 
-- Added a zone filter to the recipes tab, next to Factions and
-  Professions. Pick a continent and then a zone to only show recipes
-  with a source there; pick "All Zones" to go back to showing everything.
+- Added a zone filter to the recipes tab, below Factions. Pick a
+  continent and then a zone to only show recipes with a source there;
+  pick "All Zones" to go back to showing everything. The window is a
+  little taller to make room for it.
+- Fixed the tooltip hooks calling the previous handler without its frame
+  argument, which threw an error on every tooltip hide (visible with
+  other addons that hook the same tooltip) and stopped the skill-up
+  colours from ever being added.
+- The version shown in the title bar was stale; it comes from its own
+  constant, not the .toc.
 
 v1.38; September 9, 2026
 

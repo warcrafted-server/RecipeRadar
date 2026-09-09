@@ -23,8 +23,8 @@ function RecipeRadar_OnLoad()
    -- 3.3.5 has no HookScript; chain onto whatever OnTooltipSetItem/OnHide
    -- FrameXML already wired up (both are nil by default on GameTooltip).
    local prevOnTooltipSetItem = GameTooltip:GetScript("OnTooltipSetItem")
-   GameTooltip:SetScript("OnTooltipSetItem", function()
-      if (prevOnTooltipSetItem) then prevOnTooltipSetItem() end
+   GameTooltip:SetScript("OnTooltipSetItem", function(self, ...)
+      if (prevOnTooltipSetItem) then prevOnTooltipSetItem(self, ...) end
       if (GameTooltip.RecipeRadar_SkillUp) then
          GameTooltip:AddLine(GameTooltip.RecipeRadar_SkillUp)
          GameTooltip:Show()
@@ -32,8 +32,8 @@ function RecipeRadar_OnLoad()
    end)
 
    local prevOnHide = GameTooltip:GetScript("OnHide")
-   GameTooltip:SetScript("OnHide", function()
-      if (prevOnHide) then prevOnHide() end
+   GameTooltip:SetScript("OnHide", function(self, ...)
+      if (prevOnHide) then prevOnHide(self, ...) end
       GameTooltip.RecipeRadar_SkillUp = nil
    end)
 
