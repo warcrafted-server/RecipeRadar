@@ -1,6 +1,12 @@
 
 Recipe Radar ChangeLog
 
+v1.34; September 9, 2026
+
+- Added drop, quest reward and trainer recipes to the database (previously vendor-only),
+  sourced from AzerothCore's world database: 395 new recipes plus 36 additional sources for
+  recipes already tracked, each with a real map pin where server data allowed it.
+
 v1.33; August 11, 2009
 
 - Fixed several "no coordinates" asserts, sigh.

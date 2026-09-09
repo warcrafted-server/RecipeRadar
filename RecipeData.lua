@@ -8,6 +8,470 @@ RecipeRadar_RecipeData = {
 [RRS("Alchemy")] = {
    Recipes = {
       {
+         ID = 2553,
+         Type = RRS("Alchemy"),
+         Skill = 50,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Elder Mystic Razorsnout"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Minor Agility
+      {
+         ID = 2555,
+         Type = RRS("Alchemy"),
+         Skill = 60,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Bloodmyst Isle"), Vendor = RRS("Sunhawk Agent"), Team = "Neutral" },
+         },
+      }, -- Recipe: Swiftness Potion
+      {
+         ID = 3393,
+         Type = RRS("Alchemy"),
+         Skill = 110,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+         },
+      }, -- Recipe: Minor Magic Resistance Potion
+      {
+         ID = 3394,
+         Type = RRS("Alchemy"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Hagg Taurenbane"), Team = "Neutral" },
+         },
+      }, -- Recipe: Potion of Curing
+      {
+         ID = 3396,
+         Type = RRS("Alchemy"),
+         Skill = 140,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sister Riven"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Lesser Agility
+      {
+         ID = 3830,
+         Type = RRS("Alchemy"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Arcane Nullifier X-21"), Team = "Neutral" },
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Irradiated Horror"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Fortitude
+      {
+         ID = 3831,
+         Type = RRS("Alchemy"),
+         Skill = 180,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Scorched Guardian"), Team = "Neutral" },
+         },
+      }, -- Recipe: Major Troll's Blood Elixir
+      {
+         ID = 3832,
+         Type = RRS("Alchemy"),
+         Skill = 195,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grel'borg the Miser"), Team = "Neutral" },
+            { Region = RRS("Badlands"), Vendor = RRS("Scorched Guardian"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Detect Lesser Invisibility
+      {
+         ID = 4597,
+         Type = RRS("Alchemy"),
+         Skill = 50,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tirisfal Glades"), Vendor = RRS("Wild Hearts"), Team = "Neutral" },
+         },
+      }, -- Recipe: Discolored Healing Potion
+      {
+         ID = 4624,
+         Type = RRS("Alchemy"),
+         Skill = 215,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Liquid Stone"), Team = "Neutral" },
+         },
+      }, -- Recipe: Lesser Stoneshield Potion
+      {
+         ID = 6211,
+         Type = RRS("Alchemy"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Holdout Warrior"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Ogre's Strength
+      {
+         ID = 6663,
+         Type = RRS("Alchemy"),
+         Skill = 90,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Captain Gerogg Hammertoe"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Thora Feathermoon"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Giant Growth
+      {
+         ID = 9293,
+         Type = RRS("Alchemy"),
+         Skill = 210,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Anathemus"), Team = "Neutral" },
+         },
+      }, -- Recipe: Magic Resistance Potion
+      {
+         ID = 9294,
+         Type = RRS("Alchemy"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Ana'thek the Cruel"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Yenniku"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Mith'rethis the Enchanter"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Vilebranch Aman'zasi Guard"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Vilebranch Blood Drinker"), Team = "Neutral" },
+         },
+      }, -- Recipe: Wildvine Potion
+      {
+         ID = 9295,
+         Type = RRS("Alchemy"),
+         Skill = 235,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Ribbly's Crony"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wave Strider"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Thunderstomp Stegodon"), Team = "Neutral" },
+         },
+      }, -- Recipe: Invisibility Potion
+      {
+         ID = 9296,
+         Type = RRS("Alchemy"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Skeletal Flayer"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Slavering Ghoul"), Team = "Neutral" },
+         },
+      }, -- Recipe: Gift of Arthas
+      {
+         ID = 9297,
+         Type = RRS("Alchemy"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Draconic Mageweaver"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Warder"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Dream Vision
+      {
+         ID = 9298,
+         Type = RRS("Alchemy"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wave Strider"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Giants
+      {
+         ID = 13476,
+         Type = RRS("Alchemy"),
+         Skill = 255,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Blackrock Slayer"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Rage Potion
+      {
+         ID = 13479,
+         Type = RRS("Alchemy"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Archmage"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Cleric"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Curate"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Enchanter"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Inquisitor"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of the Sages
+      {
+         ID = 13486,
+         Type = RRS("Alchemy"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Scalebane"), Team = "Neutral" },
+         },
+      }, -- Recipe: Transmute Undeath to Water
+      {
+         ID = 13487,
+         Type = RRS("Alchemy"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Hederine Initiate"), Team = "Neutral" },
+         },
+      }, -- Recipe: Transmute Water to Undeath
+      {
+         ID = 13488,
+         Type = RRS("Alchemy"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Cleric"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Warder"), Team = "Neutral" },
+         },
+      }, -- Recipe: Transmute Life to Earth
+      {
+         ID = 13489,
+         Type = RRS("Alchemy"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Warder"), Team = "Neutral" },
+         },
+      }, -- Recipe: Transmute Earth to Life
+      {
+         ID = 13490,
+         Type = RRS("Alchemy"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Dessecus"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Stoneshield Potion
+      {
+         ID = 13491,
+         Type = RRS("Alchemy"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Legashi Rogue"), Team = "Neutral" },
+            { Region = RRS("Felwood"), Vendor = RRS("Jadefire Rogue"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of the Mongoose
+      {
+         ID = 13492,
+         Type = RRS("Alchemy"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Lethlas"), Team = "Neutral" },
+         },
+      }, -- Recipe: Purification Potion
+      {
+         ID = 13493,
+         Type = RRS("Alchemy"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Archmage"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Praetorian"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Arcane Elixir
+      {
+         ID = 13495,
+         Type = RRS("Alchemy"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Frostmaul Giant"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Frost Protection Potion
+      {
+         ID = 13496,
+         Type = RRS("Alchemy"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Decaying Horror"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Rotting Behemoth"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Nature Protection Potion
+      {
+         ID = 13497,
+         Type = RRS("Alchemy"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Mageweaver"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Arcane Protection Potion
+      {
+         ID = 13499,
+         Type = RRS("Alchemy"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Dark Adept"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Shadowmage"), Team = "Neutral" },
+         },
+      }, -- Recipe: Greater Shadow Protection Potion
+      {
+         ID = 13518,
+         Type = RRS("Alchemy"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Deadwind Brute"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Scalebane"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Frostmaul Giant"), Team = "Neutral" },
+         },
+      }, -- Recipe: Potion of Petrification
+      {
+         ID = 17709,
+         Type = RRS("Alchemy"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Frenzied Plaguehound"), Team = "Neutral" },
+         },
+      }, -- Recipe: Elixir of Frost Power
+      {
+         ID = 22903,
+         Type = RRS("Alchemy"),
+         Skill = 320,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Moroes"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Netherspite"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Prince Malchezaar"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Terestian Illhoof"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("The Curator"), Team = "Neutral" },
+         },
+      }, -- Recipe: Insane Strength Potion
+      {
+         ID = 22914,
+         Type = RRS("Alchemy"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Grizzly Hills"), Vendor = RRS("Hath'ar Skimmer"), Team = "Neutral" },
+         },
+      }, -- Recipe: Destruction Potion
+      {
+         ID = 22923,
+         Type = RRS("Alchemy"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Nagrand"), Vendor = RRS("Vir'aani Arcanist"), Team = "Neutral" },
+         },
+      }, -- Recipe: Major Arcane Protection Potion
+      {
+         ID = 22924,
+         Type = RRS("Alchemy"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Shadow Council Warlock"), Team = "Neutral" },
+         },
+      }, -- Recipe: Major Shadow Protection Potion
+      {
+         ID = 22925,
+         Type = RRS("Alchemy"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Abyssal Flamebringer"), Team = "Neutral" },
+         },
+      }, -- Recipe: Major Holy Protection Potion
+      {
+         ID = 31680,
+         Type = RRS("Alchemy"),
+         Skill = 335,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Shadow Council Warlock"), Team = "Neutral" },
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Mo'arg Weaponsmith"), Team = "Neutral" },
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Terrormaster"), Team = "Neutral" },
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Wrathwalker"), Team = "Neutral" },
+         },
+      }, -- Recipe: Fel Strength Elixir
+      {
+         ID = 31681,
+         Type = RRS("Alchemy"),
+         Skill = 345,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Guardian"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Imp"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Smith"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Tinkerer"), Team = "Neutral" },
+         },
+      }, -- Recipe: Fel Regeneration Potion
+      {
+         ID = 31682,
+         Type = RRS("Alchemy"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Eclipsion Blood Knight"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Eclipsion Bloodwarder"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Eclipsion Soldier"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Eclipsion Spellbinder"), Team = "Neutral" },
+         },
+      }, -- Recipe: Fel Mana Potion
+      {
+         ID = 44564,
+         Type = RRS("Alchemy"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Researcher"), Team = "Neutral" },
+            { Region = RRS("Icecrown"), Vendor = RRS("Frostbrood Spawn"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Arcane Protection Potion
+      {
+         ID = 44565,
+         Type = RRS("Alchemy"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Skeletal Runesmith"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Fire Protection Potion
+      {
+         ID = 44566,
+         Type = RRS("Alchemy"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Damned Apothecary"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Frost Protection Potion
+      {
+         ID = 44567,
+         Type = RRS("Alchemy"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Alchemist"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Nature Protection Potion
+      {
+         ID = 44568,
+         Type = RRS("Alchemy"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cultist Shard Watcher"), Team = "Neutral" },
+         },
+      }, -- Recipe: Mighty Shadow Protection Potion
+      {
          ID = 13478,
          Type = RRS("Alchemy"),
          Skill = 265,
@@ -500,6 +964,7 @@ RecipeRadar_RecipeData = {
          Faction = RRS("Thrallmar"),
          Level = 6,
          Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Dr. Boom"), Team = "Neutral" },
             { Region = RRS("Hellfire Peninsula"), Vendor = RRS("Quartermaster Urgronn"), Team = "Horde" },
          },
       },
@@ -660,6 +1125,826 @@ RecipeRadar_RecipeData = {
 
 [RRS("Blacksmithing")] = {
    Recipes = {
+      {
+         ID = 2881,
+         Type = RRS("Blacksmithing"),
+         Skill = 80,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Dar'Khan Drathir"), Team = "Neutral" },
+         },
+      }, -- Plans: Runed Copper Breastplate
+      {
+         ID = 2882,
+         Type = RRS("Blacksmithing"),
+         Skill = 125,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Knucklerot"), Team = "Neutral" },
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mobile Alert System"), Team = "Neutral" },
+         },
+      }, -- Plans: Silvered Bronze Shoulders
+      {
+         ID = 2883,
+         Type = RRS("Blacksmithing"),
+         Skill = 125,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Plans: Deadly Bronze Poniard
+      {
+         ID = 3608,
+         Type = RRS("Blacksmithing"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+         },
+      }, -- Plans: Mighty Iron Hammer
+      {
+         ID = 3609,
+         Type = RRS("Blacksmithing"),
+         Skill = 35,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ironforge"), Vendor = RRS("Supplying the Front"), Team = "Neutral" },
+         },
+      }, -- Plans: Copper Chain Vest
+      {
+         ID = 3610,
+         Type = RRS("Blacksmithing"),
+         Skill = 60,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Sister Hatelash"), Team = "Neutral" },
+         },
+      }, -- Plans: Gemmed Copper Gauntlets
+      {
+         ID = 3611,
+         Type = RRS("Blacksmithing"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Plans: Green Iron Boots
+      {
+         ID = 3612,
+         Type = RRS("Blacksmithing"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Forsaken Bodyguard"), Team = "Neutral" },
+         },
+      }, -- Plans: Green Iron Gauntlets
+      {
+         ID = 3866,
+         Type = RRS("Blacksmithing"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Desolace"), Vendor = RRS("Starving Bonepaw"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Westfall"), Vendor = RRS("Mor'Ladim"), Team = "Neutral" },
+         },
+      }, -- Plans: Jade Serpentblade
+      {
+         ID = 3867,
+         Type = RRS("Blacksmithing"),
+         Skill = 170,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Writhing Mage"), Team = "Neutral" },
+         },
+      }, -- Plans: Golden Iron Destroyer
+      {
+         ID = 3868,
+         Type = RRS("Blacksmithing"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grel'borg the Miser"), Team = "Neutral" },
+            { Region = RRS("Badlands"), Vendor = RRS("Anathemus"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Acolyte"), Team = "Neutral" },
+         },
+      }, -- Plans: Frost Tiger Blade
+      {
+         ID = 3869,
+         Type = RRS("Blacksmithing"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Plans: Shadow Crescent Axe
+      {
+         ID = 3870,
+         Type = RRS("Blacksmithing"),
+         Skill = 160,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Thousand Needles"), Vendor = RRS("Heartrazor"), Team = "Neutral" },
+         },
+      }, -- Plans: Green Iron Shoulders
+      {
+         ID = 3871,
+         Type = RRS("Blacksmithing"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+         },
+      }, -- Plans: Golden Scale Shoulders
+      {
+         ID = 3872,
+         Type = RRS("Blacksmithing"),
+         Skill = 170,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Forsaken Bodyguard"), Team = "Neutral" },
+         },
+      }, -- Plans: Golden Scale Leggings
+      {
+         ID = 3873,
+         Type = RRS("Blacksmithing"),
+         Skill = 195,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ashenvale"), Vendor = RRS("Wandering Protector"), Team = "Neutral" },
+         },
+      }, -- Plans: Golden Scale Cuirass
+      {
+         ID = 3874,
+         Type = RRS("Blacksmithing"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Plans: Polished Steel Boots
+      {
+         ID = 5543,
+         Type = RRS("Blacksmithing"),
+         Skill = 140,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Dar'Khan Drathir"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+         },
+      }, -- Plans: Iridescent Hammer
+      {
+         ID = 5578,
+         Type = RRS("Blacksmithing"),
+         Skill = 130,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swiftmane"), Team = "Neutral" },
+         },
+      }, -- Plans: Silvered Bronze Breastplate
+      {
+         ID = 6044,
+         Type = RRS("Blacksmithing"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sentinel Amarassan"), Team = "Neutral" },
+         },
+      }, -- Plans: Iron Shield Spike
+      {
+         ID = 6045,
+         Type = RRS("Blacksmithing"),
+         Skill = 165,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Forsaken Bodyguard"), Team = "Neutral" },
+         },
+      }, -- Plans: Iron Counterweight
+      {
+         ID = 6735,
+         Type = RRS("Blacksmithing"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ironforge"), Vendor = RRS("Gearing Redridge"), Team = "Neutral" },
+         },
+      }, -- Plans: Ironforge Breastplate
+      {
+         ID = 7975,
+         Type = RRS("Blacksmithing"),
+         Skill = 210,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Narillasanz"), Team = "Neutral" },
+            { Region = RRS("Badlands"), Vendor = RRS("Anathemus"), Team = "Neutral" },
+         },
+      }, -- Plans: Heavy Mithril Pants
+      {
+         ID = 7978,
+         Type = RRS("Blacksmithing"),
+         Skill = 160,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("On Iron Pauldrons"), Team = "Neutral" },
+         },
+      }, -- Plans: Barbaric Iron Shoulders
+      {
+         ID = 7979,
+         Type = RRS("Blacksmithing"),
+         Skill = 160,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Barbaric Battlements"), Team = "Neutral" },
+         },
+      }, -- Plans: Barbaric Iron Breastplate
+      {
+         ID = 7980,
+         Type = RRS("Blacksmithing"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Horns of Frenzy"), Team = "Neutral" },
+         },
+      }, -- Plans: Barbaric Iron Helm
+      {
+         ID = 7981,
+         Type = RRS("Blacksmithing"),
+         Skill = 180,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Trampled Under Foot"), Team = "Neutral" },
+         },
+      }, -- Plans: Barbaric Iron Boots
+      {
+         ID = 7982,
+         Type = RRS("Blacksmithing"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Joys of Omosh"), Team = "Neutral" },
+         },
+      }, -- Plans: Barbaric Iron Gloves
+      {
+         ID = 7983,
+         Type = RRS("Blacksmithing"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Smelt On, Smelt Off"), Team = "Neutral" },
+         },
+      }, -- Plans: Ornate Mithril Pants
+      {
+         ID = 7984,
+         Type = RRS("Blacksmithing"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("The Great Silver Deceiver"), Team = "Neutral" },
+         },
+      }, -- Plans: Ornate Mithril Gloves
+      {
+         ID = 7985,
+         Type = RRS("Blacksmithing"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("The Art of the Imbue"), Team = "Neutral" },
+         },
+      }, -- Plans: Ornate Mithril Shoulder
+      {
+         ID = 7989,
+         Type = RRS("Blacksmithing"),
+         Skill = 235,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Narillasanz"), Team = "Neutral" },
+         },
+      }, -- Plans: Mithril Spurs
+      {
+         ID = 7990,
+         Type = RRS("Blacksmithing"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Shore Strider"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Grimungous"), Team = "Neutral" },
+         },
+      }, -- Plans: Heavy Mithril Helm
+      {
+         ID = 8028,
+         Type = RRS("Blacksmithing"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Highlord Mastrogonde"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Wyrmkin"), Team = "Neutral" },
+         },
+      }, -- Plans: Runed Mithril Hammer
+      {
+         ID = 9367,
+         Type = RRS("Blacksmithing"),
+         Skill = 205,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stormwind City"), Vendor = RRS("The Origins of Smithing"), Team = "Neutral" },
+         },
+      }, -- Plans: Golden Scale Gauntlets
+      {
+         ID = 10424,
+         Type = RRS("Blacksmithing"),
+         Skill = 155,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mobile Alert System"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Plans: Silvered Bronze Leggings
+      {
+         ID = 11611,
+         Type = RRS("Blacksmithing"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Hammered Patron"), Team = "Neutral" },
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Ribbly's Crony"), Team = "Neutral" },
+         },
+      }, -- Plans: Dark Iron Sunderer
+      {
+         ID = 11612,
+         Type = RRS("Blacksmithing"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Ribbly Screwspigot"), Team = "Neutral" },
+         },
+      }, -- Plans: Dark Iron Plate
+      {
+         ID = 12683,
+         Type = RRS("Blacksmithing"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Executioner"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Belt
+      {
+         ID = 12684,
+         Type = RRS("Blacksmithing"),
+         Skill = 255,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Manahound"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Bracers
+      {
+         ID = 12685,
+         Type = RRS("Blacksmithing"),
+         Skill = 260,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Chimaerok"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Devilsaur"), Team = "Neutral" },
+         },
+      }, -- Plans: Radiant Belt
+      {
+         ID = 12687,
+         Type = RRS("Blacksmithing"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Shoulders"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Shoulders
+      {
+         ID = 12688,
+         Type = RRS("Blacksmithing"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Belt"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Belt
+      {
+         ID = 12689,
+         Type = RRS("Blacksmithing"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Ribbly's Crony"), Team = "Neutral" },
+         },
+      }, -- Plans: Radiant Breastplate
+      {
+         ID = 12690,
+         Type = RRS("Blacksmithing"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Bracer"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Bracers
+      {
+         ID = 12691,
+         Type = RRS("Blacksmithing"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Manahound"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Nethergarde Elite"), Team = "Neutral" },
+         },
+      }, -- Plans: Wildthorn Mail
+      {
+         ID = 12692,
+         Type = RRS("Blacksmithing"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Unliving Resident"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Shield Spike
+      {
+         ID = 12693,
+         Type = RRS("Blacksmithing"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Dreamstalker"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Foreman Jerris"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Boots
+      {
+         ID = 12694,
+         Type = RRS("Blacksmithing"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Plagued Ghoul"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Helm
+      {
+         ID = 12695,
+         Type = RRS("Blacksmithing"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Unholy Staff"), Team = "Neutral" },
+            { Region = RRS("Silithus"), Vendor = RRS("Lapress"), Team = "Neutral" },
+            { Region = RRS("Silithus"), Vendor = RRS("Rex Ashil"), Team = "Neutral" },
+         },
+      }, -- Plans: Radiant Gloves
+      {
+         ID = 12696,
+         Type = RRS("Blacksmithing"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("The Demon Forge"), Team = "Neutral" },
+         },
+      }, -- Plans: Demon Forged Breastplate
+      {
+         ID = 12697,
+         Type = RRS("Blacksmithing"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Baron Charr"), Team = "Neutral" },
+         },
+      }, -- Plans: Radiant Boots
+      {
+         ID = 12699,
+         Type = RRS("Blacksmithing"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Fiery Plate Gauntlets"), Team = "Neutral" },
+         },
+      }, -- Plans: Fiery Plate Gauntlets
+      {
+         ID = 12700,
+         Type = RRS("Blacksmithing"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Boots"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Boots
+      {
+         ID = 12701,
+         Type = RRS("Blacksmithing"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Helm"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Helm
+      {
+         ID = 12704,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Hydra"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Baron Charr"), Team = "Neutral" },
+         },
+      }, -- Plans: Thorium Leggings
+      {
+         ID = 12705,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Chest"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Chest
+      {
+         ID = 12706,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Serpent Guard"), Team = "Neutral" },
+         },
+      }, -- Plans: Runic Plate Shoulders
+      {
+         ID = 12707,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Cavalier"), Team = "Neutral" },
+         },
+      }, -- Plans: Runic Plate Boots
+      {
+         ID = 12713,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Chimaerok"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Jademir Oracle"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Lethlas"), Team = "Neutral" },
+         },
+      }, -- Plans: Radiant Leggings
+      {
+         ID = 12714,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Warrior"), Team = "Neutral" },
+         },
+      }, -- Plans: Runic Plate Helm
+      {
+         ID = 12715,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Imperial Plate Leggings"), Team = "Neutral" },
+         },
+      }, -- Plans: Imperial Plate Leggings
+      {
+         ID = 12718,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Myrmidon"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Tidelord Rrurgaz"), Team = "Neutral" },
+         },
+      }, -- Plans: Runic Breastplate
+      {
+         ID = 12719,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Smith"), Team = "Neutral" },
+         },
+      }, -- Plans: Runic Plate Leggings
+      {
+         ID = 12720,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Dreadlord"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Plagued Ghoul"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Araj the Summoner"), Team = "Neutral" },
+         },
+      }, -- Plans: Stronghold Gauntlets
+      {
+         ID = 12728,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Carrion Spinner"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Stoneskin Gargoyle"), Team = "Neutral" },
+         },
+      }, -- Plans: Invulnerable Mail
+      {
+         ID = 12821,
+         Type = RRS("Blacksmithing"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Snakestone of the Shadow Huntress"), Team = "Neutral" },
+         },
+      }, -- Plans: Dawn's Edge
+      {
+         ID = 12824,
+         Type = RRS("Blacksmithing"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Sweet Serenity"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Sweet Serenity"), Team = "Neutral" },
+         },
+      }, -- Plans: Enchanted Battlehammer
+      {
+         ID = 12825,
+         Type = RRS("Blacksmithing"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Corruption"), Team = "Neutral" },
+         },
+      }, -- Plans: Blazing Rapier
+      {
+         ID = 12828,
+         Type = RRS("Blacksmithing"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Volchan"), Team = "Neutral" },
+         },
+      }, -- Plans: Volcanic Hammer
+      {
+         ID = 12836,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Foreman Marcrid"), Team = "Neutral" },
+         },
+      }, -- Plans: Frostguard
+      {
+         ID = 17706,
+         Type = RRS("Blacksmithing"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Redridge Alpha"), Team = "Neutral" },
+         },
+      }, -- Plans: Edge of Winter
+      {
+         ID = 22220,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ruins of Ahn'Qiraj"), Vendor = RRS("Moam"), Team = "Neutral" },
+         },
+      }, -- Plans: Black Grasp of the Destroyer
+      {
+         ID = 22389,
+         Type = RRS("Blacksmithing"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Jademir Oracle"), Team = "Neutral" },
+         },
+      }, -- Plans: Sageblade
+      {
+         ID = 23608,
+         Type = RRS("Blacksmithing"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Nagrand"), Vendor = RRS("Murkblood Raider"), Team = "Neutral" },
+         },
+      }, -- Plans: Khorium Belt
+      {
+         ID = 23609,
+         Type = RRS("Blacksmithing"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Guardian"), Team = "Neutral" },
+         },
+      }, -- Plans: Khorium Pants
+      {
+         ID = 23610,
+         Type = RRS("Blacksmithing"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Disembodied Protector"), Team = "Neutral" },
+         },
+      }, -- Plans: Khorium Boots
+      {
+         ID = 23611,
+         Type = RRS("Blacksmithing"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Nagrand"), Vendor = RRS("Boulderfist Warrior"), Team = "Neutral" },
+         },
+      }, -- Plans: Ragesteel Gloves
+      {
+         ID = 23612,
+         Type = RRS("Blacksmithing"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Anger Guard"), Team = "Neutral" },
+         },
+      }, -- Plans: Ragesteel Helm
+      {
+         ID = 23613,
+         Type = RRS("Blacksmithing"),
+         Skill = 370,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Ashtongue Warrior"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Crazed Murkblood Foreman"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Crazed Murkblood Miner"), Team = "Neutral" },
+         },
+      }, -- Plans: Ragesteel Breastplate
+      {
+         ID = 23635,
+         Type = RRS("Blacksmithing"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Sholazar Basin"), Vendor = RRS("Cultist Saboteur"), Team = "Neutral" },
+         },
+      }, -- Plans: Eternium Runed Blade
+      {
+         ID = 23639,
+         Type = RRS("Blacksmithing"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Sunfury Bloodwarder"), Team = "Neutral" },
+         },
+      }, -- Plans: Greater Ward of Shielding
+      {
+         ID = 33174,
+         Type = RRS("Blacksmithing"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Enraged Air Spirit"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Enraged Earth Spirit"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Enraged Fire Spirit"), Team = "Neutral" },
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Enraged Water Spirit"), Team = "Neutral" },
+         },
+      }, -- Plans: Ragesteel Shoulders
+      {
+         ID = 41122,
+         Type = RRS("Blacksmithing"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Sholazar Basin"), Vendor = RRS("Venture Co. Excavator"), Team = "Neutral" },
+         },
+      }, -- Plans: Reinforced Cobalt Chestpiece
+      {
+         ID = 41123,
+         Type = RRS("Blacksmithing"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Grizzly Hills"), Vendor = RRS("Iron Rune-Shaper"), Team = "Neutral" },
+         },
+      }, -- Plans: Reinforced Cobalt Helm
+      {
+         ID = 41124,
+         Type = RRS("Blacksmithing"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dragonblight"), Vendor = RRS("Onslaught Mason"), Team = "Neutral" },
+         },
+      }, -- Plans: Reinforced Cobalt Shoulders
       {
          ID = 12162,
          Type = RRS("Blacksmithing"),
@@ -1335,6 +2620,7 @@ RecipeRadar_RecipeData = {
          Faction = RRS("Thrallmar"),
          Level = 8,
          Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Dr. Boom"), Team = "Neutral" },
             { Region = RRS("Hellfire Peninsula"), Vendor = RRS("Quartermaster Urgronn"), Team = "Horde" },
          },
       },
@@ -1488,6 +2774,527 @@ RecipeRadar_RecipeData = {
 [RRS("Enchanting")] = {
    Recipes = {
       {
+         ID = 6342,
+         Type = RRS("Enchanting"),
+         Skill = 20,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Felweaver Scornn"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Chest - Minor Mana
+      {
+         ID = 6344,
+         Type = RRS("Enchanting"),
+         Skill = 60,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Bloodmyst Isle"), Vendor = RRS("Sunhawk Agent"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Minor Spirit
+      {
+         ID = 6347,
+         Type = RRS("Enchanting"),
+         Skill = 80,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Captain Flat Tusk"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Kel'gash the Wicked"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Minor Strength
+      {
+         ID = 6348,
+         Type = RRS("Enchanting"),
+         Skill = 90,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Takk the Leaper"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Deviate Coiler Hatchling"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Minor Beastslayer
+      {
+         ID = 6375,
+         Type = RRS("Enchanting"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Luzran"), Team = "Neutral" },
+            { Region = RRS("Loch Modan"), Vendor = RRS("Gradok"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Lesser Spirit
+      {
+         ID = 11038,
+         Type = RRS("Enchanting"),
+         Skill = 110,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Foreman Rigger"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant 2H Weapon - Lesser Spirit
+      {
+         ID = 11081,
+         Type = RRS("Enchanting"),
+         Skill = 115,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Shield - Lesser Protection
+      {
+         ID = 11098,
+         Type = RRS("Enchanting"),
+         Skill = 135,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sister Riven"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Lesser Shadow Resistance
+      {
+         ID = 11150,
+         Type = RRS("Enchanting"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Balgaras the Foul"), Team = "Neutral" },
+            { Region = RRS("Wetlands"), Vendor = RRS("Dark Iron Demolitionist"), Team = "Neutral" },
+            { Region = RRS("Wetlands"), Vendor = RRS("Dark Iron Dwarf"), Team = "Neutral" },
+            { Region = RRS("Wetlands"), Vendor = RRS("Dark Iron Saboteur"), Team = "Neutral" },
+            { Region = RRS("Wetlands"), Vendor = RRS("Dark Iron Tunneler"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Mining
+      {
+         ID = 11151,
+         Type = RRS("Enchanting"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ashenvale"), Vendor = RRS("Crazed Ancient"), Team = "Neutral" },
+            { Region = RRS("Ashenvale"), Vendor = RRS("Withered Ancient"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Blackened Ancient"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Charred Ancient"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Vengeful Ancient"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Herbalism
+      {
+         ID = 11152,
+         Type = RRS("Enchanting"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Scargil"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Torn Fin Coastrunner"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Torn Fin Muckdweller"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Torn Fin Oracle"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Torn Fin Tidehunter"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Fishing
+      {
+         ID = 11164,
+         Type = RRS("Enchanting"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Lesser Beastslayer
+      {
+         ID = 11165,
+         Type = RRS("Enchanting"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Monk"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Lesser Elemental Slayer
+      {
+         ID = 11166,
+         Type = RRS("Enchanting"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Nimar the Slayer"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Witherbark Berserker"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Witherbark Headhunter"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Witherbark Shadow Hunter"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Skinning
+      {
+         ID = 11203,
+         Type = RRS("Enchanting"),
+         Skill = 215,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Venture Co. Strip Miner"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Advanced Mining
+      {
+         ID = 11204,
+         Type = RRS("Enchanting"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Searcher"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Greater Spirit
+      {
+         ID = 11205,
+         Type = RRS("Enchanting"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Mire Lord"), Team = "Neutral" },
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Swampwalker Elder"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Molt Thorn"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Swampwalker"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Tangled Horror"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Advanced Herbalism
+      {
+         ID = 11206,
+         Type = RRS("Enchanting"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Syndicate Assassin"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Assassin"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Lesser Agility
+      {
+         ID = 11207,
+         Type = RRS("Enchanting"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Pyromancer Loregrain"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Fiery Weapon
+      {
+         ID = 11208,
+         Type = RRS("Enchanting"),
+         Skill = 230,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Shore Strider"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Demonslaying
+      {
+         ID = 11225,
+         Type = RRS("Enchanting"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Scalebeard"), Team = "Neutral" },
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Blackbreath Crony"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Sprite Dragon"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Greater Stamina
+      {
+         ID = 11226,
+         Type = RRS("Enchanting"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Deadwind Brute"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Enchanter"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Warder"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Riding Skill
+      {
+         ID = 11813,
+         Type = RRS("Enchanting"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Lord Roccor"), Team = "Neutral" },
+         },
+      }, -- Formula: Smoking Heart of the Mountain
+      {
+         ID = 16214,
+         Type = RRS("Enchanting"),
+         Skill = 255,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Vilebranch Shadowcaster"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Greater Intellect
+      {
+         ID = 16215,
+         Type = RRS("Enchanting"),
+         Skill = 260,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Stegodon"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Boots - Greater Stamina
+      {
+         ID = 16218,
+         Type = RRS("Enchanting"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Ograbisi"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Superior Spirit
+      {
+         ID = 16219,
+         Type = RRS("Enchanting"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Legashi Rogue"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Greater Agility
+      {
+         ID = 16220,
+         Type = RRS("Enchanting"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Hematos"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Spellmaw"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Boots - Spirit
+      {
+         ID = 16222,
+         Type = RRS("Enchanting"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Warder"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Shield - Superior Spirit
+      {
+         ID = 16223,
+         Type = RRS("Enchanting"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Anguished Highborne"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Icy Chill
+      {
+         ID = 16242,
+         Type = RRS("Enchanting"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Enchanter"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Chest - Major Mana
+      {
+         ID = 16245,
+         Type = RRS("Enchanting"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Hydra"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Verdantine Boughguard"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Boots - Greater Agility
+      {
+         ID = 16246,
+         Type = RRS("Enchanting"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Deadwind Warlock"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Superior Strength
+      {
+         ID = 16248,
+         Type = RRS("Enchanting"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Bonechewer Backbreaker"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Unholy
+      {
+         ID = 16251,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Demetria"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Nathanos Blightcaller"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Skeletal Smith"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Lady Hederine"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Superior Stamina
+      {
+         ID = 16252,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Archmage"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Spellbinder"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Crusader
+      {
+         ID = 16253,
+         Type = RRS("Enchanting"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Dread Creeper"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Chest - Greater Stats
+      {
+         ID = 22530,
+         Type = RRS("Enchanting"),
+         Skill = 320,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Ethereum Nullifier"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Major Defense
+      {
+         ID = 22534,
+         Type = RRS("Enchanting"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Bloodmaul Geomancer"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Bracer - Spellpower
+      {
+         ID = 22545,
+         Type = RRS("Enchanting"),
+         Skill = 370,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Phantom Stagehand"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Boots - Surefooted
+      {
+         ID = 22551,
+         Type = RRS("Enchanting"),
+         Skill = 340,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Sunfury Researcher"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Major Intellect
+      {
+         ID = 22555,
+         Type = RRS("Enchanting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Bash'ir Arcanist"), Team = "Neutral" },
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Bash'ir Spell-Thief"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Major Spellpower
+      {
+         ID = 22559,
+         Type = RRS("Enchanting"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Moroes"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Mongoose
+      {
+         ID = 22560,
+         Type = RRS("Enchanting"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Shade of Aran"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Sunfire
+      {
+         ID = 22561,
+         Type = RRS("Enchanting"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Terestian Illhoof"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Weapon - Soulfrost
+      {
+         ID = 28276,
+         Type = RRS("Enchanting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Eclipsion Archmage"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Greater Arcane Resistance
+      {
+         ID = 28277,
+         Type = RRS("Enchanting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Voidshrieker"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Greater Shadow Resistance
+      {
+         ID = 37330,
+         Type = RRS("Enchanting"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Researcher"), Team = "Neutral" },
+            { Region = RRS("Icecrown"), Vendor = RRS("Frostbrood Spawn"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Superior Arcane Resistance
+      {
+         ID = 37331,
+         Type = RRS("Enchanting"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Skeletal Runesmith"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Superior Fire Resistance
+      {
+         ID = 37332,
+         Type = RRS("Enchanting"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Damned Apothecary"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Superior Frost Resistance
+      {
+         ID = 37333,
+         Type = RRS("Enchanting"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Alchemist"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Superior Nature Resistance
+      {
+         ID = 37334,
+         Type = RRS("Enchanting"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cultist Shard Watcher"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Cloak - Superior Shadow Resistance
+      {
+         ID = 50406,
+         Type = RRS("Enchanting"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dragonblight"), Vendor = RRS("Indu'le Fisherman"), Team = "Neutral" },
+            { Region = RRS("Dragonblight"), Vendor = RRS("Indu'le Mystic"), Team = "Neutral" },
+            { Region = RRS("Dragonblight"), Vendor = RRS("Indu'le Warrior"), Team = "Neutral" },
+         },
+      }, -- Formula: Enchant Gloves - Angler
+      {
          ID = 6349,
          Type = RRS("Enchanting"),
          Skill = 100,
@@ -1535,6 +3342,11 @@ RecipeRadar_RecipeData = {
          Skill = 110,
          Cost = 800,
          Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Luzran"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Tharil'zun"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Taskmaster Whipfang"), Team = "Neutral" },
             { Region = RRS("Ashenvale"), Vendor = RRS("Dalria"), Team = "Alliance" },
             { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Kulwia"), Team = "Horde" },
          },
@@ -1899,6 +3711,7 @@ RecipeRadar_RecipeData = {
          Faction = RRS("Thrallmar"),
          Level = 5,
          Locations = {
+            { Region = RRS("Nagrand"), Vendor = RRS("Murkblood Scavenger"), Team = "Neutral" },
             { Region = RRS("Hellfire Peninsula"), Vendor = RRS("Quartermaster Urgronn"), Team = "Horde" },
          },
       },
@@ -2409,6 +4222,342 @@ RecipeRadar_RecipeData = {
 [RRS("Engineering")] = {
    Recipes = {
       {
+         ID = 4408,
+         Type = RRS("Engineering"),
+         Skill = 75,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Elder Mystic Razorsnout"), Team = "Neutral" },
+            { Region = RRS("Loch Modan"), Vendor = RRS("Gradok"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Gesharahan"), Team = "Neutral" },
+         },
+      }, -- Schematic: Mechanical Squirrel Box
+      {
+         ID = 4409,
+         Type = RRS("Engineering"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Thora Feathermoon"), Team = "Neutral" },
+            { Region = RRS("Orgrimmar"), Vendor = RRS("Felweaver Scornn"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+         },
+      }, -- Schematic: Small Seaforium Charge
+      {
+         ID = 4410,
+         Type = RRS("Engineering"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+         },
+      }, -- Schematic: Shadow Goggles
+      {
+         ID = 4411,
+         Type = RRS("Engineering"),
+         Skill = 125,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mekgineer Thermaplugg"), Team = "Neutral" },
+         },
+      }, -- Schematic: Flame Deflector
+      {
+         ID = 4412,
+         Type = RRS("Engineering"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Ashenvale"), Vendor = RRS("Wandering Protector"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mobile Alert System"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+         },
+      }, -- Schematic: Moonsight Rifle
+      {
+         ID = 4413,
+         Type = RRS("Engineering"),
+         Skill = 160,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mekgineer Thermaplugg"), Team = "Neutral" },
+         },
+      }, -- Schematic: Discombobulator Ray
+      {
+         ID = 4414,
+         Type = RRS("Engineering"),
+         Skill = 165,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Writhing Mage"), Team = "Neutral" },
+         },
+      }, -- Schematic: Portable Bronze Mortar
+      {
+         ID = 4415,
+         Type = RRS("Engineering"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mekgineer Thermaplugg"), Team = "Neutral" },
+         },
+      }, -- Schematic: Craftsman's Monocle
+      {
+         ID = 6672,
+         Type = RRS("Engineering"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Flash Bomb Recipe"), Team = "Neutral" },
+         },
+      }, -- Schematic: Flash Bomb
+      {
+         ID = 6716,
+         Type = RRS("Engineering"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swinegart Spearhide"), Team = "Neutral" },
+         },
+      }, -- Schematic: EZ-Thro Dynamite
+      {
+         ID = 10601,
+         Type = RRS("Engineering"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+         },
+      }, -- Schematic: Bright-Eye Goggles
+      {
+         ID = 10605,
+         Type = RRS("Engineering"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Scorched Guardian"), Team = "Neutral" },
+         },
+      }, -- Schematic: Spellpower Goggles Xtreme
+      {
+         ID = 10606,
+         Type = RRS("Engineering"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Narillasanz"), Team = "Neutral" },
+         },
+      }, -- Schematic: Parachute Cloak
+      {
+         ID = 10608,
+         Type = RRS("Engineering"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Scarlet Cleric"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Thunderstomp Stegodon"), Team = "Neutral" },
+         },
+      }, -- Schematic: Sniper Scope
+      {
+         ID = 11827,
+         Type = RRS("Engineering"),
+         Skill = 205,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Arcane Nullifier X-21"), Team = "Neutral" },
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Crowd Pummeler 9-60"), Team = "Neutral" },
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Peacekeeper Security Suit"), Team = "Neutral" },
+         },
+      }, -- Schematic: Lil' Smoky
+      {
+         ID = 11828,
+         Type = RRS("Engineering"),
+         Skill = 205,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mekgineer Thermaplugg"), Team = "Neutral" },
+         },
+      }, -- Schematic: Pet Bombling
+      {
+         ID = 16043,
+         Type = RRS("Engineering"),
+         Skill = 260,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Crimson Courier"), Team = "Neutral" },
+         },
+      }, -- Schematic: Thorium Rifle
+      {
+         ID = 16045,
+         Type = RRS("Engineering"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Spitelash Siren"), Team = "Neutral" },
+         },
+      }, -- Schematic: Spellpower Goggles Xtreme Plus
+      {
+         ID = 16048,
+         Type = RRS("Engineering"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Doomforge Craftsman"), Team = "Neutral" },
+         },
+      }, -- Schematic: Dark Iron Rifle
+      {
+         ID = 16049,
+         Type = RRS("Engineering"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Weapon Technician"), Team = "Neutral" },
+         },
+      }, -- Schematic: Dark Iron Bomb
+      {
+         ID = 16051,
+         Type = RRS("Engineering"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Doomguard Commander"), Team = "Neutral" },
+         },
+      }, -- Schematic: Thorium Shells
+      {
+         ID = 16053,
+         Type = RRS("Engineering"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Doomforge Arcanasmith"), Team = "Neutral" },
+         },
+      }, -- Schematic: Master Engineer's Goggles
+      {
+         ID = 16054,
+         Type = RRS("Engineering"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Mageweaver"), Team = "Neutral" },
+         },
+      }, -- Schematic: Arcanite Dragonling
+      {
+         ID = 16055,
+         Type = RRS("Engineering"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Shill Dinger"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Scalebane"), Team = "Neutral" },
+         },
+      }, -- Schematic: Arcane Bomb
+      {
+         ID = 16056,
+         Type = RRS("Engineering"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Mossflayer Shadowhunter"), Team = "Neutral" },
+         },
+      }, -- Schematic: Flawless Arcanite Rifle
+      {
+         ID = 18653,
+         Type = RRS("Engineering"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Plugger Spazzring"), Team = "Neutral" },
+         },
+      }, -- Schematic: Goblin Jumper Cables XL
+      {
+         ID = 18654,
+         Type = RRS("Engineering"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Weapon Technician"), Team = "Neutral" },
+         },
+      }, -- Schematic: Gnomish Alarm-o-Bot
+      {
+         ID = 18661,
+         Type = RRS("Engineering"),
+         Skill = 260,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Weapon Technician"), Team = "Neutral" },
+         },
+      }, -- Schematic: World Enlarger
+      {
+         ID = 23800,
+         Type = RRS("Engineering"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Doomforge Engineer"), Team = "Neutral" },
+         },
+      }, -- Schematic: Felsteel Boomstick
+      {
+         ID = 23806,
+         Type = RRS("Engineering"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Mo'arg Weaponsmith"), Team = "Neutral" },
+         },
+      }, -- Schematic: Hyper-Vision Goggles
+      {
+         ID = 23808,
+         Type = RRS("Engineering"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Sunfury Bowman"), Team = "Neutral" },
+         },
+      }, -- Schematic: Khorium Scope
+      {
+         ID = 23884,
+         Type = RRS("Engineering"),
+         Skill = 345,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Moroes"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Netherspite"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Prince Malchezaar"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("Terestian Illhoof"), Team = "Neutral" },
+            { Region = RRS("Karazhan"), Vendor = RRS("The Curator"), Team = "Neutral" },
+         },
+      }, -- Schematic: Mana Potion Injector
+      {
+         ID = 23888,
+         Type = RRS("Engineering"),
+         Skill = 305,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Zangarmarsh"), Vendor = RRS("The Zapthrottle Mote Extractor!"), Team = "Neutral" },
+            { Region = RRS("Zangarmarsh"), Vendor = RRS("The Zapthrottle Mote Extractor!"), Team = "Neutral" },
+         },
+      }, -- Schematic: Zapthrottle Mote Extractor
+      {
+         ID = 33804,
+         Type = RRS("Engineering"),
+         Skill = 335,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Sunfury Archer"), Team = "Neutral" },
+         },
+      }, -- Schematic: Adamantite Arrow Maker
+      {
+         ID = 34114,
+         Type = RRS("Engineering"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Gan'arg Analyzer"), Team = "Neutral" },
+         },
+      }, -- Schematic: Field Repair Bot 110G
+      {
          ID = 18649,
          Type = RRS("Engineering"),
          Skill = 150,
@@ -2509,6 +4658,7 @@ RecipeRadar_RecipeData = {
          Skill = 200,
          Cost = 2400,
          Locations = {
+            { Region = RRS("Gnomeregan"), Vendor = RRS("Mekgineer Thermaplugg"), Team = "Neutral" },
             { Region = RRS("Alterac Mountains"), Vendor = RRS("Zan Shivsproket"), Team = "Neutral" },
          },
       },
@@ -2721,6 +4871,7 @@ RecipeRadar_RecipeData = {
          Skill = 275,
          Cost = 8000,
          Locations = {
+            { Region = RRS("Shattrath City"), Vendor = RRS("40 Tickets - Schematic: Steam Tonk Controller"), Team = "Neutral" },
             { Region = RRS("Ironforge"), Vendor = RRS("Gearcutter Cogspinner"), Team = "Alliance" },
             { Region = RRS("Orgrimmar"), Vendor = RRS("Sovik"), Team = "Horde" },
          },
@@ -2795,6 +4946,741 @@ RecipeRadar_RecipeData = {
 
 [RRS("Leatherworking")] = {
    Recipes = {
+      {
+         ID = 2406,
+         Type = RRS("Leatherworking"),
+         Skill = 90,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Captain Flat Tusk"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fine Leather Boots
+      {
+         ID = 2407,
+         Type = RRS("Leatherworking"),
+         Skill = 60,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Emogg the Crusher"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Sister Hatelash"), Team = "Neutral" },
+         },
+      }, -- Pattern: White Leather Jerkin
+      {
+         ID = 2408,
+         Type = RRS("Leatherworking"),
+         Skill = 75,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eversong Woods"), Vendor = RRS("Eldinarcus"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fine Leather Gloves
+      {
+         ID = 2409,
+         Type = RRS("Leatherworking"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Gesharahan"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+         },
+      }, -- Pattern: Dark Leather Tunic
+      {
+         ID = 4293,
+         Type = RRS("Leatherworking"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Gradok"), Team = "Neutral" },
+         },
+      }, -- Pattern: Hillman's Leather Vest
+      {
+         ID = 4294,
+         Type = RRS("Leatherworking"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Tharil'zun"), Team = "Neutral" },
+         },
+      }, -- Pattern: Hillman's Belt
+      {
+         ID = 4296,
+         Type = RRS("Leatherworking"),
+         Skill = 140,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Acolyte"), Team = "Neutral" },
+         },
+      }, -- Pattern: Dark Leather Shoulders
+      {
+         ID = 4297,
+         Type = RRS("Leatherworking"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ashenvale"), Vendor = RRS("Wandering Protector"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("Westfall"), Vendor = RRS("Mor'Ladim"), Team = "Neutral" },
+         },
+      }, -- Pattern: Barbaric Gloves
+      {
+         ID = 4299,
+         Type = RRS("Leatherworking"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+         },
+      }, -- Pattern: Guardian Armor
+      {
+         ID = 4300,
+         Type = RRS("Leatherworking"),
+         Skill = 195,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Giant"), Team = "Neutral" },
+            { Region = RRS("Desolace"), Vendor = RRS("Lord Azrethoc"), Team = "Neutral" },
+         },
+      }, -- Pattern: Guardian Leather Bracers
+      {
+         ID = 5083,
+         Type = RRS("Leatherworking"),
+         Skill = 40,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Thunder Bluff"), Vendor = RRS("Kodo Hide Bag"), Team = "Neutral" },
+         },
+      }, -- Pattern: Kodo Hide Bag
+      {
+         ID = 5972,
+         Type = RRS("Leatherworking"),
+         Skill = 105,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Marcus Bel"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Luzran"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swinegart Spearhide"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fine Leather Pants
+      {
+         ID = 5974,
+         Type = RRS("Leatherworking"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Lord Captain Wyrmak"), Team = "Neutral" },
+         },
+      }, -- Pattern: Guardian Cloak
+      {
+         ID = 6476,
+         Type = RRS("Leatherworking"),
+         Skill = 115,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Deviate Eradication"), Team = "Neutral" },
+         },
+      }, -- Pattern: Deviate Scale Belt
+      {
+         ID = 6710,
+         Type = RRS("Leatherworking"),
+         Skill = 90,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darnassus"), Vendor = RRS("Moonglow Vest"), Team = "Neutral" },
+         },
+      }, -- Pattern: Moonglow Vest
+      {
+         ID = 7288,
+         Type = RRS("Leatherworking"),
+         Skill = 35,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Captain Flat Tusk"), Team = "Neutral" },
+         },
+      }, -- Pattern: Rugged Leather Pants
+      {
+         ID = 7360,
+         Type = RRS("Leatherworking"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Caverndeep Looter"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Humar the Pridelord"), Team = "Neutral" },
+         },
+      }, -- Pattern: Dark Leather Gloves
+      {
+         ID = 7449,
+         Type = RRS("Leatherworking"),
+         Skill = 165,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sister Riven"), Team = "Neutral" },
+         },
+      }, -- Pattern: Dusky Leather Leggings
+      {
+         ID = 7450,
+         Type = RRS("Leatherworking"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Westfall"), Vendor = RRS("Mor'Ladim"), Team = "Neutral" },
+         },
+      }, -- Pattern: Green Whelp Armor
+      {
+         ID = 7453,
+         Type = RRS("Leatherworking"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ashenvale"), Vendor = RRS("Wandering Protector"), Team = "Neutral" },
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Giant"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Ironeye the Invincible"), Team = "Neutral" },
+         },
+      }, -- Pattern: Swift Boots
+      {
+         ID = 8384,
+         Type = RRS("Leatherworking"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("The Nameless Prophet"), Team = "Neutral" },
+         },
+      }, -- Pattern: Comfortable Leather Hat
+      {
+         ID = 8389,
+         Type = RRS("Leatherworking"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Crest Killer"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wave Strider"), Team = "Neutral" },
+         },
+      }, -- Pattern: Big Voodoo Pants
+      {
+         ID = 8390,
+         Type = RRS("Leatherworking"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Crest Killer"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Jin'Zallah the Sandbringer"), Team = "Neutral" },
+         },
+      }, -- Pattern: Big Voodoo Cloak
+      {
+         ID = 8395,
+         Type = RRS("Leatherworking"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Bandit"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Breastplate
+      {
+         ID = 8397,
+         Type = RRS("Leatherworking"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Shadow Mage"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Bracers
+      {
+         ID = 8398,
+         Type = RRS("Leatherworking"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Thief"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Gloves
+      {
+         ID = 8399,
+         Type = RRS("Leatherworking"),
+         Skill = 235,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Rogue"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Boots
+      {
+         ID = 8400,
+         Type = RRS("Leatherworking"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Andre Firebeard"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Assassin"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Shoulders
+      {
+         ID = 8401,
+         Type = RRS("Leatherworking"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Rogue"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Leggings
+      {
+         ID = 8402,
+         Type = RRS("Leatherworking"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Andre Firebeard"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Wastewander Assassin"), Team = "Neutral" },
+         },
+      }, -- Pattern: Tough Scorpid Helm
+      {
+         ID = 8403,
+         Type = RRS("Leatherworking"),
+         Skill = 220,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Shoulders"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Shoulders"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Shoulders
+      {
+         ID = 8404,
+         Type = RRS("Leatherworking"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Vest"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Vest"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Vest
+      {
+         ID = 8405,
+         Type = RRS("Leatherworking"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Helmet"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Helmet"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Helmet
+      {
+         ID = 8406,
+         Type = RRS("Leatherworking"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Boots"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Boots"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Boots
+      {
+         ID = 8407,
+         Type = RRS("Leatherworking"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Leggings"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Wild Leather Leggings"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Leggings
+      {
+         ID = 8408,
+         Type = RRS("Leatherworking"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Master of the Wild Leather"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Master of the Wild Leather"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wild Leather Cloak
+      {
+         ID = 15727,
+         Type = RRS("Leatherworking"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Shadowsworn Thug"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Scorpid Vest
+      {
+         ID = 15728,
+         Type = RRS("Leatherworking"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Legashi Rogue"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wicked Leather Bracers
+      {
+         ID = 15731,
+         Type = RRS("Leatherworking"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Volchan"), Team = "Neutral" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Highlord Mastrogonde"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Blighthound"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runic Leather Gauntlets
+      {
+         ID = 15732,
+         Type = RRS("Leatherworking"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Firegut Brute"), Team = "Neutral" },
+         },
+      }, -- Pattern: Volcanic Leggings
+      {
+         ID = 15737,
+         Type = RRS("Leatherworking"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Crest Killer"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Nethergarde Elite"), Team = "Neutral" },
+         },
+      }, -- Pattern: Chimeric Boots
+      {
+         ID = 15738,
+         Type = RRS("Leatherworking"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Blackrock Soldier"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Scorpid Gauntlets
+      {
+         ID = 15739,
+         Type = RRS("Leatherworking"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Jaedenar Cultist"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runic Leather Bracers
+      {
+         ID = 15742,
+         Type = RRS("Leatherworking"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Teremus the Devourer"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Devilsaur"), Team = "Neutral" },
+         },
+      }, -- Pattern: Warbear Harness
+      {
+         ID = 15743,
+         Type = RRS("Leatherworking"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("High General Abbendis"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Spellmaw"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Scorpid Belt
+      {
+         ID = 15744,
+         Type = RRS("Leatherworking"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Jadefire Trickster"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wicked Leather Headband
+      {
+         ID = 15745,
+         Type = RRS("Leatherworking"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Rayne"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runic Leather Belt
+      {
+         ID = 15746,
+         Type = RRS("Leatherworking"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Zora"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Princess Tempestria"), Team = "Neutral" },
+         },
+      }, -- Pattern: Chimeric Leggings
+      {
+         ID = 15747,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Winterfall Den Watcher"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostsaber Leggings
+      {
+         ID = 15748,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Blackrock Slayer"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Scorpid Leggings
+      {
+         ID = 15752,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Deadwood Shaman"), Team = "Neutral" },
+         },
+      }, -- Pattern: Living Leggings
+      {
+         ID = 15753,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Arkkoran Oracle"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stormshroud Armor
+      {
+         ID = 15754,
+         Type = RRS("Leatherworking"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Deadwood Den Watcher"), Team = "Neutral" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Deadwood Shaman"), Team = "Neutral" },
+            { Region = RRS("Dire Maul"), Vendor = RRS("Warpwood Crusher"), Team = "Neutral" },
+         },
+      }, -- Pattern: Warbear Woolies
+      {
+         ID = 15755,
+         Type = RRS("Leatherworking"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Executioner"), Team = "Neutral" },
+         },
+      }, -- Pattern: Chimeric Vest
+      {
+         ID = 15757,
+         Type = RRS("Leatherworking"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Blighthound"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Serpent Guard"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Mith'rethis the Enchanter"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wicked Leather Pants
+      {
+         ID = 15760,
+         Type = RRS("Leatherworking"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Vilebranch Hideskinner"), Team = "Neutral" },
+         },
+      }, -- Pattern: Ironfeather Breastplate
+      {
+         ID = 15763,
+         Type = RRS("Leatherworking"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Cliff Breaker"), Team = "Neutral" },
+         },
+      }, -- Pattern: Blue Dragonscale Shoulders
+      {
+         ID = 15764,
+         Type = RRS("Leatherworking"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Son of Arkkoroc"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stormshroud Shoulders
+      {
+         ID = 15765,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Demetria"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Nathanos Blightcaller"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Necro Knight"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runic Leather Pants
+      {
+         ID = 15770,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Anvilrage Marshal"), Team = "Neutral" },
+         },
+      }, -- Pattern: Black Dragonscale Shoulders
+      {
+         ID = 15771,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Decaying Horror"), Team = "Neutral" },
+         },
+      }, -- Pattern: Living Breastplate
+      {
+         ID = 15772,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Glutinous Ooze"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Muculent Ooze"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Primal Ooze"), Team = "Neutral" },
+         },
+      }, -- Pattern: Devilsaur Leggings
+      {
+         ID = 15774,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Blackrock Battlemaster"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Scorpid Shoulders
+      {
+         ID = 15779,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Winterfall Ursa"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostsaber Tunic
+      {
+         ID = 15781,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Anvilrage Captain"), Team = "Neutral" },
+         },
+      }, -- Pattern: Black Dragonscale Leggings
+      {
+         ID = 17722,
+         Type = RRS("Leatherworking"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Southsea Freebooter"), Team = "Neutral" },
+         },
+      }, -- Pattern: Gloves of the Greatfather
+      {
+         ID = 18516,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Gordok Reaver"), Team = "Neutral" },
+            { Region = RRS("Dire Maul"), Vendor = RRS("Gordok Warlock"), Team = "Neutral" },
+         },
+      }, -- Pattern: Swift Flight Bracers
+      {
+         ID = 21548,
+         Type = RRS("Leatherworking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("The Windreaver"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Princess Tempestria"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stormshroud Gloves
+      {
+         ID = 25729,
+         Type = RRS("Leatherworking"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Old Hillsbrad Foothills"), Vendor = RRS("Durnholde Rifleman"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stylin' Adventure Hat
+      {
+         ID = 29718,
+         Type = RRS("Leatherworking"),
+         Skill = 345,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Blackwind Sabercat"), Team = "Neutral" },
+            { Region = RRS("Terokkar Forest"), Vendor = RRS("Talonsworn Forest-Rager"), Team = "Neutral" },
+         },
+      }, -- Pattern: Drums of Speed
+      {
+         ID = 34491,
+         Type = RRS("Leatherworking"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Nagrand"), Vendor = RRS("Gordunni Elementalist"), Team = "Neutral" },
+            { Region = RRS("Nagrand"), Vendor = RRS("Gordunni Soulreaper"), Team = "Neutral" },
+            { Region = RRS("Shattrath City"), Vendor = RRS("Gordunni Back-Breaker"), Team = "Neutral" },
+            { Region = RRS("Shattrath City"), Vendor = RRS("Gordunni Head-Splitter"), Team = "Neutral" },
+         },
+      }, -- Pattern: Bag of Many Hides
+      {
+         ID = 44559,
+         Type = RRS("Leatherworking"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Skeletal Runesmith"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fur Lining - Fire Resist
+      {
+         ID = 44560,
+         Type = RRS("Leatherworking"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Damned Apothecary"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fur Lining - Frost Resist
+      {
+         ID = 44561,
+         Type = RRS("Leatherworking"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cultist Shard Watcher"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fur Lining - Shadow Resist
+      {
+         ID = 44562,
+         Type = RRS("Leatherworking"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Alchemist"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fur Lining - Nature Resist 
+      {
+         ID = 44563,
+         Type = RRS("Leatherworking"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Icecrown"), Vendor = RRS("Cult Researcher"), Team = "Neutral" },
+            { Region = RRS("Icecrown"), Vendor = RRS("Frostbrood Spawn"), Team = "Neutral" },
+         },
+      }, -- Pattern: Fur Lining - Arcane Resist
       {
          ID = 18949,
          Type = RRS("Leatherworking"),
@@ -2919,6 +5805,7 @@ RecipeRadar_RecipeData = {
          Skill = 90,
          Cost = 550,
          Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Theramore Marine"), Team = "Neutral" },
             { Region = RRS("Westfall"), Vendor = RRS("Gina MacGregor"), Team = "Alliance" },
             { Region = RRS("Darkshore"), Vendor = RRS("Mavralyn"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
@@ -2930,6 +5817,7 @@ RecipeRadar_RecipeData = {
          Skill = 95,
          Cost = 600,
          Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Theramore Preserver"), Team = "Neutral" },
             { Region = RRS("Westfall"), Vendor = RRS("Gina MacGregor"), Team = "Alliance" },
             { Region = RRS("Darkshore"), Vendor = RRS("Mavralyn"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
@@ -2941,6 +5829,7 @@ RecipeRadar_RecipeData = {
          Skill = 190,
          Cost = 2800,
          Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Blackwater Deckhand"), Team = "Neutral" },
             { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Helenia Olden"), Team = "Alliance" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Blixrez Goodstitch"), Team = "Neutral" },
          },
@@ -2989,6 +5878,8 @@ RecipeRadar_RecipeData = {
          Skill = 170,
          Cost = 650,
          Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Kurzen Commando"), Team = "Neutral" },
+            { Region = RRS("Wetlands"), Vendor = RRS("Captain Halyndor"), Team = "Neutral" },
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Micha Yance"), Team = "Alliance" },
             { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Christoph Jeffcoat"), Team = "Horde" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Blixrez Goodstitch"), Team = "Neutral" },
@@ -4658,6 +7549,608 @@ RecipeRadar_RecipeData = {
 [RRS("Tailoring")] = {
    Recipes = {
       {
+         ID = 2598,
+         Type = RRS("Tailoring"),
+         Skill = 40,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Anok'suten"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Linen Robe
+      {
+         ID = 2601,
+         Type = RRS("Tailoring"),
+         Skill = 105,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+         },
+      }, -- Pattern: Gray Woolen Robe
+      {
+         ID = 4292,
+         Type = RRS("Tailoring"),
+         Skill = 95,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swinegart Spearhide"), Team = "Neutral" },
+         },
+      }, -- Pattern: Green Woolen Bag
+      {
+         ID = 4345,
+         Type = RRS("Tailoring"),
+         Skill = 95,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Takk the Leaper"), Team = "Neutral" },
+            { Region = RRS("Ghostlands"), Vendor = RRS("Knucklerot"), Team = "Neutral" },
+            { Region = RRS("Loch Modan"), Vendor = RRS("Gradok"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Woolen Boots
+      {
+         ID = 4346,
+         Type = RRS("Tailoring"),
+         Skill = 100,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Bloodmyst Isle"), Vendor = RRS("Sunhawk Agent"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+         },
+      }, -- Pattern: Heavy Woolen Cloak
+      {
+         ID = 4347,
+         Type = RRS("Tailoring"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Knucklerot"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Gesharahan"), Team = "Neutral" },
+         },
+      }, -- Pattern: Reinforced Woolen Shoulders
+      {
+         ID = 4348,
+         Type = RRS("Tailoring"),
+         Skill = 125,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Pattern: Phoenix Gloves
+      {
+         ID = 4349,
+         Type = RRS("Tailoring"),
+         Skill = 125,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Dar'Khan Drathir"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swinegart Spearhide"), Team = "Neutral" },
+         },
+      }, -- Pattern: Phoenix Pants
+      {
+         ID = 4350,
+         Type = RRS("Tailoring"),
+         Skill = 140,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Monk"), Team = "Neutral" },
+         },
+      }, -- Pattern: Spider Silk Slippers
+      {
+         ID = 4352,
+         Type = RRS("Tailoring"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Searcher"), Team = "Neutral" },
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Caverndeep Looter"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Cleric"), Team = "Neutral" },
+         },
+      }, -- Pattern: Boots of the Enchanter
+      {
+         ID = 4353,
+         Type = RRS("Tailoring"),
+         Skill = 180,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Pattern: Spider Belt
+      {
+         ID = 5773,
+         Type = RRS("Tailoring"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Dark Strand Voidcaller"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Defias Enchanter"), Team = "Neutral" },
+            { Region = RRS("Thousand Needles"), Vendor = RRS("Grimtotem Geomancer"), Team = "Neutral" },
+         },
+      }, -- Pattern: Robes of Arcana
+      {
+         ID = 5774,
+         Type = RRS("Tailoring"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Condemned Acolyte"), Team = "Neutral" },
+         },
+      }, -- Pattern: Green Silk Pack
+      {
+         ID = 5775,
+         Type = RRS("Tailoring"),
+         Skill = 185,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Syndicate Spy"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Theramore Infiltrator"), Team = "Neutral" },
+         },
+      }, -- Pattern: Black Silk Pack
+      {
+         ID = 6271,
+         Type = RRS("Tailoring"),
+         Skill = 55,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Captain Flat Tusk"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Rocklance"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Sister Hatelash"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Linen Vest
+      {
+         ID = 6390,
+         Type = RRS("Tailoring"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stylish Blue Shirt
+      {
+         ID = 6391,
+         Type = RRS("Tailoring"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Aean Swiftriver"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Thora Feathermoon"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Singe"), Team = "Neutral" },
+         },
+      }, -- Pattern: Stylish Green Shirt
+      {
+         ID = 7084,
+         Type = RRS("Tailoring"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Rabid Bonepaw"), Team = "Neutral" },
+         },
+      }, -- Pattern: Crimson Silk Shoulders
+      {
+         ID = 7085,
+         Type = RRS("Tailoring"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grel'borg the Miser"), Team = "Neutral" },
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Giant"), Team = "Neutral" },
+         },
+      }, -- Pattern: Azure Shoulders
+      {
+         ID = 7086,
+         Type = RRS("Tailoring"),
+         Skill = 195,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Pattern: Earthen Silk Belt
+      {
+         ID = 7090,
+         Type = RRS("Tailoring"),
+         Skill = 165,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grandpa Vishas"), Team = "Neutral" },
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Nancy Vishas"), Team = "Neutral" },
+            { Region = RRS("Duskwood"), Vendor = RRS("Stitches"), Team = "Neutral" },
+         },
+      }, -- Pattern: Green Silk Armor
+      {
+         ID = 7091,
+         Type = RRS("Tailoring"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sister Riven"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Taskmaster Whipfang"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Swinegart Spearhide"), Team = "Neutral" },
+         },
+      }, -- Pattern: Truefaith Gloves
+      {
+         ID = 7092,
+         Type = RRS("Tailoring"),
+         Skill = 145,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Hannah Bladeleaf"), Team = "Neutral" },
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Thora Feathermoon"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+            { Region = RRS("Stonetalon Mountains"), Vendor = RRS("Sister Riven"), Team = "Neutral" },
+         },
+      }, -- Pattern: Hands of Darkness
+      {
+         ID = 10300,
+         Type = RRS("Tailoring"),
+         Skill = 215,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Badlands"), Vendor = RRS("Anathemus"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Mageweave Vest
+      {
+         ID = 10301,
+         Type = RRS("Tailoring"),
+         Skill = 215,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Shore Strider"), Team = "Neutral" },
+         },
+      }, -- Pattern: White Bandit Mask
+      {
+         ID = 10302,
+         Type = RRS("Tailoring"),
+         Skill = 215,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Desolace"), Vendor = RRS("Deepstrider Giant"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Mageweave Pants
+      {
+         ID = 10312,
+         Type = RRS("Tailoring"),
+         Skill = 225,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Warleader Krazzilak"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Mageweave Gloves
+      {
+         ID = 10315,
+         Type = RRS("Tailoring"),
+         Skill = 235,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Stegodon"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Mageweave Shoulders
+      {
+         ID = 10316,
+         Type = RRS("Tailoring"),
+         Skill = 120,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Knucklerot"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Gesharahan"), Team = "Neutral" },
+         },
+      }, -- Pattern: Colorful Kilt
+      {
+         ID = 10320,
+         Type = RRS("Tailoring"),
+         Skill = 240,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Grimungous"), Team = "Neutral" },
+         },
+      }, -- Pattern: Red Mageweave Headband
+      {
+         ID = 14466,
+         Type = RRS("Tailoring"),
+         Skill = 255,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Archmage Allistarj"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("High General Abbendis"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostweave Tunic
+      {
+         ID = 14467,
+         Type = RRS("Tailoring"),
+         Skill = 255,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Deadwind Pass"), Vendor = RRS("Grol the Destroyer"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Hydra"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Serpent Guard"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostweave Robe
+      {
+         ID = 14473,
+         Type = RRS("Tailoring"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Lingering Highborne"), Team = "Neutral" },
+         },
+      }, -- Pattern: Ghostweave Belt
+      {
+         ID = 14474,
+         Type = RRS("Tailoring"),
+         Skill = 265,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("High Priestess Hai'watna"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Tick"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostweave Gloves
+      {
+         ID = 14477,
+         Type = RRS("Tailoring"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Lingering Highborne"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Unseen Servant"), Team = "Neutral" },
+         },
+      }, -- Pattern: Ghostweave Gloves
+      {
+         ID = 14479,
+         Type = RRS("Tailoring"),
+         Skill = 270,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Gurubashi Warrior"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("Spellmaw"), Team = "Neutral" },
+         },
+      }, -- Pattern: Brightcloth Gloves
+      {
+         ID = 14480,
+         Type = RRS("Tailoring"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Unseen Servant"), Team = "Neutral" },
+         },
+      }, -- Pattern: Ghostweave Vest
+      {
+         ID = 14482,
+         Type = RRS("Tailoring"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Thaurissan Firewalker"), Team = "Neutral" },
+         },
+      }, -- Pattern: Cindercloth Cloak
+      {
+         ID = 14484,
+         Type = RRS("Tailoring"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Jaz"), Team = "Neutral" },
+            { Region = RRS("Tanaris"), Vendor = RRS("Tick"), Team = "Neutral" },
+         },
+      }, -- Pattern: Brightcloth Cloak
+      {
+         ID = 14485,
+         Type = RRS("Tailoring"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Dark Summoner"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wizardweave Leggings
+      {
+         ID = 14489,
+         Type = RRS("Tailoring"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Zora"), Team = "Neutral" },
+         },
+      }, -- Pattern: Frostweave Pants
+      {
+         ID = 14490,
+         Type = RRS("Tailoring"),
+         Skill = 280,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Burning Steppes"), Vendor = RRS("Thaurissan Firewalker"), Team = "Neutral" },
+         },
+      }, -- Pattern: Cindercloth Pants
+      {
+         ID = 14491,
+         Type = RRS("Tailoring"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Felwood"), Vendor = RRS("Immolatus"), Team = "Neutral" },
+            { Region = RRS("Ruins of Ahn'Qiraj"), Vendor = RRS("Captain Drenn"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Strashaz Siren"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runecloth Pants
+      {
+         ID = 14492,
+         Type = RRS("Tailoring"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Demetria"), Team = "Neutral" },
+            { Region = RRS("Swamp of Sorrows"), Vendor = RRS("Nethergarde Elite"), Team = "Neutral" },
+         },
+      }, -- Pattern: Felcloth Boots
+      {
+         ID = 14493,
+         Type = RRS("Tailoring"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Winterspring"), Vendor = RRS("Cobalt Mageweaver"), Team = "Neutral" },
+         },
+      }, -- Pattern: Robe of Winter Night
+      {
+         ID = 14494,
+         Type = RRS("Tailoring"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Rex Ashil"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Verdantine Tree Warder"), Team = "Neutral" },
+         },
+      }, -- Pattern: Brightcloth Pants
+      {
+         ID = 14496,
+         Type = RRS("Tailoring"),
+         Skill = 290,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Necro Knight"), Team = "Neutral" },
+         },
+      }, -- Pattern: Felcloth Hood
+      {
+         ID = 14498,
+         Type = RRS("Tailoring"),
+         Skill = 295,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blasted Lands"), Vendor = RRS("Dreadlord"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runecloth Headband
+      {
+         ID = 14499,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("The Windreaver"), Team = "Neutral" },
+            { Region = RRS("Un'Goro Crater"), Vendor = RRS("Baron Charr"), Team = "Neutral" },
+            { Region = RRS("Winterspring"), Vendor = RRS("General Colbatann"), Team = "Neutral" },
+         },
+      }, -- Pattern: Mooncloth Bag
+      {
+         ID = 14500,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Dark Caster"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wizardweave Robe
+      {
+         ID = 14504,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Blighthound"), Team = "Neutral" },
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Nathanos Blightcaller"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Chimaerok"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Unholy Staff"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runecloth Shoulders
+      {
+         ID = 14505,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Eastern Plaguelands"), Vendor = RRS("Dark Caster"), Team = "Neutral" },
+         },
+      }, -- Pattern: Wizardweave Turban
+      {
+         ID = 14506,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Bile Retcher"), Team = "Neutral" },
+            { Region = RRS("The Hinterlands"), Vendor = RRS("Dreamtracker"), Team = "Neutral" },
+         },
+      }, -- Pattern: Felcloth Robe
+      {
+         ID = 14508,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Dreamstalker"), Team = "Neutral" },
+            { Region = RRS("Feralas"), Vendor = RRS("Lord Lakmaeran"), Team = "Neutral" },
+            { Region = RRS("Naxxramas"), Vendor = RRS("Infectious Ghoul"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Interrogator"), Team = "Neutral" },
+         },
+      }, -- Pattern: Felcloth Shoulders
+      {
+         ID = 14509,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Bony Construct"), Team = "Neutral" },
+         },
+      }, -- Pattern: Mooncloth Circlet
+      {
+         ID = 14510,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Feralas"), Vendor = RRS("Dreamroarer"), Team = "Neutral" },
+         },
+      }, -- Pattern: Bottomless Bag
+      {
+         ID = 14511,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Naxxramas"), Vendor = RRS("Tomb Horror"), Team = "Neutral" },
+         },
+      }, -- Pattern: Gloves of Spell Mastery
+      {
+         ID = 20546,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Silithus"), Vendor = RRS("Twilight Geolord"), Team = "Neutral" },
+         },
+      }, -- Pattern: Runed Stygian Leggings
+      {
+         ID = 21903,
+         Type = RRS("Tailoring"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Phantom Attendant"), Team = "Neutral" },
+         },
+      }, -- Pattern: Soulcloth Shoulders
+      {
+         ID = 21904,
+         Type = RRS("Tailoring"),
+         Skill = 375,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Karazhan"), Vendor = RRS("Phantom Valet"), Team = "Neutral" },
+         },
+      }, -- Pattern: Soulcloth Vest
+      {
+         ID = 22309,
+         Type = RRS("Tailoring"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Magister Kalendris"), Team = "Neutral" },
+         },
+      }, -- Pattern: Big Bag of Enchantment
+      {
          ID = 7089,
          Type = RRS("Tailoring"),
          Skill = 175,
@@ -4795,6 +8288,8 @@ RecipeRadar_RecipeData = {
          Skill = 70,
          Cost = 200,
          Locations = {
+            { Region = RRS("Silverpine Forest"), Vendor = RRS("Pyrewood Tailor"), Team = "Neutral" },
+            { Region = RRS("Westfall"), Vendor = RRS("Defias Looter"), Team = "Neutral" },
             { Region = RRS("Westfall"), Vendor = RRS("Gina MacGregor"), Team = "Alliance" },
             { Region = RRS("Darkshore"), Vendor = RRS("Valdaron"), Team = "Alliance" },
             { Region = RRS("Silverpine Forest"), Vendor = RRS("Andrew Hilbert"), Team = "Horde" },
@@ -4808,6 +8303,7 @@ RecipeRadar_RecipeData = {
          Skill = 115,
          Cost = 500,
          Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Hillsbrad Tailor"), Team = "Neutral" },
             { Region = RRS("Redridge Mountains"), Vendor = RRS("Amy Davenport"), Team = "Alliance" },
             { Region = RRS("Wetlands"), Vendor = RRS("Jennabink Powerseam"), Team = "Alliance" },
             { Region = RRS("Loch Modan"), Vendor = RRS("Rann Flamespinner"), Team = "Alliance" },
@@ -5272,6 +8768,7 @@ RecipeRadar_RecipeData = {
          Skill = 375,
          Cost = 60000,
          Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Deathforge Summoner"), Team = "Neutral" },
             { Region = RRS("Shattrath City"), Vendor = RRS("Andrion Darkspinner"), Team = "Neutral" },
             { Region = RRS("Dalaran"), Vendor = RRS("Linna Bruder"), Team = "Neutral" },
          },
@@ -5300,6 +8797,7 @@ RecipeRadar_RecipeData = {
          Skill = 375,
          Cost = 60000,
          Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Disembodied Vindicator"), Team = "Neutral" },
             { Region = RRS("Shattrath City"), Vendor = RRS("Nasmara Moonsong"), Team = "Neutral" },
             { Region = RRS("Dalaran"), Vendor = RRS("Ainderu Summerleaf"), Team = "Neutral" },
          },
@@ -5310,6 +8808,8 @@ RecipeRadar_RecipeData = {
          Skill = 375,
          Cost = 60000,
          Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Sunfury Arcanist"), Team = "Neutral" },
+            { Region = RRS("Netherstorm"), Vendor = RRS("Sunfury Arch Mage"), Team = "Neutral" },
             { Region = RRS("Shattrath City"), Vendor = RRS("Gidge Spellweaver"), Team = "Neutral" },
             { Region = RRS("Dalaran"), Vendor = RRS("Lalla Brightweave"), Team = "Neutral" },
          },
@@ -5778,6 +9278,100 @@ RecipeRadar_RecipeData = {
 [RRS("Cooking")] = {
    Recipes = {
       {
+         ID = 3736,
+         Type = RRS("Cooking"),
+         Skill = 150,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("Costly Menace"), Team = "Neutral" },
+         },
+      }, -- Recipe: Tasty Lion Steak
+      {
+         ID = 3737,
+         Type = RRS("Cooking"),
+         Skill = 175,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Soothing Turtle Bisque"), Team = "Neutral" },
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Soothing Turtle Bisque"), Team = "Neutral" },
+         },
+      }, -- Recipe: Soothing Turtle Bisque
+      {
+         ID = 5482,
+         Type = RRS("Cooking"),
+         Skill = 10,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Teldrassil"), Vendor = RRS("Recipe of the Kaldorei"), Team = "Neutral" },
+         },
+      }, -- Recipe: Kaldorei Spider Kabob
+      {
+         ID = 5487,
+         Type = RRS("Cooking"),
+         Skill = 90,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Dig Rat Stew"), Team = "Neutral" },
+         },
+      }, -- Recipe: Dig Rat Stew
+      {
+         ID = 6661,
+         Type = RRS("Cooking"),
+         Skill = 85,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Durotar"), Vendor = RRS("Foreman Grills"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Savannah Highmane"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Savannah Huntress"), Team = "Neutral" },
+            { Region = RRS("The Barrens"), Vendor = RRS("Savannah Patriarch"), Team = "Neutral" },
+         },
+      }, -- Recipe: Savory Deviate Delight
+      {
+         ID = 16073,
+         Type = RRS("Cooking"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Clamlette Surprise"), Team = "Neutral" },
+         },
+      }, -- Artisan Cookbook
+      {
+         ID = 18267,
+         Type = RRS("Cooking"),
+         Skill = 275,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dire Maul"), Vendor = RRS("Pusillin"), Team = "Neutral" },
+         },
+      }, -- Recipe: Runn Tum Tuber Surprise
+      {
+         ID = 21025,
+         Type = RRS("Cooking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Tanaris"), Vendor = RRS("Dirge's Kickin' Chimaerok Chops"), Team = "Neutral" },
+         },
+      }, -- Recipe: Dirge's Kickin' Chimaerok Chops
+      {
+         ID = 27684,
+         Type = RRS("Cooking"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Hellfire Peninsula"), Vendor = RRS("Smooth as Butter"), Team = "Neutral" },
+         },
+      }, -- Recipe: Buzzard Bites
+      {
+         ID = 27686,
+         Type = RRS("Cooking"),
+         Skill = 1,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azuremyst Isle"), Vendor = RRS("The Great Moongraze Hunt"), Team = "Neutral" },
+         },
+      }, -- Recipe: Roasted Moongraze Tenderloin
+      {
          ID = 16072,
          Type = RRS("Cooking"),
          Skill = 125,
@@ -5803,6 +9397,8 @@ RecipeRadar_RecipeData = {
          Skill = 175,
          Cost = 1000,
          Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Slagg"), Team = "Neutral" },
+            { Region = RRS("Badlands"), Vendor = RRS("Barbecued Buzzard Wings"), Team = "Neutral" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Narj Deepslice"), Team = "Alliance" },
             { Region = RRS("Desolace"), Vendor = RRS("Super-Seller 680"), Team = "Neutral" },
          },
@@ -5813,6 +9409,7 @@ RecipeRadar_RecipeData = {
          Skill = 10,
          Cost = 240,
          Locations = {
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Beer Basted Boar Ribs"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5822,6 +9419,7 @@ RecipeRadar_RecipeData = {
          Skill = 110,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Hillsbrad Foothills"), Vendor = RRS("The Rescue"), Team = "Neutral" },
             { Region = RRS("Ashenvale"), Vendor = RRS("Ulthaan"), Team = "Alliance" },
             { Region = RRS("Desolace"), Vendor = RRS("Super-Seller 680"), Team = "Neutral" },
          },
@@ -5832,6 +9430,7 @@ RecipeRadar_RecipeData = {
          Skill = 60,
          Cost = 400,
          Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Thelsamar Blood Sausages"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5883,6 +9482,10 @@ RecipeRadar_RecipeData = {
          Skill = 85,
          Cost = 400,
          Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Licillin"), Team = "Neutral" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Lord Sinslayer"), Team = "Neutral" },
+            { Region = RRS("Darkshore"), Vendor = RRS("Shade of Elura"), Team = "Neutral" },
+            { Region = RRS("Silverpine Forest"), Vendor = RRS("Reef Frenzy"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5892,6 +9495,7 @@ RecipeRadar_RecipeData = {
          Skill = 120,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Apprentice's Duties"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5901,6 +9505,7 @@ RecipeRadar_RecipeData = {
          Skill = 80,
          Cost = 400,
          Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Crocolisk Hunting"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5910,6 +9515,7 @@ RecipeRadar_RecipeData = {
          Skill = 130,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Ormer's Revenge"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
             { Region = RRS("Arathi Highlands"), Vendor = RRS("Keena"), Team = "Horde" },
             { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Nerrist"), Team = "Horde" },
@@ -5941,6 +9547,7 @@ RecipeRadar_RecipeData = {
          Skill = 110,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Dusky Crab Cakes"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5950,6 +9557,7 @@ RecipeRadar_RecipeData = {
          Skill = 50,
          Cost = 400,
          Locations = {
+            { Region = RRS("Westfall"), Vendor = RRS("Goretusk Liver Pie"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -5979,6 +9587,7 @@ RecipeRadar_RecipeData = {
          Skill = 125,
          Cost = 1800,
          Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Elixir of Pain"), Team = "Neutral" },
             { Region = RRS("The Barrens"), Vendor = RRS("Zargh"), Team = "Horde" },
             { Region = RRS("Desolace"), Vendor = RRS("Vendor-Tron 1000"), Team = "Neutral" },
          },
@@ -6083,6 +9692,7 @@ RecipeRadar_RecipeData = {
          Skill = 90,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Selling Fish"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -6121,6 +9731,7 @@ RecipeRadar_RecipeData = {
          Skill = 100,
          Cost = 800,
          Locations = {
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Redridge Goulash"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -6162,6 +9773,7 @@ RecipeRadar_RecipeData = {
          Skill = 100,
          Cost = 1600,
          Locations = {
+            { Region = RRS("Duskwood"), Vendor = RRS("Seasoned Wolf Kabobs"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -6205,6 +9817,11 @@ RecipeRadar_RecipeData = {
          Skill = 110,
          Cost = 400,
          Locations = {
+            { Region = RRS("Loch Modan"), Vendor = RRS("Lord Condar"), Team = "Neutral" },
+            { Region = RRS("Loch Modan"), Vendor = RRS("Shanda the Spinner"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Ribchaser"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Seeker Aqualon"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Snarlflare"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -6225,6 +9842,7 @@ RecipeRadar_RecipeData = {
          Skill = 75,
          Cost = 200,
          Locations = {
+            { Region = RRS("Westfall"), Vendor = RRS("Westfall Stew"), Team = "Neutral" },
             { Region = RRS("Stormwind City"), Vendor = RRS("Kendor Kabonka"), Team = "Alliance" },
          },
       },
@@ -6270,6 +9888,7 @@ RecipeRadar_RecipeData = {
          Skill = 50,
          Cost = 440,
          Locations = {
+            { Region = RRS("Darkshore"), Vendor = RRS("Easy Strider Living"), Team = "Neutral" },
             { Region = RRS("The Barrens"), Vendor = RRS("Tari'qa"), Team = "Horde" },
          },
       },
@@ -6481,6 +10100,8 @@ RecipeRadar_RecipeData = {
          Cost = 200,
          Notes = RRS("Class: Rogue"),
          Locations = {
+            { Region = RRS("The Barrens"), Vendor = RRS("Mission: Possible But Not Probable"), Team = "Neutral" },
+            { Region = RRS("Westfall"), Vendor = RRS("Klaven's Tower"), Team = "Neutral" },
             { Region = RRS("Alterac Mountains"), Vendor = RRS("Smudge Thunderwood"), Team = "Neutral" },
          },
       },
@@ -6549,6 +10170,7 @@ RecipeRadar_RecipeData = {
          Skill = 60,
          Cost = 400,
          Locations = {
+            { Region = RRS("Ghostlands"), Vendor = RRS("Culinary Crunch"), Team = "Neutral" },
             { Region = RRS("Bloodmyst Isle"), Vendor = RRS("Fazu"), Team = "Alliance" },
             { Region = RRS("Ghostlands"), Vendor = RRS("Master Chef Mouldier"), Team = "Horde" },
          },
@@ -6668,6 +10290,7 @@ RecipeRadar_RecipeData = {
          Skill = 335,
          Cost = 30000,
          Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Mok'Nathal Treats"), Team = "Neutral" },
             { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Sassa Weldwell"), Team = "Alliance" },
             { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Xerintha Ravenoak"), Team = "Neutral" },
          },
@@ -6678,6 +10301,7 @@ RecipeRadar_RecipeData = {
          Skill = 335,
          Cost = 30000,
          Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Mok'Nathal Treats"), Team = "Neutral" },
             { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Sassa Weldwell"), Team = "Alliance" },
             { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Xerintha Ravenoak"), Team = "Neutral" },
          },
@@ -7016,6 +10640,15 @@ RecipeRadar_RecipeData = {
 [RRS("Fishing")] = {
    Recipes = {
       {
+         ID = 16082,
+         Type = RRS("Fishing"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dustwallow Marsh"), Vendor = RRS("Nat Pagle, Angler Extreme"), Team = "Neutral" },
+         },
+      }, -- Artisan Fishing - The Way of the Lure
+      {
          ID = 16083,
          Type = RRS("Fishing"),
          Skill = 125,
@@ -7038,6 +10671,36 @@ RecipeRadar_RecipeData = {
 
 [RRS("First Aid")] = {
    Recipes = {
+      {
+         ID = 6454,
+         Type = RRS("First Aid"),
+         Skill = 130,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dun Morogh"), Vendor = RRS("Caverndeep Looter"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Gath'Ilzogg"), Team = "Neutral" },
+            { Region = RRS("Redridge Mountains"), Vendor = RRS("Lake Thresher"), Team = "Neutral" },
+         },
+      }, -- Manual: Strong Anti-Venom
+      {
+         ID = 16085,
+         Type = RRS("First Aid"),
+         Skill = 200,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Triage"), Team = "Neutral" },
+            { Region = RRS("Arathi Highlands"), Vendor = RRS("Triage"), Team = "Neutral" },
+         },
+      }, -- Artisan First Aid - Heal Thyself
+      {
+         ID = 39152,
+         Type = RRS("First Aid"),
+         Skill = 400,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Howling Fjord"), Vendor = RRS("King Ymiron"), Team = "Neutral" },
+         },
+      }, -- Manual: Heavy Frostweave Bandage
       {
          ID = 16084,
          Type = RRS("First Aid"),
@@ -7119,6 +10782,223 @@ RecipeRadar_RecipeData = {
 
 [RRS("Jewelcrafting")] = {
    Recipes = {
+      {
+         ID = 20976,
+         Type = RRS("Jewelcrafting"),
+         Skill = 190,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Alterac Mountains"), Vendor = RRS("Grel'borg the Miser"), Team = "Neutral" },
+         },
+      }, -- Design: Citrine Pendant of Golden Healing
+      {
+         ID = 21945,
+         Type = RRS("Jewelcrafting"),
+         Skill = 245,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Medic"), Team = "Neutral" },
+         },
+      }, -- Design: The Aquamarine Ward
+      {
+         ID = 21947,
+         Type = RRS("Jewelcrafting"),
+         Skill = 250,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Dragonblight"), Vendor = RRS("Shadowy Tormentor"), Team = "Neutral" },
+         },
+      }, -- Design: Gem Studded Band
+      {
+         ID = 21949,
+         Type = RRS("Jewelcrafting"),
+         Skill = 260,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Azshara"), Vendor = RRS("Blue Dragonspawn"), Team = "Neutral" },
+            { Region = RRS("Azshara"), Vendor = RRS("Blue Scalebane"), Team = "Neutral" },
+            { Region = RRS("Azshara"), Vendor = RRS("Draconic Magelord"), Team = "Neutral" },
+            { Region = RRS("Azshara"), Vendor = RRS("Draconic Mageweaver"), Team = "Neutral" },
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Medic"), Team = "Neutral" },
+         },
+      }, -- Design: Ruby Serpent
+      {
+         ID = 21953,
+         Type = RRS("Jewelcrafting"),
+         Skill = 285,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Western Plaguelands"), Vendor = RRS("Scarlet Medic"), Team = "Neutral" },
+         },
+      }, -- Design: Emerald Owl
+      {
+         ID = 21956,
+         Type = RRS("Jewelcrafting"),
+         Skill = 300,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blackrock Depths"), Vendor = RRS("Golem Lord Argelmach"), Team = "Neutral" },
+         },
+      }, -- Design: Dark Iron Scorpid
+      {
+         ID = 24158,
+         Type = RRS("Jewelcrafting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Dark Conclave Shadowmancer"), Team = "Neutral" },
+         },
+      }, -- Design: Khorium Band of Shadows
+      {
+         ID = 24161,
+         Type = RRS("Jewelcrafting"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Blade's Edge Mountains"), Vendor = RRS("Vekh'nir Dreadhawk"), Team = "Neutral" },
+         },
+      }, -- Design: Khorium Band of Leaves
+      {
+         ID = 24162,
+         Type = RRS("Jewelcrafting"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Netherstorm"), Vendor = RRS("Mageslayer"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Gorlash"), Team = "Neutral" },
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Mogh the Undying"), Team = "Neutral" },
+         },
+      }, -- Design: Arcane Khorium Band
+      {
+         ID = 24164,
+         Type = RRS("Jewelcrafting"),
+         Skill = 355,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Stranglethorn Vale"), Vendor = RRS("Mok'rash"), Team = "Neutral" },
+         },
+      }, -- Design: Delicate Eternium Ring
+      {
+         ID = 24167,
+         Type = RRS("Jewelcrafting"),
+         Skill = 355,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Sholazar Basin"), Vendor = RRS("Cultist Infiltrator"), Team = "Neutral" },
+         },
+      }, -- Design: Living Ruby Pendant
+      {
+         ID = 24168,
+         Type = RRS("Jewelcrafting"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Red Scalebane"), Team = "Neutral" },
+         },
+      }, -- Design: Braided Eternium Chain
+      {
+         ID = 24169,
+         Type = RRS("Jewelcrafting"),
+         Skill = 360,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Scalebane Lieutenant"), Team = "Neutral" },
+         },
+      }, -- Design: Eye of the Night
+      {
+         ID = 24170,
+         Type = RRS("Jewelcrafting"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Wetlands"), Vendor = RRS("Wyrmkin Firebrand"), Team = "Neutral" },
+         },
+      }, -- Design: Embrace of the Dawn
+      {
+         ID = 24171,
+         Type = RRS("Jewelcrafting"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Sholazar Basin"), Vendor = RRS("Mangal Crocolisk"), Team = "Neutral" },
+         },
+      }, -- Design: Chain of the Twilight Owl
+      {
+         ID = 24198,
+         Type = RRS("Jewelcrafting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Grizzly Hills"), Vendor = RRS("Trapdoor Crawler"), Team = "Neutral" },
+         },
+      }, -- Design: Flashing Living Ruby
+      {
+         ID = 24205,
+         Type = RRS("Jewelcrafting"),
+         Skill = 350,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Grizzly Hills"), Vendor = RRS("Redfang Elder"), Team = "Neutral" },
+         },
+      }, -- Design: Rigid Dawnstone
+      {
+         ID = 34689,
+         Type = RRS("Jewelcrafting"),
+         Skill = 365,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Shadowmoon Valley"), Vendor = RRS("Coilskar Siren"), Team = "Neutral" },
+         },
+      }, -- Design: Chaotic Skyfire Diamond
+      {
+         ID = 41797,
+         Type = RRS("Jewelcrafting"),
+         Skill = 420,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Howling Fjord"), Vendor = RRS("King Ymiron"), Team = "Neutral" },
+         },
+      }, -- Design: Austere Earthsiege Diamond
+      {
+         ID = 41817,
+         Type = RRS("Jewelcrafting"),
+         Skill = 390,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Nascent Val'kyr"), Team = "Neutral" },
+         },
+      }, -- Design: Fractured Scarlet Ruby
+      {
+         ID = 41818,
+         Type = RRS("Jewelcrafting"),
+         Skill = 390,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("Sholazar Basin"), Vendor = RRS("Shattertusk Mammoth"), Team = "Neutral" },
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Ironwool Mammoth"), Team = "Neutral" },
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Plains Mammoth"), Team = "Neutral" },
+         },
+      }, -- Design: Accurate Monarch Topaz
+      {
+         ID = 41819,
+         Type = RRS("Jewelcrafting"),
+         Skill = 390,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Frostfeather Screecher"), Team = "Neutral" },
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Frostfeather Witch"), Team = "Neutral" },
+         },
+      }, -- Design: Radiant Forest Emerald
+      {
+         ID = 41820,
+         Type = RRS("Jewelcrafting"),
+         Skill = 390,
+         Cost = 0,
+         Locations = {
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Stormforged Artificer"), Team = "Neutral" },
+            { Region = RRS("The Storm Peaks"), Vendor = RRS("Stormforged Champion"), Team = "Neutral" },
+         },
+      }, -- Design: Defender's Twilight Opal
       {
          ID = 20854,
          Type = RRS("Jewelcrafting"),
