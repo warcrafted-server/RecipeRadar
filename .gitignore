@@ -1,5 +1,28 @@
-# IA i IDEs
+# AI assistants / agent tooling
 .claude/
+.claude.json
+.aider*
+.cursor/
+.windsurf/
+.codeium/
+.copilot/
+.agents/
 CLAUDE.local.md
-*.log
+*.agent.md
+.mcp.json
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS cruft
 .DS_Store
+Thumbs.db
+
+# Logs and local scratch
+*.log
+*.tmp
+.env
+.env.*
