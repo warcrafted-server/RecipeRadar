@@ -20,6 +20,17 @@ function RecipeRadar_OnLoad()
    this:RegisterEvent("CHAT_MSG_SYSTEM")
    this:RegisterEvent("PLAYER_ENTERING_WORLD")
 
+   GameTooltip:HookScript("OnTooltipSetItem", function()
+      if (GameTooltip.RecipeRadar_SkillUp) then
+         GameTooltip:AddLine(GameTooltip.RecipeRadar_SkillUp)
+         GameTooltip:Show()
+      end
+   end)
+
+   GameTooltip:HookScript("OnHide", function()
+      GameTooltip.RecipeRadar_SkillUp = nil
+   end)
+
    -- RecipeRadar_Print("Recipe Radar loaded!")
 
 end
@@ -667,6 +678,38 @@ function RecipeRadar_ColorToCode(color)
 
    return string.format("|cff%02x%02x%02x",
          255 * color.r, 255 * color.g, 255 * color.b)
+
+end
+
+-- Returns the recipe's skill-up breakpoints as a coloured "yellow / green /
+-- grey" string, or nil for the few recipes that have no crafting spell.
+function RecipeRadar_GetSkillUpString(recipe)
+
+   if (not recipe or not recipe.SkillYellow) then return nil end
+
+   return RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
+               FONT_COLOR_CODE_CLOSE .. " / " ..
+         RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
+               FONT_COLOR_CODE_CLOSE .. " / " ..
+         RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
+               FONT_COLOR_CODE_CLOSE
+
+end
+
+-- Appends the skill-up line to a GameTooltip.  SetHyperlink on an item the
+-- client hasn't cached yet completes asynchronously and rebuilds the tooltip
+-- from scratch, dropping anything added before the item data arrives, so this
+-- re-adds the line on the tooltip's own updates until the item is cached.
+function RecipeRadar_AddSkillUpLine(tooltip, recipe)
+
+   local text = RecipeRadar_GetSkillUpString(recipe)
+   if (not text) then
+      tooltip.RecipeRadar_SkillUp = nil
+      return
+   end
+
+   tooltip.RecipeRadar_SkillUp = text
+   tooltip:AddLine(text)
 
 end
 

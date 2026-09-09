@@ -288,14 +288,9 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
    -- skill-up colors: orange (guaranteed) below Yellow, then Yellow, Green,
    -- and Grey (never skills up again) -- a few recipes (profession tier
    -- books) have no crafting spell and thus no range to show
-   if (recipe.SkillYellow) then
-      RecipeDetailSkillUpText:SetText(
-            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
-                  FONT_COLOR_CODE_CLOSE)
+   local skill_up = RecipeRadar_GetSkillUpString(recipe)
+   if (skill_up) then
+      RecipeDetailSkillUpText:SetText(skill_up)
       RecipeDetailSkillUpText:Show()
    else
       RecipeDetailSkillUpText:Hide()
@@ -357,17 +352,7 @@ function RecipeRadar_RecipeDetailIcon_ShowToolTip()
    GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
    GameTooltip:SetHyperlink(RecipeDetailIcon.Link)
 
-   -- skill-up colours; not part of the item's own tooltip, so appended here
-   local recipe = RecipeDetailIcon.Recipe
-   if (recipe and recipe.SkillYellow) then
-      GameTooltip:AddLine(
-            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
-                  FONT_COLOR_CODE_CLOSE)
-   end
+   RecipeRadar_AddSkillUpLine(GameTooltip, RecipeDetailIcon.Recipe)
 
    GameTooltip:Show()
 

@@ -77,6 +77,14 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
 
    local recipe_name = RecipeRadar_GetSafeItemInfo(recipe.ID)
 
+   -- skill-up colours (yellow/green/grey); shown regardless of availability
+   -- mode, since it's a property of the recipe, not of any one character
+   local skill_up = RecipeRadar_GetSkillUpString(recipe)
+   if (skill_up) then
+      RecipeRadar_AvailabilityTooltip_AddLine(skill_up)
+      RecipeRadar_AvailabilityTooltip_AddLine()
+   end
+
    if (recipe_name == RRS("Uncached Recipe")) then
 
       -- uncached recipes have a special tooltip and warning
@@ -103,19 +111,6 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
       end
       return
 
-   end
-
-   -- skill-up colours (yellow/green/grey); shown regardless of availability
-   -- mode, since it's a property of the recipe, not of any one character
-   if (recipe.SkillYellow) then
-      RecipeRadar_AvailabilityTooltip_AddLine(
-            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
-                  FONT_COLOR_CODE_CLOSE .. " / " ..
-            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
-                  FONT_COLOR_CODE_CLOSE)
-      RecipeRadar_AvailabilityTooltip_AddLine()
    end
 
    local avail, prosp, known, line_info = { }, { }, { }, { }
