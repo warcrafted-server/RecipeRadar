@@ -1,6 +1,12 @@
 
 Recipe Radar ChangeLog
 
+v1.43; September 9, 2026
+
+- Recipe Radar now shows up in plugin bars like Titan Panel, next to
+  the other addons already listed there. Click it to open or close the
+  window, same as the minimap button.
+
 v1.42; September 9, 2026
 
 - The zone dropdown is back, on the top row. The map radio next to it now

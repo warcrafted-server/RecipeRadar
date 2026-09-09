@@ -70,6 +70,9 @@ if (GetLocale() == "sample") then
    -- default entry in the zone filtering dropdown (recipes tab)
    RecipeRadar_Strings["All Zones"] = ""
 
+   -- LibDataBroker feed tooltip (Titan Panel and similar plugin bars)
+   RecipeRadar_Strings["Click to toggle."] = ""
+
    -- profession filtering dropdown - these strings must match those returned by GetTradeSkillLine() and GetCraftDisplaySkillLine()
    RecipeRadar_Strings["Professions"] = ""
    RecipeRadar_Strings["Alchemy"] = ""
@@ -1325,6 +1328,7 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["Locate Vendor on Map"] = "Localizar a Vendedor en Mapa"
    RecipeRadar_Strings["On Map"] = "Mapa"
    RecipeRadar_Strings["All Zones"] = "Todas las Zonas"
+   RecipeRadar_Strings["Click to toggle."] = "Clic para abrir o cerrar."
    RecipeRadar_Strings["Factions"] = "Bandos"
    RecipeRadar_Strings["Alchemy"] = "Alquimia"
    RecipeRadar_Strings["Blacksmithing"] = "Herrería"
