@@ -6,6 +6,8 @@
 
    <Script file="RegionData.lua"/>
    <Script file="RecipeData.lua"/>
+   <Script file="RecipeNames-esES.lua"/>
+   <Script file="RecipeNames-enUS.lua"/>
    <Script file="RecipeRadar.lua"/>
    <Script file="RadarTab.lua"/>
    <Script file="RecipesTab.lua"/>

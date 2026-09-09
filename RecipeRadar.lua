@@ -299,21 +299,36 @@ function RecipeRadar_GetSafeItemInfo(id)
    if (not RecipeRadar_NameCache) then RecipeRadar_NameCache = { } end
 
    if (name == nil) then
-   
+
+      -- a static name/quality lets known-but-uncached recipes show their real
+      -- name and participate in availability (which matches by name), instead
+      -- of falling back to "Uncached Recipe" for every character
+      local static = RecipeRadar_RecipeNames and RecipeRadar_RecipeNames[id]
+
       -- set returned name according to whether we've already seen the id
       if (RecipeRadar_NameCache[id]) then
          name = RecipeRadar_NameCache[id]
+      elseif (static) then
+         name = static[1]
       else
          name = RRS("Uncached Recipe")
       end
 
-      -- create our own tooltip for uncached items
+      local r, g, b, colorcode
+      if (static) then
+         r, g, b, colorcode = GetItemQualityColor(static[2])
+      else
+         r, g, b = RecipeRadar_Colors.UncachedRecipe.r,
+               RecipeRadar_Colors.UncachedRecipe.g,
+               RecipeRadar_Colors.UncachedRecipe.b
+         colorcode = RecipeRadar_ColorToCode(RecipeRadar_Colors.UncachedRecipe)
+      end
+
+      -- create our own tooltip for uncached items; 'false' below is accurate
+      -- even with a static name, since the client still hasn't cached the
+      -- item and the tooltip-hook/lookup-icon logic depends on that
       return name, "item:" .. id .. ":0:0:0:0:0:0:0",
-            RecipeRadar_ColorToCode(RecipeRadar_Colors.UncachedRecipe),
-            RecipeRadar_Colors.UncachedRecipe.r,
-            RecipeRadar_Colors.UncachedRecipe.g,
-            RecipeRadar_Colors.UncachedRecipe.b,
-            GetItemIcon(id),
+            colorcode, r, g, b, GetItemIcon(id),
             false  -- boolean to indicate whether we got a real recipe
 
    else

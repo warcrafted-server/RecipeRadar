@@ -1,6 +1,13 @@
 
 Recipe Radar ChangeLog
 
+v1.35; September 9, 2026
+
+- Recipes now show their real name and quality colour even before the WoW client has cached
+  the item, instead of "Uncached Recipe" — this also fixes availability tracking for those
+  recipes, since it matches by name and could not do so while the name was missing.
+- Names come from the server's own database (Spanish and English for now).
+
 v1.34; September 9, 2026
 
 - Added drop, quest reward and trainer recipes to the database, which until now only knew
