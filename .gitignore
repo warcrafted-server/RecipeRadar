@@ -1,4 +1,5 @@
 # AI assistants / agent tooling
+CLAUDE.md
 .claude/
 .claude.json
 .aider*
