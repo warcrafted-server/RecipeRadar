@@ -2,7 +2,7 @@
 -- Globals.lua: global/saved variables and some related initialization code
 -- $Id: Globals.lua 1099 2009-08-10 04:51:22Z jnmiller $
 
-RECIPERADAR_VERSION = "1.40"
+RECIPERADAR_VERSION = "1.41"
 
 RECIPERADAR_VENDORS_DISPLAYED = 8
 RECIPERADAR_VENDOR_HEIGHT = 16

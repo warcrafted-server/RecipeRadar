@@ -687,18 +687,54 @@ function RecipeRadar_ColorToCode(color)
 
 end
 
+-- RegionData's recipe entries only carry id/type/skill/cost (their Skill is
+-- often 0), so anything richer has to be looked up by id in RecipeData.
+local recipes_by_id
+
+function RecipeRadar_GetRecipeRecord(recipe)
+
+   if (not recipe) then return nil end
+   if (recipe.SkillYellow) then return recipe end
+
+   if (not recipes_by_id) then
+      recipes_by_id = { }
+      for _, profession in pairs(RecipeRadar_RecipeData) do
+         for _, entry in pairs(profession.Recipes) do
+            recipes_by_id[entry.ID] = entry
+         end
+      end
+   end
+
+   return recipes_by_id[recipe.ID]
+
+end
+
 -- Returns the recipe's skill-up breakpoints as a coloured "yellow / green /
 -- grey" string, or nil for the few recipes that have no crafting spell.
 function RecipeRadar_GetSkillUpString(recipe)
 
-   if (not recipe or not recipe.SkillYellow) then return nil end
+   local record = RecipeRadar_GetRecipeRecord(recipe)
+   if (not record or not record.SkillYellow) then return nil end
 
-   return RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
+   return RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. record.SkillYellow ..
                FONT_COLOR_CODE_CLOSE .. " / " ..
-         RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
+         RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. record.SkillGreen ..
                FONT_COLOR_CODE_CLOSE .. " / " ..
-         RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
+         RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. record.SkillGrey ..
                FONT_COLOR_CODE_CLOSE
+
+end
+
+-- The skill rank needed to learn the recipe, preferring RecipeData's value
+-- since RegionData often stores 0.
+function RecipeRadar_GetRecipeSkill(recipe)
+
+   if (recipe.Skill and recipe.Skill > 0) then return recipe.Skill end
+
+   local record = RecipeRadar_GetRecipeRecord(recipe)
+   if (record and record.Skill) then return record.Skill end
+
+   return recipe.Skill or 0
 
 end
 

@@ -1,6 +1,17 @@
 
 Recipe Radar ChangeLog
 
+v1.41; September 9, 2026
+
+- The skill-up levels finally show on the radar tab. They never could:
+  that tab reads its recipes from the region database, which only stores
+  id, profession, skill and cost, so the levels simply were not there to
+  draw. They are now looked up by recipe id.
+- The same lookup fixes the skill rank showing as (0) on that tab.
+- Put the window back to its old size and layout, which the previous
+  release had stretched and split apart. The zone dropdown is hidden for
+  now until it has somewhere to live that doesn't cover the list.
+
 v1.40; September 9, 2026
 
 - The skill-up levels now show on the recipe row itself, in colour, so

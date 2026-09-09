@@ -16,7 +16,7 @@ function RecipeRadar_RecipesTab_Init()
       -- reset items' horizontal offsets
       if (i == 1) then
          button:SetPoint("TOPLEFT", "RecipeRadarFrame",
-               "TOPLEFT", 22, -128)
+               "TOPLEFT", 22, -96)
       else
          button:SetPoint("TOPLEFT", "RecipeRadarVendor" .. i - 1,
                "BOTTOMLEFT", 0, 0)
@@ -32,7 +32,7 @@ function RecipeRadar_RecipesTab_Init()
 
    RecipeRadar_Prof1DropDown:Hide()
    RecipeRadar_Prof2DropDown:Show()
-   RecipeRadar_ZoneDropDown:Show()
+   RecipeRadar_ZoneDropDown:Hide()
 
    RecipeRadar_SetActiveTab(2)
    RecipeRadar_ZoneDropDown_UpdateText()

@@ -6,7 +6,7 @@ function RecipeRadar_RadarTab_Init()
 
    RecipeRadar_Prof1DropDown:Show()
    RecipeRadar_Prof2DropDown:Hide()
-   RecipeRadar_ZoneDropDown:Show()
+   RecipeRadar_ZoneDropDown:Hide()
 
    RecipeRadar_SetActiveTab(1)
    RecipeRadar_ZoneDropDown_UpdateText()
@@ -139,7 +139,7 @@ function RecipeRadar_RadarTab_AddVendor(key, vendor)
       -- decide the horizontal offset of this button
       if (index == 1) then
          button:SetPoint("TOPLEFT", "RecipeRadarFrame",
-               "TOPLEFT", 22, -128)
+               "TOPLEFT", 22, -96)
       elseif (RecipeRadar_last_button == "recipe") then
          button:SetPoint("TOPLEFT", "RecipeRadarVendor" .. index - 1,
                "BOTTOMLEFT", -RECIPERADAR_VENDOR_OFFSET, 0)
@@ -239,7 +239,7 @@ function RecipeRadar_RadarTab_AddVendor(key, vendor)
             -- decide the horizontal offset of this button
             if (index == 1) then
                button:SetPoint("TOPLEFT", "RecipeRadarFrame",
-                     "TOPLEFT", 22 + RECIPERADAR_VENDOR_OFFSET, -128)
+                     "TOPLEFT", 22 + RECIPERADAR_VENDOR_OFFSET, -96)
             elseif (RecipeRadar_last_button == "recipe") then
                button:SetPoint("TOPLEFT", "RecipeRadarVendor" .. index - 1,
                      "BOTTOMLEFT", 0, 0)

@@ -238,7 +238,8 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
    -- right lands outside the window; profession and skill go on this line
    RecipeDetailName:SetText(name .. "   " ..
          RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.Type .. " " ..
-         format(TEXT(PARENS_TEMPLATE), recipe.Skill) .. FONT_COLOR_CODE_CLOSE)
+         format(TEXT(PARENS_TEMPLATE), RecipeRadar_GetRecipeSkill(recipe)) ..
+         FONT_COLOR_CODE_CLOSE)
 
    -- handle the little icon in the details frame
    RecipeDetailIcon:SetNormalTexture(texture)

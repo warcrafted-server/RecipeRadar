@@ -1,5 +1,5 @@
 ﻿## Interface: 30200
-## Version: 1.40
+## Version: 1.41
 ## Title: Recipe Radar
 ## Author: Jay Miller
 ## Notes: Locates vendors who sell recipes in the current region or by profession.
