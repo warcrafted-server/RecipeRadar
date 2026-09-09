@@ -37,7 +37,7 @@
             if (this.r) then
                getglobal(this:GetName() .. "SubText"):SetTextColor(this.r + RecipeRadar_Colors.Highlight, this.g + RecipeRadar_Colors.Highlight, this.b + RecipeRadar_Colors.Highlight)
             end
-            if (RecipeRadar_Options.RealmAvailability and this.Recipe) then
+            if (this.Recipe) then
                RecipeRadar_Availability_CreateTooltip(this.Recipe)
                RecipeRadar_AvailabilityTooltip_Show(this)
             end

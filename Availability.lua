@@ -105,6 +105,19 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
 
    end
 
+   -- skill-up colours (yellow/green/grey); shown regardless of availability
+   -- mode, since it's a property of the recipe, not of any one character
+   if (recipe.SkillYellow) then
+      RecipeRadar_AvailabilityTooltip_AddLine(
+            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
+                  FONT_COLOR_CODE_CLOSE)
+      RecipeRadar_AvailabilityTooltip_AddLine()
+   end
+
    local avail, prosp, known, line_info = { }, { }, { }, { }
    local num_avail, num_prosp, num_known = 0, 0, 0
 
