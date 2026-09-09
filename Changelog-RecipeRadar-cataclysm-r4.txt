@@ -1,0 +1,188 @@
+------------------------------------------------------------------------
+r4 | speedwaystar | 2010-12-02 19:52:13 +0000 (Thu, 02 Dec 2010) | 2 lines
+Changed paths:
+   M /trunk/SkillDB.lua
+
+* TradeSkillFrameAvailableFilterCheckButton is deprecated, replaced with TradeSkillFilterDropDown
+* TradeSkillFrameEditBox likewise (not sure what replaces it)
+------------------------------------------------------------------------
+r3 | speedwaystar | 2010-11-28 10:09:35 +0000 (Sun, 28 Nov 2010) | 1 line
+Changed paths:
+   M /trunk/Availability.lua
+   M /trunk/AvailabilityTooltip.lua
+   M /trunk/DropDowns.lua
+   M /trunk/FrameTemplates.xml
+   M /trunk/MainFrame.lua
+   M /trunk/Maps.lua
+   M /trunk/Maps.xml
+   M /trunk/Minimap.lua
+   M /trunk/MinimapButton.lua
+   M /trunk/MinimapButton.xml
+   M /trunk/OptionsFrame.lua
+   M /trunk/OptionsFrame.xml
+   M /trunk/RadarTab.lua
+   M /trunk/RecipeRadar.lua
+   M /trunk/RecipeRadar.toc
+   M /trunk/RecipeRadar.xml
+   M /trunk/RecipesTab.lua
+   M /trunk/SkillDB.lua
+   M /trunk/Worldmap.lua
+
+Updated to work with the 4.0.1 API changes
+------------------------------------------------------------------------
+r2 | speedwaystar | 2010-11-28 08:12:10 +0000 (Sun, 28 Nov 2010) | 1 line
+Changed paths:
+   A /trunk/Astrolabe
+   A /trunk/Astrolabe/Astrolabe.lua
+   A /trunk/Astrolabe/AstrolabeMapMonitor.lua
+   A /trunk/Astrolabe/DongleStub.lua
+   A /trunk/Astrolabe/Load.xml
+   A /trunk/Astrolabe/lgpl.txt
+   A /trunk/Availability.lua
+   A /trunk/AvailabilityTooltip.lua
+   A /trunk/AvailabilityTooltip.xml
+   A /trunk/Bindings.xml
+   A /trunk/ChangeLog.txt
+   A /trunk/DropDowns.lua
+   A /trunk/FontStyles.xml
+   A /trunk/FrameTemplates.xml
+   A /trunk/Globals.lua
+   A /trunk/Images
+   A /trunk/Images/Frame
+   A /trunk/Images/Frame/FrameBottomLeft.blp
+   A /trunk/Images/Frame/FrameBottomRight.blp
+   A /trunk/Images/Frame/FrameTopLeft.blp
+   A /trunk/Images/Frame/FrameTopRight.blp
+   A /trunk/Images/Frame/HorizontalBarLeft.blp
+   A /trunk/Images/Frame/HorizontalBarRight.blp
+   A /trunk/Images/Frame/LockButton-Locked-Down.blp
+   A /trunk/Images/Frame/LockButton-Locked-Up.blp
+   A /trunk/Images/Frame/LockButton-Unlocked-Down.blp
+   A /trunk/Images/Frame/LockButton-Unlocked-Up.blp
+   A /trunk/Images/Frame/Tab-Right.blp
+   A /trunk/Images/Icons
+   A /trunk/Images/Icons/Alchemy.blp
+   A /trunk/Images/Icons/Blacksmithing.blp
+   A /trunk/Images/Icons/Cooking.blp
+   A /trunk/Images/Icons/Enchanting.blp
+   A /trunk/Images/Icons/Engineering.blp
+   A /trunk/Images/Icons/First-Aid.blp
+   A /trunk/Images/Icons/Fishing.blp
+   A /trunk/Images/Icons/Highlight.blp
+   A /trunk/Images/Icons/Inscription.blp
+   A /trunk/Images/Icons/Jewelcrafting.blp
+   A /trunk/Images/Icons/Leatherworking.blp
+   A /trunk/Images/Icons/Tailoring.blp
+   A /trunk/Images/Misc
+   A /trunk/Images/Misc/IconHighlight.blp
+   A /trunk/Images/Misc/MinimapButtonDown.blp
+   A /trunk/Images/Misc/MinimapButtonUp.blp
+   A /trunk/Images/Misc/QuestionMark.blp
+   A /trunk/Images/Misc/Radar.blp
+   A /trunk/Images/Misc/RecipeHighlight.blp
+   A /trunk/Images/Misc/Scroll.blp
+   A /trunk/Images/Regions
+   A /trunk/Images/Regions/Alterac-Mountains.blp
+   A /trunk/Images/Regions/Arathi-Highlands.blp
+   A /trunk/Images/Regions/Ashenvale.blp
+   A /trunk/Images/Regions/Azshara.blp
+   A /trunk/Images/Regions/Azuremyst-Isle.blp
+   A /trunk/Images/Regions/Badlands.blp
+   A /trunk/Images/Regions/Blade-s-Edge-Mountains.blp
+   A /trunk/Images/Regions/Blasted-Lands.blp
+   A /trunk/Images/Regions/Bloodmyst-Isle.blp
+   A /trunk/Images/Regions/Borean-Tundra.blp
+   A /trunk/Images/Regions/Burning-Steppes.blp
+   A /trunk/Images/Regions/Crystalsong-Forest.blp
+   A /trunk/Images/Regions/Dalaran.blp
+   A /trunk/Images/Regions/Darkshore.blp
+   A /trunk/Images/Regions/Darnassus.blp
+   A /trunk/Images/Regions/Deadwind-Pass.blp
+   A /trunk/Images/Regions/Desolace.blp
+   A /trunk/Images/Regions/Dragonblight.blp
+   A /trunk/Images/Regions/Dun-Morogh.blp
+   A /trunk/Images/Regions/Durotar.blp
+   A /trunk/Images/Regions/Duskwood.blp
+   A /trunk/Images/Regions/Dustwallow-Marsh.blp
+   A /trunk/Images/Regions/Eastern-Plaguelands.blp
+   A /trunk/Images/Regions/Elwynn-Forest.blp
+   A /trunk/Images/Regions/Eversong-Woods.blp
+   A /trunk/Images/Regions/Felwood.blp
+   A /trunk/Images/Regions/Feralas.blp
+   A /trunk/Images/Regions/Ghostlands.blp
+   A /trunk/Images/Regions/Grizzly-Hills.blp
+   A /trunk/Images/Regions/Hellfire-Peninsula.blp
+   A /trunk/Images/Regions/Hillsbrad-Foothills.blp
+   A /trunk/Images/Regions/Howling-Fjord.blp
+   A /trunk/Images/Regions/Icecrown.blp
+   A /trunk/Images/Regions/Ironforge.blp
+   A /trunk/Images/Regions/Isle-of-Quel-Danas.blp
+   A /trunk/Images/Regions/Loch-Modan.blp
+   A /trunk/Images/Regions/Moonglade.blp
+   A /trunk/Images/Regions/Mulgore.blp
+   A /trunk/Images/Regions/Nagrand.blp
+   A /trunk/Images/Regions/Netherstorm.blp
+   A /trunk/Images/Regions/Orgrimmar.blp
+   A /trunk/Images/Regions/Redridge-Mountains.blp
+   A /trunk/Images/Regions/Searing-Gorge.blp
+   A /trunk/Images/Regions/Shadowmoon-Valley.blp
+   A /trunk/Images/Regions/Shattrath-City.blp
+   A /trunk/Images/Regions/Sholazar-Basin.blp
+   A /trunk/Images/Regions/Silithus.blp
+   A /trunk/Images/Regions/Silvermoon-City.blp
+   A /trunk/Images/Regions/Silverpine-Forest.blp
+   A /trunk/Images/Regions/Stonetalon-Mountains.blp
+   A /trunk/Images/Regions/Stormwind-City.blp
+   A /trunk/Images/Regions/Stormwind.blp
+   A /trunk/Images/Regions/Stranglethorn-Vale.blp
+   A /trunk/Images/Regions/Swamp-of-Sorrows.blp
+   A /trunk/Images/Regions/Tanaris.blp
+   A /trunk/Images/Regions/Teldrassil.blp
+   A /trunk/Images/Regions/Terokkar-Forest.blp
+   A /trunk/Images/Regions/The-Barrens.blp
+   A /trunk/Images/Regions/The-Exodar.blp
+   A /trunk/Images/Regions/The-Hinterlands.blp
+   A /trunk/Images/Regions/The-Storm-Peaks.blp
+   A /trunk/Images/Regions/Thousand-Needles.blp
+   A /trunk/Images/Regions/Thunder-Bluff.blp
+   A /trunk/Images/Regions/Tirisfal-Glades.blp
+   A /trunk/Images/Regions/Un-Goro-Crater.blp
+   A /trunk/Images/Regions/Undercity.blp
+   A /trunk/Images/Regions/Western-Plaguelands.blp
+   A /trunk/Images/Regions/Westfall.blp
+   A /trunk/Images/Regions/Wetlands.blp
+   A /trunk/Images/Regions/Wintergrasp.blp
+   A /trunk/Images/Regions/Winterspring.blp
+   A /trunk/Images/Regions/Zangarmarsh.blp
+   A /trunk/Images/Regions/Zul-Drak.blp
+   A /trunk/Localization.lua
+   A /trunk/MainFrame.lua
+   A /trunk/Maps.lua
+   A /trunk/Maps.xml
+   A /trunk/Minimap.lua
+   A /trunk/MinimapButton.lua
+   A /trunk/MinimapButton.xml
+   A /trunk/NameMap.lua
+   A /trunk/OptionsFrame.lua
+   A /trunk/OptionsFrame.xml
+   A /trunk/README.txt
+   A /trunk/RadarTab.lua
+   A /trunk/RecipeData.lua
+   A /trunk/RecipeRadar.lua
+   A /trunk/RecipeRadar.toc
+   A /trunk/RecipeRadar.xml
+   A /trunk/RecipesTab.lua
+   A /trunk/RegionData.lua
+   A /trunk/SkillDB.lua
+   A /trunk/Worldmap.lua
+
+Initial import (Recipe-Radar-1.33)
+------------------------------------------------------------------------
+r1 | root | 2010-11-28 07:32:09 +0000 (Sun, 28 Nov 2010) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"recipe-radar/cataclysm: Initial Import"
+------------------------------------------------------------------------

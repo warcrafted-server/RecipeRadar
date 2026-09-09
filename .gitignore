@@ -1,0 +1,5 @@
+# IA i IDEs
+.claude/
+CLAUDE.local.md
+*.log
+.DS_Store
