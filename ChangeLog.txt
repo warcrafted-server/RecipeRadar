@@ -1,6 +1,11 @@
 
 Recipe Radar ChangeLog
 
+v1.36; September 9, 2026
+
+- The recipe detail panel now shows the profession and the minimum skill rank required to
+  learn it, next to the recipe name.
+
 v1.35; September 9, 2026
 
 - Recipes now show their real name and quality colour even before the WoW client has cached

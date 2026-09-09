@@ -227,6 +227,11 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
 
    RecipeDetailName:SetText(name)
 
+   -- profession + required skill rank, same "(N)" style already used in the
+   -- recipe list (Availability.lua's RecipeRadar_PersonAvail_GetIndicator)
+   RecipeDetailSubText:SetText(
+         recipe.Type .. " " .. format(TEXT(PARENS_TEMPLATE), recipe.Skill))
+
    -- handle the little icon in the details frame
    RecipeDetailIcon:SetNormalTexture(texture)
    RecipeDetailIcon.NeedsUpdate = not cached
