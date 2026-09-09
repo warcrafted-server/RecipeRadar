@@ -3,12 +3,12 @@ Recipe Radar ChangeLog
 
 v1.37; September 9, 2026
 
-- The recipe detail panel, and now also the tooltip that appears when hovering a recipe in the
-  list, show the skill-up colour breakpoints: yellow, green and grey skill values, so you know
-  at a glance when a recipe stops being worth crafting. The hover tooltip used to only appear
-  in "realm availability" mode; it now shows for every recipe regardless of that setting. Data
-  comes from the server's own database; a handful of profession-tier recipes (the ones that
-  just unlock the next skill cap, with nothing to actually craft) don't show this.
+- The skill-up colour breakpoints (yellow, green, grey skill values) now show in three places:
+  the recipe detail panel, the tooltip when hovering a recipe in the list (which used to only
+  appear in "realm availability" mode; it now shows regardless of that setting), and the item
+  tooltip that appears when hovering the recipe's icon. Data comes from the server's own
+  database; a handful of profession-tier recipes (the ones that just unlock the next skill cap,
+  with nothing to actually craft) don't show this.
 
 v1.36; September 9, 2026
 

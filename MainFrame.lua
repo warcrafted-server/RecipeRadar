@@ -240,6 +240,7 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
    RecipeDetailIcon.Link = link
    RecipeDetailIcon.Hyperlink =
          RecipeRadar_GetHyperlinkByParts(name, link, colorcode)
+   RecipeDetailIcon.Recipe = recipe
 
    -- set the color/content of the money text
    if (recipe.Cost > 0) then  -- 0 denotes a "special" cost
@@ -355,6 +356,19 @@ function RecipeRadar_RecipeDetailIcon_ShowToolTip()
 
    GameTooltip:SetOwner(this, "ANCHOR_RIGHT")
    GameTooltip:SetHyperlink(RecipeDetailIcon.Link)
+
+   -- skill-up colours; not part of the item's own tooltip, so appended here
+   local recipe = RecipeDetailIcon.Recipe
+   if (recipe and recipe.SkillYellow) then
+      GameTooltip:AddLine(
+            RecipeRadar_ColorToCode(YELLOW_FONT_COLOR) .. recipe.SkillYellow ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GREEN_FONT_COLOR) .. recipe.SkillGreen ..
+                  FONT_COLOR_CODE_CLOSE .. " / " ..
+            RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.SkillGrey ..
+                  FONT_COLOR_CODE_CLOSE)
+   end
+
    GameTooltip:Show()
 
    if RecipeDetailIcon.NeedsUpdate then return end
