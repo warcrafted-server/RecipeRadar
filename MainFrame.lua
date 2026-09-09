@@ -112,11 +112,19 @@ function RecipeRadar_DrawListItem(index, recipe)
       button:SetHighlightFontObject(RecipeRadarGrayHighlight)
    end
 
-   -- basic drawing code
-   if (RecipeRadar_Options.RealmAvailability) then
-      button:SetText(name .. indicator)
+   -- basic drawing code; the skill-up breakpoints ride along on the row
+   -- itself so they don't depend on a tooltip being open
+   local skill_up = RecipeRadar_GetSkillUpString(recipe)
+   if (skill_up) then
+      skill_up = "  " .. skill_up
    else
-      button:SetText(name)
+      skill_up = ""
+   end
+
+   if (RecipeRadar_Options.RealmAvailability) then
+      button:SetText(name .. indicator .. skill_up)
+   else
+      button:SetText(name .. skill_up)
    end
    button:SetID(index)
    button:Show()
@@ -226,12 +234,11 @@ function RecipeRadar_SetSelection(vendor, recipe, region_name)
    local name, link, colorcode, _, _, _, texture, cached =
          RecipeRadar_GetSafeItemInfo(recipe.ID)
 
-   RecipeDetailName:SetText(name)
-
-   -- profession + required skill rank, same "(N)" style already used in the
-   -- recipe list (Availability.lua's RecipeRadar_PersonAvail_GetIndicator)
-   RecipeDetailSubText:SetText(
-         recipe.Type .. " " .. format(TEXT(PARENS_TEMPLATE), recipe.Skill))
+   -- RecipeDetailName is the full panel width, so anything anchored to its
+   -- right lands outside the window; profession and skill go on this line
+   RecipeDetailName:SetText(name .. "   " ..
+         RecipeRadar_ColorToCode(GRAY_FONT_COLOR) .. recipe.Type .. " " ..
+         format(TEXT(PARENS_TEMPLATE), recipe.Skill) .. FONT_COLOR_CODE_CLOSE)
 
    -- handle the little icon in the details frame
    RecipeDetailIcon:SetNormalTexture(texture)

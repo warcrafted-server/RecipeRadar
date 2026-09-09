@@ -384,9 +384,22 @@ function RecipeRadar_ZoneDropDown_OnLoad()
 
 end
 
+-- On the radar tab the dropdown picks which region to look at; on the
+-- recipes tab it filters recipes down to one zone.
+function RecipeRadar_ZoneDropDown_IsRadarTab()
+
+   return RecipeRadar_Options.ActiveTab == 1
+
+end
+
 function RecipeRadar_ZoneDropDown_UpdateText()
 
-   local text = RecipeRadar_Options.CurrentZoneFilter or RRS("All Zones")
+   local text
+   if (RecipeRadar_ZoneDropDown_IsRadarTab()) then
+      text = RecipeRadar_Options.CurrentRegion or RRS("All Zones")
+   else
+      text = RecipeRadar_Options.CurrentZoneFilter or RRS("All Zones")
+   end
    UIDropDownMenu_SetText(getglobal("RecipeRadar_ZoneDropDown"), text)
 
 end
@@ -410,7 +423,11 @@ function RecipeRadar_ZoneDropDown_Init(self, level)
          item.text = name
          item.value = name
          item.func = RecipeRadar_ZoneDropDown_OnClick
-         item.checked = (RecipeRadar_Options.CurrentZoneFilter == name)
+         if (RecipeRadar_ZoneDropDown_IsRadarTab()) then
+            item.checked = (RecipeRadar_Options.CurrentRegion == name)
+         else
+            item.checked = (RecipeRadar_Options.CurrentZoneFilter == name)
+         end
          UIDropDownMenu_AddButton(item, 2)
       end
 
@@ -418,13 +435,18 @@ function RecipeRadar_ZoneDropDown_Init(self, level)
 
    end
 
-   local all = { }
-   all.text = RRS("All Zones")
-   all.func = RecipeRadar_ZoneDropDown_OnClick
-   all.checked = (RecipeRadar_Options.CurrentZoneFilter == nil)
-   UIDropDownMenu_AddButton(all)
+   -- "all zones" only means anything to the recipes tab; the radar tab
+   -- always looks at exactly one region
+   if (not RecipeRadar_ZoneDropDown_IsRadarTab()) then
+      local all = { }
+      all.text = RRS("All Zones")
+      all.func = RecipeRadar_ZoneDropDown_OnClick
+      all.checked = (RecipeRadar_Options.CurrentZoneFilter == nil)
+      UIDropDownMenu_AddButton(all)
+   end
 
-   for continent = 1, 4 do
+   -- 0 is the "Instances" pseudo-continent, and it holds a lot of recipes
+   for _, continent in pairs({ 1, 2, 3, 4, 0 }) do
       local item = { }
       item.text = RecipeRadar_Continents[continent]
       item.hasArrow = true
@@ -445,6 +467,12 @@ function RecipeRadar_ZoneDropDown_OnClick()
 end
 
 function RecipeRadar_SetZoneFilter(zone)
+
+   if (RecipeRadar_ZoneDropDown_IsRadarTab()) then
+      RecipeRadar_NewRegion(zone)
+      RecipeRadar_ZoneDropDown_UpdateText()
+      return
+   end
 
    RecipeRadar_Options.CurrentZoneFilter = zone
    RecipeRadar_ZoneDropDown_UpdateText()

@@ -35,6 +35,7 @@ function RecipeRadar_RecipesTab_Init()
    RecipeRadar_ZoneDropDown:Show()
 
    RecipeRadar_SetActiveTab(2)
+   RecipeRadar_ZoneDropDown_UpdateText()
 
    RecipeRadar_RecipesTab_Update()
    RecipeRadarListScrollFrameScrollBar:SetValue(

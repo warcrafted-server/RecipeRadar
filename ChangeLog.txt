@@ -1,6 +1,19 @@
 
 Recipe Radar ChangeLog
 
+v1.40; September 9, 2026
+
+- The skill-up levels now show on the recipe row itself, in colour, so
+  they are visible without hovering anything. Hooking the game's tooltip
+  turned out to be unreliable here: several other addons hook the same
+  tooltip and the last one to load wins.
+- The zone dropdown now appears on both tabs. On the recipes tab it
+  filters recipes down to one zone; on the radar tab it picks which
+  region to look at, so you can check another zone without travelling.
+  Dungeons are listed too, under "Instances".
+- Fixed the profession and skill rank being drawn outside the window;
+  they are on the recipe name line now.
+
 v1.39; September 9, 2026
 
 - Added a zone filter to the recipes tab, below Factions. Pick a

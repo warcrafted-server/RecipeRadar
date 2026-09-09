@@ -6,9 +6,10 @@ function RecipeRadar_RadarTab_Init()
 
    RecipeRadar_Prof1DropDown:Show()
    RecipeRadar_Prof2DropDown:Hide()
-   RecipeRadar_ZoneDropDown:Hide()
+   RecipeRadar_ZoneDropDown:Show()
 
    RecipeRadar_SetActiveTab(1)
+   RecipeRadar_ZoneDropDown_UpdateText()
    
    RecipeRadar_RadarTab_Update()
    RecipeRadarListScrollFrameScrollBar:SetValue(
