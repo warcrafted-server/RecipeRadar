@@ -11,80 +11,6 @@ RecipeRadar_RegionData = {
    MapFile = "Stormwind-City",
    Vendors = {
       {
-         Name = RRS("Kendor Kabonka"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.775, y = 0.527 },
-         },
-         Recipes = {
-            { ID = 728, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2697, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2698, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2699, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2700, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2701, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 2889, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3678, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3679, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3680, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3681, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3682, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 3683, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Alexandra Bolero"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.532, y = 0.817 },
-         },
-         Recipes = {
-            { ID = 6274, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10325, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Catherine Leland"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.551, y = 0.697 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jessara Cordell"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.528, y = 0.743 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Maria Lumere"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.559, y = 0.856 },
-         },
-         Recipes = {
-            { ID = 9301, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("The Origins of Smithing"),
          Team = "Neutral",
          Notes = "Mision",
@@ -93,63 +19,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 9367, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kaita Deepforge"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.632, y = 0.376 },
-         },
-         Recipes = {
-            { ID = 12162, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Khole Jinglepocket"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.623, y = 0.700 },
-         },
-         Recipes = {
-            { ID = 17200, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17201, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Darian Singh"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.425, y = 0.769 },
-         },
-         Recipes = {
-            { ID = 18649, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Edna Mullby"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.647, y = 0.712 },
-         },
-         Recipes = {
-            { ID = 20856, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Erika Tate"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.786, y = 0.528 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -196,6 +65,7 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -302,7 +172,7 @@ RecipeRadar_RegionData = {
             { ID = 41570, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 0 },
             { ID = 41571, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 0 },
          },
-      },
+      }
    },
 },
 
@@ -909,18 +779,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Amy Davenport"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.291, y = 0.473 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 20576, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Lake Thresher"),
          Team = "Neutral",
          Notes = "Drop 0.03%",
@@ -944,17 +802,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Clyde Ranthal"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.890, y = 0.709 },
-         },
-         Recipes = {
-            { ID = 7289, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Tharil'zun"),
          Team = "Neutral",
          Notes = "Drop 0.12%",
@@ -974,18 +821,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11081, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gloria Femmel"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.266, y = 0.434 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -1019,7 +854,7 @@ RecipeRadar_RegionData = {
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
-      },
+      }
    },
 },
 
@@ -1057,21 +892,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Keena"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.741, y = 0.327 },
-         },
-         Recipes = {
-            { ID = 3682, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 5973, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 11163, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 12228, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21942, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Forsaken Bodyguard"),
          Team = "Neutral",
          Notes = "Drop 0.04%",
@@ -1095,17 +915,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Narj Deepslice"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.455, y = 0.476 },
-         },
-         Recipes = {
-            { ID = 4609, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Blackwater Deckhand"),
          Team = "Neutral",
          Notes = "Drop 1.68%",
@@ -1114,52 +923,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5789, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Hammon Karwn"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.465, y = 0.474 },
-         },
-         Recipes = {
-            { ID = 5973, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 12228, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21942, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Drovnar Strongbrew"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.463, y = 0.470 },
-         },
-         Recipes = {
-            { ID = 6056, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jun'ha"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.727, y = 0.364 },
-         },
-         Recipes = {
-            { ID = 7089, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jannos Ironwill"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.460, y = 0.477 },
-         },
-         Recipes = {
-            { ID = 10858, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -1204,41 +967,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11166, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tunkk"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.748, y = 0.346 },
-         },
-         Recipes = {
-            { ID = 13287, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Androd Fadran"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.451, y = 0.468 },
-         },
-         Recipes = {
-            { ID = 13288, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Deneb Walker"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.270, y = 0.588 },
-         },
-         Recipes = {
-            { ID = 16084, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 16112, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 16113, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -1349,7 +1077,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 13287, Type = RRS("Leatherworking"), Skill = 165, Cost = 2500 },
          },
-      },
+      }
    },
 },
 
@@ -1650,17 +1378,6 @@ RecipeRadar_RegionData = {
             { ID = 14467, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 16218, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
             { ID = 16220, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jubie Gadgetspring"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.453, y = 0.910 },
-         },
-         Recipes = {
-            { ID = 10607, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -2029,18 +1746,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Blimo Gadgetspring"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.452, y = 0.909 },
-         },
-         Recipes = {
-            { ID = 15729, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 15751, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Cliff Thunderer"),
          Team = "Neutral",
          Notes = "Drop 0.03%",
@@ -2203,7 +1908,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 10607, Type = RRS("Engineering"), Skill = 230, Cost = 3600 },
          },
-      },
+      }
    },
 },
 
@@ -2224,48 +1929,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Soolie Berryfizz"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.662, y = 0.544 },
-         },
-         Recipes = {
-            { ID = 5642, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 13478, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tansy Puddlefizz"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.481, y = 0.064 },
-         },
-         Recipes = {
-            { ID = 6326, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tilli Thistlefuzz"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.610, y = 0.439 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6349, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Gearing Redridge"),
          Team = "Neutral",
          Notes = "Mision",
@@ -2274,86 +1937,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6735, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gearcutter Cogspinner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.677, y = 0.424 },
-         },
-         Recipes = {
-            { ID = 7560, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 16041, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 16042, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18649, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 22729, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Outfitter Eric"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.433, y = 0.291 },
-         },
-         Recipes = {
-            { ID = 10314, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10317, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10321, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10323, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10326, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Wulmort Jinglepocket"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.337, y = 0.670 },
-         },
-         Recipes = {
-            { ID = 17200, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17201, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 34262, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34319, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 34413, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Bombus Finespindle"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.395, y = 0.344 },
-         },
-         Recipes = {
-            { ID = 18731, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Burbik Gearspanner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.463, y = 0.269 },
-         },
-         Recipes = {
-            { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Emrul Riknussun"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.599, y = 0.373 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -2376,6 +1959,8 @@ RecipeRadar_RegionData = {
             { ID = 18649, Type = RRS("Engineering"), Skill = 150, Cost = 1800 },
             { ID = 7560, Type = RRS("Engineering"), Skill = 125, Cost = 1200 },
             { ID = 22729, Type = RRS("Engineering"), Skill = 275, Cost = 8000 },
+            { ID = 16041, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
+            { ID = 16042, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -2428,6 +2013,7 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -2466,7 +2052,7 @@ RecipeRadar_RegionData = {
             { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 250, Cost = 7500 },
             { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 170, Cost = 2500 },
          },
-      },
+      }
    },
 },
 
@@ -2512,68 +2098,6 @@ RecipeRadar_RegionData = {
             { ID = 11225, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
             { ID = 14478, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 14479, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Bronk"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.761, y = 0.433 },
-         },
-         Recipes = {
-            { ID = 6057, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 9302, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Logannas"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.327, y = 0.440 },
-         },
-         Recipes = {
-            { ID = 6057, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 9302, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Brienna Starglow"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.889, y = 0.459 },
-         },
-         Recipes = {
-            { ID = 7089, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Pratt McGrubben"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.306, y = 0.427 },
-         },
-         Recipes = {
-            { ID = 7451, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 8385, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 15734, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jangdor Swiftstrider"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.744, y = 0.429 },
-         },
-         Recipes = {
-            { ID = 7451, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 8385, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 8409, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 15734, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -2759,34 +2283,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11225, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vivianna"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.313, y = 0.435 },
-         },
-         Recipes = {
-            { ID = 12229, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13947, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13948, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13949, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sheendra Tallgrass"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.745, y = 0.427 },
-         },
-         Recipes = {
-            { ID = 12229, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13947, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13948, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13949, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -3167,17 +2663,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Zorbin Fandazzle"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.448, y = 0.434 },
-         },
-         Recipes = {
-            { ID = 19027, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("The Windreaver"),
          Team = "Neutral",
          Notes = "Drop 30.56%",
@@ -3310,7 +2795,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
          },
-      },
+      }
    },
 },
 
@@ -3362,20 +2847,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Nerrist"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.327, y = 0.292 },
-         },
-         Recipes = {
-            { ID = 3682, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 12228, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 12231, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21943, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Kurzen Commando"),
          Team = "Neutral",
          Notes = "Drop 2.22%",
@@ -3384,60 +2855,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5788, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Blixrez Goodstitch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.283, y = 0.775 },
-         },
-         Recipes = {
-            { ID = 5788, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 5789, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kelsey Yance"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.282, y = 0.743 },
-         },
-         Recipes = {
-            { ID = 6039, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13940, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13941, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13943, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Glyx Brewright"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.281, y = 0.781 },
-         },
-         Recipes = {
-            { ID = 6056, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 6057, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Xizk Goodstitch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.287, y = 0.769 },
-         },
-         Recipes = {
-            { ID = 7087, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 14630, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -3701,28 +3118,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Cowardly Crosby"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.270, y = 0.825 },
-         },
-         Recipes = {
-            { ID = 10318, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Knaz Blunderflame"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.511, y = 0.352 },
-         },
-         Recipes = {
-            { ID = 10602, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("King Bangalash"),
          Team = "Neutral",
          Notes = "Drop 0.06%",
@@ -3731,17 +3126,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 10603, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Narkk"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.281, y = 0.744 },
-         },
-         Recipes = {
-            { ID = 10728, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -3756,50 +3140,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jutak"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.275, y = 0.775 },
-         },
-         Recipes = {
-            { ID = 12162, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Zarena Cromwind"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.283, y = 0.755 },
-         },
-         Recipes = {
-            { ID = 12163, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jaquilina Dramet"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.357, y = 0.107 },
-         },
-         Recipes = {
-            { ID = 12164, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vharr"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.324, y = 0.279 },
-         },
-         Recipes = {
-            { ID = 12164, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Gurubashi Warrior"),
          Team = "Neutral",
          Notes = "Drop 0.1%",
@@ -3809,29 +3149,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 12684, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
             { ID = 14479, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mazk Snipeshot"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.285, y = 0.751 },
-         },
-         Recipes = {
-            { ID = 13310, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18651, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gnaz Blunderflame"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.510, y = 0.352 },
-         },
-         Recipes = {
-            { ID = 13311, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -3884,40 +3201,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Rikqiz"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.285, y = 0.760 },
-         },
-         Recipes = {
-            { ID = 14635, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 18239, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Old Man Heming"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.274, y = 0.772 },
-         },
-         Recipes = {
-            { ID = 16083, Type = RRS("Fishing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Uthok"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.316, y = 0.280 },
-         },
-         Recipes = {
-            { ID = 16111, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Gurubashi Warrior"),
          Team = "Neutral",
          Notes = "Drop 0.03%",
@@ -3926,49 +3209,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 16220, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Crazk Sparks"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.284, y = 0.767 },
-         },
-         Recipes = {
-            { ID = 18648, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Rin'wosho the Trader"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.151, y = 0.160 },
-         },
-         Recipes = {
-            { ID = 19764, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19765, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19766, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19769, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19770, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19771, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19772, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19773, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19776, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19777, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19778, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19779, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19780, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19781, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 20000, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 20001, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 20011, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 20012, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 20013, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 20014, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 20756, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20757, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -4155,6 +3395,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 13310, Type = RRS("Engineering"), Skill = 180, Cost = 2000 },
+            { ID = 18651, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -4248,7 +3489,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
          },
-      },
+      }
    },
 },
 
@@ -4257,18 +3498,6 @@ RecipeRadar_RegionData = {
    Continent = 1,
    MapFile = "Ashenvale",
    Vendors = {
-      {
-         Name = RRS("Ulthaan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.500, y = 0.667 },
-         },
-         Recipes = {
-            { ID = 3734, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 5489, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Wandering Protector"),
          Team = "Neutral",
@@ -4291,53 +3520,6 @@ RecipeRadar_RegionData = {
             { ID = 4297, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
             { ID = 4412, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
             { ID = 7453, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lardan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.348, y = 0.498 },
-         },
-         Recipes = {
-            { ID = 5973, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Harklan Moongrove"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.508, y = 0.670 },
-         },
-         Recipes = {
-            { ID = 6054, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Wik'Tar"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.117, y = 0.341 },
-         },
-         Recipes = {
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Dalria"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.351, y = 0.521 },
-         },
-         Recipes = {
-            { ID = 11039, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 11101, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20855, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -4493,17 +3675,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Shandrina"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.495, y = 0.671 },
-         },
-         Recipes = {
-            { ID = 16072, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Dalria"),
          Team = "Alliance",
          Coordinates = {
@@ -4576,7 +3747,7 @@ RecipeRadar_RegionData = {
             { ID = 17062, Type = RRS("Cooking"), Skill = 175, Cost = 2200 },
             { ID = 6369, Type = RRS("Cooking"), Skill = 175, Cost = 2200 },
          },
-      },
+      }
    },
 },
 
@@ -4675,30 +3846,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Kzixx"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.818, y = 0.197 },
-         },
-         Recipes = {
-            { ID = 6053, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 7561, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sheri Zipstitch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.756, y = 0.455 },
-         },
-         Recipes = {
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6401, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Corporal Bluth"),
          Team = "Neutral",
          Notes = "Vendedor",
@@ -4708,17 +3855,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 12228, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
             { ID = 12231, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Danielle Zipstitch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.759, y = 0.455 },
-         },
-         Recipes = {
-            { ID = 14627, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -4762,7 +3898,7 @@ RecipeRadar_RegionData = {
             { ID = 6053, Type = RRS("Alchemy"), Skill = 100, Cost = 800 },
             { ID = 7561, Type = RRS("Engineering"), Skill = 165, Cost = 2000 },
          },
-      },
+      }
    },
 },
 
@@ -5171,31 +4307,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Kriggon Talsone"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.362, y = 0.902 },
-         },
-         Recipes = {
-            { ID = 5528, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6326, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 16111, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Defias Profiteer"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.435, y = 0.667 },
-         },
-         Recipes = {
-            { ID = 5640, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Defias Looter"),
          Team = "Neutral",
          Notes = "Drop 1.94%",
@@ -5204,20 +4315,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gina MacGregor"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.576, y = 0.540 },
-         },
-         Recipes = {
-            { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 5786, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 5787, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 6274, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -5332,7 +4429,7 @@ RecipeRadar_RegionData = {
             { ID = 6326, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
             { ID = 16111, Type = RRS("Cooking"), Skill = 225, Cost = 12000 },
          },
-      },
+      }
    },
 },
 
@@ -5466,54 +4563,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Xandar Goodbeard"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.825, y = 0.633 },
-         },
-         Recipes = {
-            { ID = 5640, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 6053, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Rann Flamespinner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.359, y = 0.459 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Khara Deepwater"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.403, y = 0.393 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6329, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Drac Roughcut"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.355, y = 0.491 },
-         },
-         Recipes = {
-            { ID = 6892, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Drac Roughcut"),
          Team = "Alliance",
          Coordinates = {
@@ -5556,7 +4605,7 @@ RecipeRadar_RegionData = {
             { ID = 6053, Type = RRS("Alchemy"), Skill = 100, Cost = 800 },
             { ID = 5640, Type = RRS("Alchemy"), Skill = 60, Cost = 100 },
          },
-      },
+      }
    },
 },
 
@@ -5565,30 +4614,6 @@ RecipeRadar_RegionData = {
    Continent = 2,
    MapFile = "Elwynn-Forest",
    Vendors = {
-      {
-         Name = RRS("Tharynn Bouden"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.418, y = 0.672 },
-         },
-         Recipes = {
-            { ID = 6270, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Drake Lindgren"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.833, y = 0.667 },
-         },
-         Recipes = {
-            { ID = 6272, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Drake Lindgren"),
          Team = "Alliance",
@@ -5610,7 +4635,7 @@ RecipeRadar_RegionData = {
             { ID = 6325, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
             { ID = 6328, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
          },
-      },
+      }
    },
 },
 
@@ -5620,47 +4645,6 @@ RecipeRadar_RegionData = {
    MapFile = "Darnassus",
    Vendors = {
       {
-         Name = RRS("Ulthir"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.559, y = 0.246 },
-         },
-         Recipes = {
-            { ID = 5642, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 5643, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 13477, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Elynna"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.647, y = 0.216 },
-         },
-         Recipes = {
-            { ID = 6272, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10311, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vaean"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.586, y = 0.148 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Moonglow Vest"),
          Team = "Neutral",
          Notes = "Mision",
@@ -5669,43 +4653,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6710, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Saenorion"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.637, y = 0.223 },
-         },
-         Recipes = {
-            { ID = 7451, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 18949, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mythrin'dir"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.610, y = 0.178 },
-         },
-         Recipes = {
-            { ID = 11223, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 16217, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20854, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Fyldan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.486, y = 0.217 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -5752,6 +4699,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 5642, Type = RRS("Alchemy"), Skill = 150, Cost = 1800 },
             { ID = 5643, Type = RRS("Alchemy"), Skill = 175, Cost = 2000 },
+            { ID = 13477, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -5765,6 +4713,7 @@ RecipeRadar_RegionData = {
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -5777,7 +4726,7 @@ RecipeRadar_RegionData = {
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
          },
-      },
+      }
    },
 },
 
@@ -5809,18 +4758,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jennabink Powerseam"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.081, y = 0.558 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Captain Halyndor"),
          Team = "Neutral",
          Notes = "Drop 1%",
@@ -5829,32 +4766,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5788, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Stuart Fleming"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.080, y = 0.583 },
-         },
-         Recipes = {
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Wenna Silkbeard"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.256, y = 0.258 },
-         },
-         Recipes = {
-            { ID = 7114, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 7290, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 7613, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -5927,18 +4838,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Fradd Swiftgear"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.264, y = 0.257 },
-         },
-         Recipes = {
-            { ID = 13309, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 14639, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Axtroz"),
          Team = "Neutral",
          Notes = "Drop 0.06%",
@@ -5960,17 +4859,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 14508, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Neal Allen"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.107, y = 0.567 },
-         },
-         Recipes = {
-            { ID = 20970, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -6070,7 +4958,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
          },
-      },
+      }
    },
 },
 
@@ -6088,28 +4976,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 7990, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Harggan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.134, y = 0.442 },
-         },
-         Recipes = {
-            { ID = 7995, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nioma"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.133, y = 0.434 },
-         },
-         Recipes = {
-            { ID = 8409, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -6410,17 +5276,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Ruppo Zipcoil"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.343, y = 0.378 },
-         },
-         Recipes = {
-            { ID = 10609, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Verdantine Oracle"),
          Team = "Neutral",
          Notes = "Drop 0.05%",
@@ -6559,17 +5414,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Gigget Zipcoil"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.344, y = 0.386 },
-         },
-         Recipes = {
-            { ID = 15735, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Mith'rethis the Enchanter"),
          Team = "Neutral",
          Notes = "Drop 0.42%",
@@ -6611,29 +5455,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 16245, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Truk Wildbeard"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.144, y = 0.423 },
-         },
-         Recipes = {
-            { ID = 18046, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Otho Moji'ko"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.794, y = 0.791 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -6696,7 +5517,7 @@ RecipeRadar_RegionData = {
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
-      },
+      }
    },
 },
 
@@ -6726,17 +5547,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 4352, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 6454, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gretta Ganter"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.316, y = 0.446 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -6803,7 +5613,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 10858, Type = RRS("Blacksmithing"), Skill = 155, Cost = 3000 },
          },
-      },
+      }
    },
 },
 
@@ -7363,17 +6173,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Laird"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.368, y = 0.443 },
-         },
-         Recipes = {
-            { ID = 5485, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Easy Strider Living"),
          Team = "Neutral",
          Notes = "Mision",
@@ -7385,33 +6184,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Heldan Galesong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.370, y = 0.564 },
-         },
-         Recipes = {
-            { ID = 5528, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Valdaron"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.382, y = 0.406 },
-         },
-         Recipes = {
-            { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6270, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Dark Strand Voidcaller"),
          Team = "Neutral",
          Notes = "Drop 2%",
@@ -7420,18 +6192,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5773, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mavralyn"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.370, y = 0.412 },
-         },
-         Recipes = {
-            { ID = 5786, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 5787, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -7756,7 +6516,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
          },
-      },
+      }
    },
 },
 
@@ -7898,22 +6658,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Helenia Olden"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.664, y = 0.514 },
-         },
-         Recipes = {
-            { ID = 5789, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 12228, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 12233, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 12239, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21941, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 21943, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Aean Swiftriver"),
          Team = "Neutral",
          Notes = "Drop 0.16%",
@@ -7947,6 +6691,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6661, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
+            { ID = 44977, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -8082,17 +6827,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Prospector Khazgorm"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.247, y = 0.622 },
-         },
-         Recipes = {
-            { ID = 44977, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Helenia Olden"),
          Team = "Alliance",
          Coordinates = {
@@ -8141,7 +6875,7 @@ RecipeRadar_RegionData = {
             { ID = 20075, Type = RRS("Cooking"), Skill = 150, Cost = 2000 },
             { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
-      },
+      }
    },
 },
 
@@ -8291,21 +7025,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Wulan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.262, y = 0.696 },
-         },
-         Recipes = {
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 16072, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Rabid Bonepaw"),
          Team = "Neutral",
          Notes = "Drop 0.08%",
@@ -8337,20 +7056,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 7085, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 10302, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kireena"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.510, y = 0.535 },
-         },
-         Recipes = {
-            { ID = 7114, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 12232, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 12240, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 20973, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -8410,17 +7115,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Muuran"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.556, y = 0.565 },
-         },
-         Recipes = {
-            { ID = 10858, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Deepstrider Searcher"),
          Team = "Neutral",
          Notes = "Drop 0.16%",
@@ -8429,14 +7123,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11204, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Super-Seller 680"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Recipes = {
-            { ID = 12227, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -8518,7 +7204,7 @@ RecipeRadar_RegionData = {
             { ID = 5489, Type = RRS("Cooking"), Skill = 110, Cost = 1200 },
             { ID = 12228, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
-      },
+      }
    },
 },
 
@@ -8527,22 +7213,6 @@ RecipeRadar_RegionData = {
    Continent = 2,
    MapFile = "Western-Plaguelands",
    Vendors = {
-      {
-         Name = RRS("Magnus Frostwake"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.680, y = 0.775 },
-         },
-         Recipes = {
-            { ID = 8030, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 12703, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 12819, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 12823, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 13485, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 13501, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Slavering Ghoul"),
          Team = "Neutral",
@@ -8736,26 +7406,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 12836, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Argent Quartermaster Lightspark"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.428, y = 0.837 },
-         },
-         Recipes = {
-            { ID = 13482, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 19203, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19205, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19216, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19217, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19328, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19329, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19442, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 19446, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 19447, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -9300,18 +7950,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Leonard Porter"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.431, y = 0.843 },
-         },
-         Recipes = {
-            { ID = 15725, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 15741, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Scarlet Cavalier"),
          Team = "Neutral",
          Notes = "Drop 0.12%",
@@ -9455,7 +8093,7 @@ RecipeRadar_RegionData = {
             { ID = 12819, Type = RRS("Blacksmithing"), Skill = 275, Cost = 16000 },
             { ID = 12703, Type = RRS("Blacksmithing"), Skill = 295, Cost = 40000 },
          },
-      },
+      }
    },
 },
 
@@ -9559,23 +8197,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Micha Yance"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.489, y = 0.550 },
-         },
-         Recipes = {
-            { ID = 4355, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 5788, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 11163, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20971, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 20973, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Writhing Mage"),
          Team = "Neutral",
          Notes = "Drop 0.04%",
@@ -9613,80 +8234,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Zixil"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.555, y = 0.346 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6377, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 7362, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 7561, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nandar Branson"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.509, y = 0.571 },
-         },
-         Recipes = {
-            { ID = 6055, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mallen Swain"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.619, y = 0.210 },
-         },
-         Recipes = {
-            { ID = 6274, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6401, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Derak Nightfall"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.631, y = 0.194 },
-         },
-         Recipes = {
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lindea Rabonne"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.506, y = 0.609 },
-         },
-         Recipes = {
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("George Candarte"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.920, y = 0.382 },
-         },
-         Recipes = {
-            { ID = 7613, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -9912,7 +8459,7 @@ RecipeRadar_RegionData = {
             { ID = 7362, Type = RRS("Leatherworking"), Skill = 135, Cost = 2000 },
             { ID = 5772, Type = RRS("Tailoring"), Skill = 115, Cost = 500 },
          },
-      },
+      }
    },
 },
 
@@ -10244,19 +8791,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Bale"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.347, y = 0.533 },
-         },
-         Recipes = {
-            { ID = 16110, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 35564, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 35566, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Malygen"),
          Team = "Alliance",
          Coordinates = {
@@ -10299,7 +8833,7 @@ RecipeRadar_RegionData = {
             { ID = 19218, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Timbermaw Hold"), Level = 7 },
             { ID = 22392, Type = RRS("Enchanting"), Skill = 290, Cost = 25000, Faction = RRS("Timbermaw Hold"), Level = 5 },
          },
-      },
+      }
    },
 },
 
@@ -10686,32 +9220,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Nyoma"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.572, y = 0.613 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nessa Shadowsong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.563, y = 0.924 },
-         },
-         Recipes = {
-            { ID = 6326, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Nessa Shadowsong"),
          Team = "Alliance",
          Coordinates = {
@@ -10734,7 +9242,7 @@ RecipeRadar_RegionData = {
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
          },
-      },
+      }
    },
 },
 
@@ -10743,17 +9251,6 @@ RecipeRadar_RegionData = {
    Continent = 2,
    MapFile = "Blasted-Lands",
    Vendors = {
-      {
-         Name = RRS("Nina Lightbrew"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.668, y = 0.182 },
-         },
-         Recipes = {
-            { ID = 9300, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Deadwind Warlock"),
          Team = "Neutral",
@@ -11209,7 +9706,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 9300, Type = RRS("Alchemy"), Skill = 250, Cost = 10000 },
          },
-      },
+      }
    },
 },
 
@@ -11227,40 +9724,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 4597, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Constance Brisboise"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.526, y = 0.558 },
-         },
-         Recipes = {
-            { ID = 6270, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Martine Tramblay"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.659, y = 0.597 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6326, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Abigail Shiel"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.610, y = 0.524 },
-         },
-         Recipes = {
-            { ID = 12226, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11323,7 +9786,7 @@ RecipeRadar_RegionData = {
             { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
             { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
          },
-      },
+      }
    },
 },
 
@@ -11333,123 +9796,6 @@ RecipeRadar_RegionData = {
    MapFile = "Undercity",
    Vendors = {
       {
-         Name = RRS("Millie Gregorian"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.706, y = 0.303 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10321, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10323, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10326, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lizbeth Cromwell"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.811, y = 0.308 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ronald Burch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.624, y = 0.431 },
-         },
-         Recipes = {
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Thaddeus Webb"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.625, y = 0.611 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Joseph Moore"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.701, y = 0.586 },
-         },
-         Recipes = {
-            { ID = 7451, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 18949, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Algernon"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.517, y = 0.748 },
-         },
-         Recipes = {
-            { ID = 9301, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 13477, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Daniel Bartlett"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.641, y = 0.375 },
-         },
-         Recipes = {
-            { ID = 16217, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20854, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nardstrum Copperpinch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.683, y = 0.389 },
-         },
-         Recipes = {
-            { ID = 17200, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17201, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Felicia Doan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.642, y = 0.506 },
-         },
-         Recipes = {
-            { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Algernon"),
          Team = "Horde",
          Coordinates = {
@@ -11457,6 +9803,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 9301, Type = RRS("Alchemy"), Skill = 250, Cost = 10000 },
+            { ID = 13477, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11532,6 +9879,7 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11555,7 +9903,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 170, Cost = 2500 },
          },
-      },
+      }
    },
 },
 
@@ -11584,65 +9932,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Andrew Hilbert"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.432, y = 0.407 },
-         },
-         Recipes = {
-            { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 5786, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 5787, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 6272, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6892, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Killian Sanatha"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.330, y = 0.179 },
-         },
-         Recipes = {
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lilly"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.430, y = 0.508 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6346, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Leo Sarn"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.539, y = 0.822 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6349, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11682,6 +9971,7 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11696,8 +9986,9 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
-      },
+      }
    },
 },
 
@@ -11715,28 +10006,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5974, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gharash"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.454, y = 0.514 },
-         },
-         Recipes = {
-            { ID = 7995, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Rartar"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.454, y = 0.568 },
-         },
-         Recipes = {
-            { ID = 9300, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11770,20 +10039,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11205, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Banalash"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.447, y = 0.566 },
-         },
-         Recipes = {
-            { ID = 11223, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 12232, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 16111, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21941, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -11844,17 +10099,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Masat T'andr"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.264, y = 0.315 },
-         },
-         Recipes = {
-            { ID = 15726, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Nethergarde Elite"),
          Team = "Neutral",
          Notes = "Drop 1.92%",
@@ -11907,7 +10151,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 15726, Type = RRS("Leatherworking"), Skill = 260, Cost = 12000 },
          },
-      },
+      }
    },
 },
 
@@ -11954,45 +10198,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Hagrus"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.459, y = 0.457 },
-         },
-         Recipes = {
-            { ID = 5640, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 5643, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kor'geld"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.560, y = 0.342 },
-         },
-         Recipes = {
-            { ID = 5642, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 13478, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Borya"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.631, y = 0.515 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6270, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6274, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10314, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10317, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Felweaver Scornn"),
          Team = "Neutral",
          Notes = "Drop 0.03%",
@@ -12002,36 +10207,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 6271, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 6347, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kithas"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.539, y = 0.380 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6346, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6349, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Shankys"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.700, y = 0.298 },
-         },
-         Recipes = {
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6369, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17062, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -12090,80 +10265,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Sumi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.826, y = 0.240 },
-         },
-         Recipes = {
-            { ID = 12162, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sovik"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.755, y = 0.254 },
-         },
-         Recipes = {
-            { ID = 16041, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 16042, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18647, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 22729, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Penney Copperpinch"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.531, y = 0.659 },
-         },
-         Recipes = {
-            { ID = 17200, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17201, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 34261, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 34262, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34413, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tamar"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.630, y = 0.455 },
-         },
-         Recipes = {
-            { ID = 18731, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Felika"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.606, y = 0.489 },
-         },
-         Recipes = {
-            { ID = 20856, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Xen'to"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.576, y = 0.529 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Borya"),
          Team = "Horde",
          Coordinates = {
@@ -12201,6 +10302,7 @@ RecipeRadar_RegionData = {
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -12250,6 +10352,8 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 18647, Type = RRS("Engineering"), Skill = 150, Cost = 1800 },
             { ID = 22729, Type = RRS("Engineering"), Skill = 275, Cost = 8000 },
+            { ID = 16041, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
+            { ID = 16042, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -12320,7 +10424,7 @@ RecipeRadar_RegionData = {
             { ID = 41570, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 0 },
             { ID = 41571, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 0 },
          },
-      },
+      }
    },
 },
 
@@ -12396,17 +10500,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Grimtak"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.511, y = 0.426 },
-         },
-         Recipes = {
-            { ID = 5483, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Captain Flat Tusk"),
          Team = "Neutral",
          Notes = "Drop 0.167%",
@@ -12416,18 +10509,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 6271, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
             { ID = 6347, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Zansoa"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.560, y = 0.734 },
-         },
-         Recipes = {
-            { ID = 6326, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -12582,7 +10663,7 @@ RecipeRadar_RegionData = {
             { ID = 6368, Type = RRS("Cooking"), Skill = 50, Cost = 400 },
             { ID = 6326, Type = RRS("Cooking"), Skill = 1, Cost = 40 },
          },
-      },
+      }
    },
 },
 
@@ -12591,29 +10672,6 @@ RecipeRadar_RegionData = {
    Continent = 1,
    MapFile = "Mulgore",
    Vendors = {
-      {
-         Name = RRS("Wunna Darkmane"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.462, y = 0.582 },
-         },
-         Recipes = {
-            { ID = 5484, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Harn Longcast"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.475, y = 0.550 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Harn Longcast"),
          Team = "Horde",
@@ -12634,7 +10692,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 5484, Type = RRS("Cooking"), Skill = 35, Cost = 240 },
          },
-      },
+      }
    },
 },
 
@@ -12708,17 +10766,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Zargh"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.526, y = 0.298 },
-         },
-         Recipes = {
-            { ID = 3735, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Swinegart Spearhide"),
          Team = "Neutral",
          Notes = "Drop 0.54%",
@@ -12780,18 +10827,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Tari'qa"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.517, y = 0.300 },
-         },
-         Recipes = {
-            { ID = 5486, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 5488, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Dig Rat Stew"),
          Team = "Neutral",
          Notes = "Mision",
@@ -12811,56 +10846,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5578, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ranik"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.619, y = 0.387 },
-         },
-         Recipes = {
-            { ID = 5640, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 6272, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6275, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 20855, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Yonada"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.450, y = 0.593 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6274, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kiknikle"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.418, y = 0.387 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Wrahk"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.522, y = 0.317 },
-         },
-         Recipes = {
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6270, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 6272, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -12905,29 +10890,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5972, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Hula'mahi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.514, y = 0.302 },
-         },
-         Recipes = {
-            { ID = 6053, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kilxx"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.628, y = 0.382 },
-         },
-         Recipes = {
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6368, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14078,18 +12040,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Gagsprocket"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.626, y = 0.363 },
-         },
-         Recipes = {
-            { ID = 14639, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18648, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Strashaz Serpent Guard"),
          Team = "Neutral",
          Notes = "Drop 0.368%",
@@ -14144,18 +12094,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 18160, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tarban Hearthgrain"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.551, y = 0.321 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14287,7 +12225,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 44977, Type = RRS("Cooking"), Skill = 90, Cost = 800 },
          },
-      },
+      }
    },
 },
 
@@ -14336,29 +12274,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jandia"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.462, y = 0.515 },
-         },
-         Recipes = {
-            { ID = 5973, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20970, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Montarr"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.451, y = 0.508 },
-         },
-         Recipes = {
-            { ID = 6068, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Razorfen Servitor"),
          Team = "Neutral",
          Notes = "Drop 0.08%",
@@ -14367,18 +12282,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6661, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jinky Twizzlefixxit"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.777, y = 0.779 },
-         },
-         Recipes = {
-            { ID = 7560, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 13309, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14445,7 +12348,7 @@ RecipeRadar_RegionData = {
             { ID = 7560, Type = RRS("Engineering"), Skill = 125, Cost = 1200 },
             { ID = 13309, Type = RRS("Engineering"), Skill = 120, Cost = 1000 },
          },
-      },
+      }
    },
 },
 
@@ -14487,17 +12390,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 6044, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jeeda"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.476, y = 0.616 },
-         },
-         Recipes = {
-            { ID = 6055, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14548,17 +12440,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Veenix"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.582, y = 0.518 },
-         },
-         Recipes = {
-            { ID = 7561, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Foreman Rigger"),
          Team = "Neutral",
          Notes = "Drop 0.3%",
@@ -14567,18 +12448,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 11038, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kulwia"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.454, y = 0.594 },
-         },
-         Recipes = {
-            { ID = 11039, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 11101, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14656,7 +12525,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 7561, Type = RRS("Engineering"), Skill = 165, Cost = 2000 },
          },
-      },
+      }
    },
 },
 
@@ -14674,74 +12543,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 5083, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mahu"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.438, y = 0.450 },
-         },
-         Recipes = {
-            { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 5772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10311, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 10325, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sewa Mistrunner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.557, y = 0.470 },
-         },
-         Recipes = {
-            { ID = 6325, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Naal Mistrunner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.509, y = 0.523 },
-         },
-         Recipes = {
-            { ID = 6328, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 6330, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nata Dawnstrider"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.450, y = 0.387 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6349, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 6377, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Shadi Mistrunner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.407, y = 0.640 },
-         },
-         Recipes = {
-            { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14783,6 +12584,7 @@ RecipeRadar_RegionData = {
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 20752, Type = RRS("Enchanting"), Skill = 150, Cost = 3000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -14817,7 +12619,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 250, Cost = 7500 },
          },
-      },
+      }
    },
 },
 
@@ -14826,26 +12628,6 @@ RecipeRadar_RegionData = {
    Continent = 1,
    MapFile = "Silithus",
    Vendors = {
-      {
-         Name = RRS("Kania"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.520, y = 0.397 },
-         },
-         Recipes = {
-            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20732, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20733, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20754, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20755, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22308, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Lapress"),
          Team = "Neutral",
@@ -15261,58 +13043,6 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Aendel Windspear"),
          Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.626, y = 0.498 },
-         },
-         Recipes = {
-            { ID = 20382, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20506, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20507, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20508, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20509, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20510, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 20511, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 22769, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 22770, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 22771, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mishta"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.499, y = 0.363 },
-         },
-         Recipes = {
-            { ID = 21952, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 22310, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22312, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22683, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22772, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22773, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22774, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vargus"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.512, y = 0.388 },
-         },
-         Recipes = {
-            { ID = 22209, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 22214, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 22766, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 22767, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 22768, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Aendel Windspear"),
-         Team = "Neutral",
          Coordinates = {
             { x = 0.626, y = 0.498 },
          },
@@ -15356,6 +13086,7 @@ RecipeRadar_RegionData = {
             { ID = 20753, Type = RRS("Enchanting"), Skill = 200, Cost = 4000 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
             { ID = 22308, Type = RRS("Tailoring"), Skill = 275, Cost = 20000 },
+            { ID = 6342, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -15396,7 +13127,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
          },
-      },
+      }
    },
 },
 
@@ -15451,44 +13182,6 @@ RecipeRadar_RegionData = {
             { ID = 11202, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
             { ID = 11204, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
             { ID = 11208, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Krinkle Goodsteel"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.515, y = 0.288 },
-         },
-         Recipes = {
-            { ID = 6047, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Alchemist Pestlezugg"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.509, y = 0.270 },
-         },
-         Recipes = {
-            { ID = 6057, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 9303, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 9304, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 9305, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 12958, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vizzklick"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.510, y = 0.273 },
-         },
-         Recipes = {
-            { ID = 7088, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21358, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -15847,20 +13540,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Gikkix"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.666, y = 0.221 },
-         },
-         Recipes = {
-            { ID = 13939, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13942, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13945, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 13946, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Occulus"),
          Team = "Neutral",
          Notes = "Drop 0.02%",
@@ -15952,17 +13631,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jabbey"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.670, y = 0.220 },
-         },
-         Recipes = {
-            { ID = 16767, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Southsea Freebooter"),
          Team = "Neutral",
          Notes = "Drop 0.02%",
@@ -15974,39 +13642,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Dirge Quikcleave"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.526, y = 0.281 },
-         },
-         Recipes = {
-            { ID = 18046, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Innkeeper Fizzgrimble"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.525, y = 0.279 },
-         },
-         Recipes = {
-            { ID = 18046, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Blizrik Buckshot"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.507, y = 0.275 },
-         },
-         Recipes = {
-            { ID = 18650, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Dirge's Kickin' Chimaerok Chops"),
          Team = "Neutral",
          Notes = "Mision",
@@ -16015,39 +13650,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 21025, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Alurmi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.636, y = 0.576 },
-         },
-         Recipes = {
-            { ID = 22536, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 24174, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24181, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 25910, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28272, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 29713, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 31355, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33152, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33158, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33160, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Haughty Modiste"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.666, y = 0.223 },
-         },
-         Recipes = {
-            { ID = 37915, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 38327, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 38328, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -16177,7 +13779,7 @@ RecipeRadar_RegionData = {
             { ID = 38327, Type = RRS("Tailoring"), Skill = 250, Cost = 5000 },
             { ID = 38328, Type = RRS("Tailoring"), Skill = 245, Cost = 4500 },
          },
-      },
+      }
    },
 },
 
@@ -16445,39 +14047,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Rizz Loosebolt"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.473, y = 0.352 },
-         },
-         Recipes = {
-            { ID = 13308, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Bro'kin"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.382, y = 0.389 },
-         },
-         Recipes = {
-            { ID = 14634, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Smudge Thunderwood"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.861, y = 0.796 },
-         },
-         Recipes = {
-            { ID = 18160, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Grel'borg the Miser"),
          Team = "Neutral",
          Notes = "Drop 0.27%",
@@ -16527,7 +14096,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 7742, Type = RRS("Engineering"), Skill = 200, Cost = 2400 },
          },
-      },
+      }
    },
 },
 
@@ -16536,46 +14105,6 @@ RecipeRadar_RegionData = {
    Continent = 1,
    MapFile = "Moonglade",
    Vendors = {
-      {
-         Name = RRS("Darnall"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.515, y = 0.333 },
-         },
-         Recipes = {
-            { ID = 14469, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 14472, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 14488, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lorelae Wintersong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.482, y = 0.402 },
-         },
-         Recipes = {
-            { ID = 14483, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 16224, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 16243, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Fariel Starsong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.538, y = 0.354 },
-         },
-         Recipes = {
-            { ID = 44916, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 44917, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 44918, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 44919, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Darnall"),
          Team = "Neutral",
@@ -16612,7 +14141,7 @@ RecipeRadar_RegionData = {
             { ID = 44918, Type = RRS("Engineering"), Skill = 275, Cost = 5, Notes = RRS("CostItem: 21100") },
             { ID = 44919, Type = RRS("Engineering"), Skill = 225, Cost = 5, Notes = RRS("CostItem: 21100") },
          },
-      },
+      }
    },
 },
 
@@ -17199,17 +14728,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Evie Whirlbrew"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.608, y = 0.378 },
-         },
-         Recipes = {
-            { ID = 13480, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Meilosh"),
          Team = "Neutral",
          Notes = "Vendedor",
@@ -17286,22 +14804,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 13518, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Qia"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.612, y = 0.372 },
-         },
-         Recipes = {
-            { ID = 14468, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 14481, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 14526, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 15740, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 16221, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 21957, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -17764,22 +15266,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Xizzer Fizzbolt"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.608, y = 0.386 },
-         },
-         Recipes = {
-            { ID = 16046, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 16047, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 16050, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18652, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 18656, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 32381, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Cobalt Mageweaver"),
          Team = "Neutral",
          Notes = "Drop 2%",
@@ -17788,17 +15274,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 16054, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Himmik"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.613, y = 0.392 },
-         },
-         Recipes = {
-            { ID = 16110, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -17841,6 +15316,7 @@ RecipeRadar_RegionData = {
             { x = 0.608, y = 0.379 },
          },
          Recipes = {
+            { ID = 13480, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -17865,6 +15341,7 @@ RecipeRadar_RegionData = {
             { ID = 14526, Type = RRS("Tailoring"), Skill = 250, Cost = 20000 },
             { ID = 14468, Type = RRS("Tailoring"), Skill = 260, Cost = 12000 },
             { ID = 21957, Type = RRS("Jewelcrafting"), Skill = 305, Cost = 13500 },
+            { ID = 14481, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -17879,8 +15356,9 @@ RecipeRadar_RegionData = {
             { ID = 16046, Type = RRS("Engineering"), Skill = 275, Cost = 16000 },
             { ID = 18656, Type = RRS("Engineering"), Skill = 275, Cost = 16000 },
             { ID = 32381, Type = RRS("Engineering"), Skill = 275, Cost = 16000 },
+            { ID = 16047, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
-      },
+      }
    },
 },
 
@@ -18397,26 +15875,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 13479, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Miranda Breechlock"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.758, y = 0.541 },
-         },
-         Recipes = {
-            { ID = 13482, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 19203, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19205, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19216, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19217, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19328, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19329, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19442, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 19446, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 19447, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -19001,18 +16459,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jase Farlane"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.749, y = 0.518 },
-         },
-         Recipes = {
-            { ID = 15756, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 21954, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Nathanos Blightcaller"),
          Team = "Neutral",
          Notes = "Drop 0.56%",
@@ -19131,6 +16577,7 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 21954, Type = RRS("Jewelcrafting"), Skill = 285, Cost = 10000 },
+            { ID = 15756, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -19151,7 +16598,7 @@ RecipeRadar_RegionData = {
             { ID = 19217, Type = RRS("Tailoring"), Skill = 300, Cost = 40000, Faction = RRS("Argent Dawn"), Level = 7 },
             { ID = 19442, Type = RRS("First Aid"), Skill = 300, Cost = 100000, Faction = RRS("Argent Dawn"), Level = 6 },
          },
-      },
+      }
    },
 },
 
@@ -19295,17 +16742,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Jazzrik"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.424, y = 0.525 },
-         },
-         Recipes = {
-            { ID = 10858, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Zaricotl"),
          Team = "Neutral",
          Notes = "Drop 0.04%",
@@ -19362,7 +16798,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 10858, Type = RRS("Blacksmithing"), Skill = 155, Cost = 3000 },
          },
-      },
+      }
    },
 },
 
@@ -20089,18 +17525,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Plugger Spazzring"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 13483, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 15759, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Blackbreath Crony"),
          Team = "Neutral",
          Notes = "Drop 0.06%",
@@ -20372,45 +17796,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Lokhtos Darkbargainer"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 17017, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 17018, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 17022, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 17023, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 17025, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 17049, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 17051, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 17052, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 17053, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 17059, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 17060, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19206, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19207, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19208, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19209, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19210, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19211, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19212, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 19219, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19220, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 19330, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19331, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19332, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19333, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 19444, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 19448, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 19449, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20040, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 20761, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Plugger Spazzring"),
          Team = "Neutral",
          Notes = "Drop 16%",
@@ -20496,7 +17881,7 @@ RecipeRadar_RegionData = {
             { ID = 13483, Type = RRS("Alchemy"), Skill = 275, Cost = 15000 },
             { ID = 15759, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
          },
-      },
+      }
    },
 },
 
@@ -20947,17 +18332,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Nergal"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.433, y = 0.077 },
-         },
-         Recipes = {
-            { ID = 15758, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Muculent Ooze"),
          Team = "Neutral",
          Notes = "Drop 0.9%",
@@ -21054,7 +18428,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 15758, Type = RRS("Leatherworking"), Skill = 290, Cost = 22000 },
          },
-      },
+      }
    },
 },
 
@@ -21473,17 +18847,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Shen'dralar Provisioner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 18487, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Gordok Warlock"),
          Team = "Neutral",
          Notes = "Drop 0.02%",
@@ -21511,7 +18874,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 18487, Type = RRS("Tailoring"), Skill = 300, Cost = 40000 },
          },
-      },
+      }
    },
 },
 
@@ -21540,17 +18903,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 2700, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Yuka Screwspigot"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.660, y = 0.219 },
-         },
-         Recipes = {
-            { ID = 10602, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -21932,7 +19284,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 10602, Type = RRS("Engineering"), Skill = 210, Cost = 3000 },
          },
-      },
+      }
    },
 },
 
@@ -22937,20 +20289,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Erilia"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.562, y = 0.546 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Landraelanis"),
          Team = "Horde",
          Coordinates = {
@@ -22972,7 +20310,7 @@ RecipeRadar_RegionData = {
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
          },
-      },
+      }
    },
 },
 
@@ -23408,21 +20746,6 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Apprentice Darius"),
          Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.469, y = 0.754 },
-         },
-         Recipes = {
-            { ID = 31401, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33124, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 33165, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33205, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 33209, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Apprentice Darius"),
-         Team = "Neutral",
          Coordinates = {
             { x = 0.47, y = 0.753 },
          },
@@ -23433,7 +20756,7 @@ RecipeRadar_RegionData = {
             { ID = 33205, Type = RRS("Leatherworking"), Skill = 365, Cost = 240000, Faction = RRS("The Violet Eye"), Level = 7 },
             { ID = 33124, Type = RRS("Leatherworking"), Skill = 360, Cost = 50000, Faction = RRS("The Violet Eye"), Level = 8 },
          },
-      },
+      }
    },
 },
 
@@ -23496,17 +20819,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Rathis Tomber"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.471, y = 0.283 },
-         },
-         Recipes = {
-            { ID = 5771, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Luzran"),
          Team = "Neutral",
          Notes = "Drop 0.116%",
@@ -23542,20 +20854,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Master Chef Mouldier"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.484, y = 0.309 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 22647, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27687, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Culinary Crunch"),
          Team = "Neutral",
          Notes = "Mision",
@@ -23588,7 +20886,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 5771, Type = RRS("Tailoring"), Skill = 70, Cost = 200 },
          },
-      },
+      }
    },
 },
 
@@ -23597,115 +20895,6 @@ RecipeRadar_RegionData = {
    Continent = 2,
    MapFile = "Silvermoon-City",
    Vendors = {
-      {
-         Name = RRS("Lyna"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.701, y = 0.249 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22562, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22563, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22565, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gelanthis"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.909, y = 0.733 },
-         },
-         Recipes = {
-            { ID = 20854, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 20856, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quelis"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.693, y = 0.705 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Deynna"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.556, y = 0.512 },
-         },
-         Recipes = {
-            { ID = 21892, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21894, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21896, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21897, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Melaris"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.671, y = 0.195 },
-         },
-         Recipes = {
-            { ID = 22900, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23574, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Eriden"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.803, y = 0.362 },
-         },
-         Recipes = {
-            { ID = 23590, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23591, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23592, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23593, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Yatheon"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.755, y = 0.407 },
-         },
-         Recipes = {
-            { ID = 23799, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23811, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23815, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23816, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Zaralda"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.847, y = 0.787 },
-         },
-         Recipes = {
-            { ID = 25720, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25726, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Landraelanis"),
          Team = "Neutral",
@@ -23829,7 +21018,7 @@ RecipeRadar_RegionData = {
             { ID = 17201, Type = RRS("Cooking"), Skill = 35, Cost = 240 },
             { ID = 17200, Type = RRS("Cooking"), Skill = 1, Cost = 25 },
          },
-      },
+      }
    },
 },
 
@@ -23838,115 +21027,6 @@ RecipeRadar_RegionData = {
    Continent = 1,
    MapFile = "The-Exodar",
    Vendors = {
-      {
-         Name = RRS("Egomis"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.398, y = 0.401 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22562, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22563, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22565, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Arred"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.455, y = 0.253 },
-         },
-         Recipes = {
-            { ID = 20854, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 20856, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 20975, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 21948, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Phea"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.544, y = 0.262 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Neii"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.647, y = 0.684 },
-         },
-         Recipes = {
-            { ID = 21892, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21894, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21896, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21897, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Altaa"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.281, y = 0.618 },
-         },
-         Recipes = {
-            { ID = 22900, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23574, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Arras"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.613, y = 0.892 },
-         },
-         Recipes = {
-            { ID = 23590, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23591, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23592, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23593, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Feera"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.535, y = 0.907 },
-         },
-         Recipes = {
-            { ID = 23799, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23811, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23815, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23816, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Haferet"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.665, y = 0.736 },
-         },
-         Recipes = {
-            { ID = 25720, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25726, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Neii"),
          Team = "Alliance",
@@ -24059,7 +21139,7 @@ RecipeRadar_RegionData = {
             { ID = 17201, Type = RRS("Cooking"), Skill = 35, Cost = 240 },
             { ID = 17200, Type = RRS("Cooking"), Skill = 1, Cost = 25 },
          },
-      },
+      }
    },
 },
 
@@ -24135,17 +21215,6 @@ RecipeRadar_RegionData = {
       },
       {
          Name = RRS("Fazu"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.534, y = 0.564 },
-         },
-         Recipes = {
-            { ID = 22647, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Fazu"),
          Team = "Alliance",
          Coordinates = {
             { x = 0.535, y = 0.563 },
@@ -24153,7 +21222,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 22647, Type = RRS("Cooking"), Skill = 60, Cost = 400 },
          },
-      },
+      }
    },
 },
 
@@ -24162,56 +21231,6 @@ RecipeRadar_RegionData = {
    Continent = 3,
    MapFile = "Zangarmarsh",
    Vendors = {
-      {
-         Name = RRS("Zurai"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.853, y = 0.548 },
-         },
-         Recipes = {
-            { ID = 21898, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21899, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 27695, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Muheru the Weaver"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.405, y = 0.283 },
-         },
-         Recipes = {
-            { ID = 21898, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21899, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Seer Janidi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.324, y = 0.520 },
-         },
-         Recipes = {
-            { ID = 22901, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22902, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Haalrun"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.678, y = 0.479 },
-         },
-         Recipes = {
-            { ID = 22902, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22907, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22909, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Marticar"),
          Team = "Neutral",
@@ -24333,77 +21352,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Mycah"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.179, y = 0.511 },
-         },
-         Recipes = {
-            { ID = 22906, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22916, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 27689, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 30156, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 38229, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Fedryen Swiftspear"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.793, y = 0.636 },
-         },
-         Recipes = {
-            { ID = 22918, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22922, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23618, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23814, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 24183, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 25526, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 25735, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25736, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25737, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25869, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 28271, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 28632, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 29720, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29721, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 31356, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 31390, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 31391, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 31392, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 31402, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32070, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33149, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Loolruna"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.685, y = 0.502 },
-         },
-         Recipes = {
-            { ID = 23594, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23595, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23596, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Captured Gnome"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.325, y = 0.481 },
-         },
-         Recipes = {
-            { ID = 23805, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23811, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("The Zapthrottle Mote Extractor!"),
          Team = "Neutral",
          Notes = "Mision",
@@ -24412,52 +21360,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 23888, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Juno Dufrain"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.781, y = 0.661 },
-         },
-         Recipes = {
-            { ID = 27532, Type = RRS("Fishing"), Skill = 0, Cost = 0 },
-            { ID = 27696, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Doba"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.424, y = 0.279 },
-         },
-         Recipes = {
-            { ID = 27694, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27695, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gambarinka"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.316, y = 0.492 },
-         },
-         Recipes = {
-            { ID = 27694, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Naka"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.785, y = 0.630 },
-         },
-         Recipes = {
-            { ID = 27736, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -24614,7 +21516,7 @@ RecipeRadar_RegionData = {
             { ID = 23805, Type = RRS("Engineering"), Skill = 350, Cost = 80000 },
             { ID = 23811, Type = RRS("Engineering"), Skill = 335, Cost = 60000 },
          },
-      },
+      }
    },
 },
 
@@ -24623,106 +21525,6 @@ RecipeRadar_RegionData = {
    Continent = 3,
    MapFile = "Hellfire-Peninsula",
    Vendors = {
-      {
-         Name = RRS("Johan Barnes"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.536, y = 0.661 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Felannia"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.523, y = 0.360 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Aresella"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.262, y = 0.620 },
-         },
-         Recipes = {
-            { ID = 21992, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 21993, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 22012, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Burko"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.223, y = 0.394 },
-         },
-         Recipes = {
-            { ID = 21992, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 21993, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-            { ID = 22012, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Logistics Officer Ulrike"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.567, y = 0.626 },
-         },
-         Recipes = {
-            { ID = 22531, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22547, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22905, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23142, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23619, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 24180, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 25870, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 29213, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29214, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29215, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29719, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29722, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 33150, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 34218, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Alchemist Gribble"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.538, y = 0.658 },
-         },
-         Recipes = {
-            { ID = 22900, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Apothecary Antonivich"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.523, y = 0.365 },
-         },
-         Recipes = {
-            { ID = 22900, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Blacktalon the Savage"),
          Team = "Neutral",
@@ -24880,117 +21682,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Tatiana"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.547, y = 0.637 },
-         },
-         Recipes = {
-            { ID = 23130, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23131, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23135, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23137, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23140, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23141, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23144, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23148, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23152, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28596, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Kalaen"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.568, y = 0.378 },
-         },
-         Recipes = {
-            { ID = 23130, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23131, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23135, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23137, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23140, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23141, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23144, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23148, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23152, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28596, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Rohok"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.531, y = 0.382 },
-         },
-         Recipes = {
-            { ID = 23638, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 25847, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lebowski"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.557, y = 0.656 },
-         },
-         Recipes = {
-            { ID = 23803, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23805, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mixie Farshot"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.611, y = 0.814 },
-         },
-         Recipes = {
-            { ID = 23803, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23807, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Urgronn"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.549, y = 0.378 },
-         },
-         Recipes = {
-            { ID = 24000, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 24001, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 24002, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 24003, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 25738, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25739, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25740, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29232, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 31358, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 31359, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 31361, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 31362, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 33151, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 34201, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vodesiin"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.244, y = 0.388 },
-         },
-         Recipes = {
-            { ID = 25848, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Smooth as Butter"),
          Team = "Neutral",
          Notes = "Mision",
@@ -24999,50 +21690,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 27684, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Cookie One-Eye"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.546, y = 0.412 },
-         },
-         Recipes = {
-            { ID = 27688, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sid Limbardi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.542, y = 0.636 },
-         },
-         Recipes = {
-            { ID = 27688, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gaston"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.540, y = 0.635 },
-         },
-         Recipes = {
-            { ID = 27736, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Baxter"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.568, y = 0.374 },
-         },
-         Recipes = {
-            { ID = 27736, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -25289,7 +21936,7 @@ RecipeRadar_RegionData = {
             { ID = 23803, Type = RRS("Engineering"), Skill = 340, Cost = 60000 },
             { ID = 23805, Type = RRS("Engineering"), Skill = 350, Cost = 80000 },
          },
-      },
+      }
    },
 },
 
@@ -25428,19 +22075,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Daga Ramba"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.511, y = 0.578 },
-         },
-         Recipes = {
-            { ID = 22907, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22909, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22911, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Abyssal Flamebringer"),
          Team = "Neutral",
          Notes = "Drop 2.13%",
@@ -25508,30 +22142,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Xerintha Ravenoak"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.625, y = 0.404 },
-         },
-         Recipes = {
-            { ID = 31674, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 31675, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sassa Weldwell"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.613, y = 0.689 },
-         },
-         Recipes = {
-            { ID = 31674, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 31675, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Gan'arg Analyzer"),
          Team = "Neutral",
          Notes = "Drop 5%",
@@ -25575,7 +22185,7 @@ RecipeRadar_RegionData = {
             { ID = 31674, Type = RRS("Cooking"), Skill = 335, Cost = 30000 },
             { ID = 31675, Type = RRS("Cooking"), Skill = 335, Cost = 30000 },
          },
-      },
+      }
    },
 },
 
@@ -25593,18 +22203,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 16248, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Leeli Longhaggle"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.577, y = 0.534 },
-         },
-         Recipes = {
-            { ID = 22901, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22911, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -25712,55 +22310,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 23806, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Rungor"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.487, y = 0.460 },
-         },
-         Recipes = {
-            { ID = 25848, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 27699, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27700, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Innkeeper Grilka"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.488, y = 0.450 },
-         },
-         Recipes = {
-            { ID = 27690, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27692, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Supply Officer Mills"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.557, y = 0.530 },
-         },
-         Recipes = {
-            { ID = 27690, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27692, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Innkeeper Biribi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.567, y = 0.533 },
-         },
-         Recipes = {
-            { ID = 27699, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27700, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -25873,7 +22422,7 @@ RecipeRadar_RegionData = {
             { ID = 22901, Type = RRS("Alchemy"), Skill = 315, Cost = 30000 },
             { ID = 22911, Type = RRS("Alchemy"), Skill = 350, Cost = 50000 },
          },
-      },
+      }
    },
 },
 
@@ -25882,58 +22431,6 @@ RecipeRadar_RegionData = {
    Continent = 3,
    MapFile = "Nagrand",
    Vendors = {
-      {
-         Name = RRS("Mathar G'ochar"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.570, y = 0.403 },
-         },
-         Recipes = {
-            { ID = 21893, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21894, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21902, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Borto"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.533, y = 0.719 },
-         },
-         Recipes = {
-            { ID = 21894, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21902, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Paulsta'ats"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.302, y = 0.571 },
-         },
-         Recipes = {
-            { ID = 22552, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 23134, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23136, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23146, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23150, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23155, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23874, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 24178, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24314, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 25732, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25733, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25734, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25908, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28274, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33156, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33305, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33622, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Goretooth"),
          Team = "Neutral",
@@ -26019,23 +22516,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Provisioner Nasela"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.535, y = 0.370 },
-         },
-         Recipes = {
-            { ID = 22917, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 25741, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25742, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25743, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29664, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34172, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34174, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Vir'aani Arcanist"),
          Team = "Neutral",
          Notes = "Drop 4.45%",
@@ -26077,97 +22557,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 24000, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Aldraan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.429, y = 0.424 },
-         },
-         Recipes = {
-            { ID = 24208, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Coreiel"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.429, y = 0.424 },
-         },
-         Recipes = {
-            { ID = 24208, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Uriku"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.562, y = 0.733 },
-         },
-         Recipes = {
-            { ID = 27691, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27693, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27697, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27698, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nula the Butcher"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.582, y = 0.357 },
-         },
-         Recipes = {
-            { ID = 27691, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27693, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27697, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 27698, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Trader Narasu"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.545, y = 0.751 },
-         },
-         Recipes = {
-            { ID = 29217, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29218, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29219, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 30443, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 30444, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34173, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 34175, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Jaffrey Noreliqe"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.424, y = 0.426 },
-         },
-         Recipes = {
-            { ID = 32071, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33783, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Davian Vaclav"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.412, y = 0.442 },
-         },
-         Recipes = {
-            { ID = 32071, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33783, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -26340,7 +22729,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 24208, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 120000 },
          },
-      },
+      }
    },
 },
 
@@ -26349,18 +22738,6 @@ RecipeRadar_RegionData = {
    Continent = 3,
    MapFile = "Shadowmoon-Valley",
    Vendors = {
-      {
-         Name = RRS("Arrond"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.559, y = 0.581 },
-         },
-         Recipes = {
-            { ID = 21900, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21901, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Deathforge Summoner"),
          Team = "Neutral",
@@ -26480,19 +22857,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Krek Cragcrush"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.293, y = 0.309 },
-         },
-         Recipes = {
-            { ID = 23594, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23595, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23596, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Deathforge Guardian"),
          Team = "Neutral",
          Notes = "Drop 1.83%",
@@ -26534,29 +22898,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 23613, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mari Stonehand"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.368, y = 0.550 },
-         },
-         Recipes = {
-            { ID = 23638, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 25847, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Daggle Ironshaper"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.368, y = 0.543 },
-         },
-         Recipes = {
-            { ID = 23807, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -26822,7 +23163,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 23807, Type = RRS("Engineering"), Skill = 335, Cost = 60000 },
          },
-      },
+      }
    },
 },
 
@@ -26831,34 +23172,6 @@ RecipeRadar_RegionData = {
    Continent = 3,
    MapFile = "Netherstorm",
    Vendors = {
-      {
-         Name = RRS("Asarnan"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.442, y = 0.337 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Dealer Malij"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.441, y = 0.341 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Sunfury Arch Mage"),
          Team = "Neutral",
@@ -26912,33 +23225,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 22551, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Karaaz"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.436, y = 0.343 },
-         },
-         Recipes = {
-            { ID = 22552, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 23134, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23136, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23146, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23150, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23155, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23874, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 24178, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24314, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 25732, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25733, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25734, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 25908, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28274, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33156, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33305, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33622, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -27156,7 +23442,7 @@ RecipeRadar_RegionData = {
             { ID = 20758, Type = RRS("Enchanting"), Skill = 45, Cost = 500 },
             { ID = 22307, Type = RRS("Tailoring"), Skill = 225, Cost = 6000 },
          },
-      },
+      }
    },
 },
 
@@ -27166,193 +23452,6 @@ RecipeRadar_RegionData = {
    MapFile = "Shattrath-City",
    Vendors = {
       {
-         Name = RRS("Almaador"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.510, y = 0.417 },
-         },
-         Recipes = {
-            { ID = 13517, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 22537, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22915, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 24182, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 25904, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 28273, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 28281, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 29717, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 30826, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 31354, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33153, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33155, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 33159, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Eebee Jinglepocket"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.513, y = 0.296 },
-         },
-         Recipes = {
-            { ID = 17200, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 17201, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Madame Ruby"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.633, y = 0.710 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 22562, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22563, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22565, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 25849, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 28282, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Enchantress Andiala"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.555, y = 0.746 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Yurial Soulwater"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.443, y = 0.976 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Zurii"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.365, y = 0.441 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Jim Saltit"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.636, y = 0.682 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Eiin"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.662, y = 0.692 },
-         },
-         Recipes = {
-            { ID = 21892, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21893, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21896, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21897, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nasmara Moonsong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.665, y = 0.692 },
-         },
-         Recipes = {
-            { ID = 21895, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21916, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21917, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21918, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21919, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gidge Spellweaver"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.669, y = 0.687 },
-         },
-         Recipes = {
-            { ID = 21908, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21909, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21910, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21911, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 24316, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Andrion Darkspinner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.669, y = 0.681 },
-         },
-         Recipes = {
-            { ID = 21912, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21913, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21914, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21915, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 30483, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Nakodu"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.620, y = 0.688 },
-         },
-         Recipes = {
-            { ID = 22538, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22910, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23138, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24175, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24179, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 30833, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 31357, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 33148, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 33157, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 34200, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("40 Tickets - Schematic: Steam Tonk Controller"),
          Team = "Neutral",
          Notes = "Mision",
@@ -27361,124 +23460,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 22729, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Enuril"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.606, y = 0.643 },
-         },
-         Recipes = {
-            { ID = 22908, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 23133, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23143, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23597, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23598, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23599, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23600, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 24176, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24292, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 24294, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 25722, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29677, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29682, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29684, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29698, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29700, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29701, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Quartermaster Endarin"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.477, y = 0.256 },
-         },
-         Recipes = {
-            { ID = 23145, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23149, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 23601, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23602, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23603, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23604, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 24177, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 24293, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 24295, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 25721, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29689, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29691, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29693, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29702, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29703, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 29704, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 30842, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 30843, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 30844, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Skreah"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.458, y = 0.200 },
-         },
-         Recipes = {
-            { ID = 23574, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Aaron Hollman"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.642, y = 0.720 },
-         },
-         Recipes = {
-            { ID = 23590, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23591, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23592, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 23593, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 25846, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Viggz Shinesparked"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.650, y = 0.697 },
-         },
-         Recipes = {
-            { ID = 23799, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 32381, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Wind Trader Lathrai"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.723, y = 0.307 },
-         },
-         Recipes = {
-            { ID = 23811, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23815, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 23816, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Cro Threadstrong"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.674, y = 0.675 },
-         },
-         Recipes = {
-            { ID = 25720, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -27501,58 +23482,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 34491, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ontuvo"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.486, y = 0.408 },
-         },
-         Recipes = {
-            { ID = 35238, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35239, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35240, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35241, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35242, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35243, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35244, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35245, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35246, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35247, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35248, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35249, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35250, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35251, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35252, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35253, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35254, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35255, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35256, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35257, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35258, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35259, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35260, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35261, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35262, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35263, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35264, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35265, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35266, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35267, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35268, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35269, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35270, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35271, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35322, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35323, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35325, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35766, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35767, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35768, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35769, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 37504, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -28071,7 +24000,7 @@ RecipeRadar_RegionData = {
             { ID = 46914, Type = RRS("Jewelcrafting"), Skill = 450, Cost = 4, Notes = RRS("CostItem: 41596") },
             { ID = 47023, Type = RRS("Jewelcrafting"), Skill = 450, Cost = 4, Notes = RRS("CostItem: 41596") },
          },
-      },
+      }
    },
 },
 
@@ -28341,15 +24270,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Lieutenant General Andorov"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Recipes = {
-            { ID = 22219, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 22221, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Moam"),
          Team = "Neutral",
          Notes = "Drop 15%",
@@ -28367,7 +24287,7 @@ RecipeRadar_RegionData = {
             { ID = 22221, Type = RRS("Blacksmithing"), Skill = 300, Cost = 80000, Faction = RRS("Cenarion Circle"), Level = 8 },
             { ID = 22219, Type = RRS("Blacksmithing"), Skill = 300, Cost = 50000, Faction = RRS("Cenarion Circle"), Level = 7 },
          },
-      },
+      }
    },
 },
 
@@ -28396,19 +24316,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 21904, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ythyar"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 22535, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 25902, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 25903, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -28562,19 +24469,6 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Koren"),
          Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 31393, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 31394, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 31395, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Koren"),
-         Team = "Neutral",
          Recipes = {
             { ID = 31393, Type = RRS("Blacksmithing"), Skill = 375, Cost = 240000, Faction = RRS("The Violet Eye"), Level = 6 },
             { ID = 31395, Type = RRS("Blacksmithing"), Skill = 375, Cost = 240000, Faction = RRS("The Violet Eye"), Level = 6 },
@@ -28589,7 +24483,7 @@ RecipeRadar_RegionData = {
             { ID = 25903, Type = RRS("Jewelcrafting"), Skill = 365, Cost = 120000, Faction = RRS("The Consortium"), Level = 7 },
             { ID = 25902, Type = RRS("Jewelcrafting"), Skill = 365, Cost = 120000, Faction = RRS("The Consortium"), Level = 6 },
          },
-      },
+      }
    },
 },
 
@@ -28640,17 +24534,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 22532, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Aged Dalaran Wizard"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 22539, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -28786,17 +24669,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Thomas Yance"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 25725, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Durnholde Rifleman"),
          Team = "Neutral",
          Notes = "Drop 2.2%",
@@ -28820,7 +24692,7 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 25725, Type = RRS("Leatherworking"), Skill = 350, Cost = 50000 },
          },
-      },
+      }
    },
 },
 
@@ -28856,33 +24728,6 @@ RecipeRadar_RegionData = {
       {
          Name = RRS("Okuno"),
          Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 32429, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32430, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32431, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32432, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32433, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32434, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32435, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32436, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 32437, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 32438, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 32439, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 32440, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 32441, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 32442, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 32443, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 32444, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-            { ID = 32447, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Okuno"),
-         Team = "Neutral",
          Recipes = {
             { ID = 32442, Type = RRS("Blacksmithing"), Skill = 375, Cost = 80000, Faction = RRS("Ashtongue Deathsworn"), Level = 5 },
             { ID = 32444, Type = RRS("Blacksmithing"), Skill = 375, Cost = 80000, Faction = RRS("Ashtongue Deathsworn"), Level = 5 },
@@ -28902,7 +24747,7 @@ RecipeRadar_RegionData = {
             { ID = 32439, Type = RRS("Tailoring"), Skill = 375, Cost = 80000, Faction = RRS("Ashtongue Deathsworn"), Level = 6 },
             { ID = 32437, Type = RRS("Tailoring"), Skill = 375, Cost = 80000, Faction = RRS("Ashtongue Deathsworn"), Level = 6 },
          },
-      },
+      }
    },
 },
 
@@ -28911,46 +24756,6 @@ RecipeRadar_RegionData = {
    Continent = 0,
    MapFile = "Hyjal-Summit",
    Vendors = {
-      {
-         Name = RRS("Indormi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.000, y = 0.000 },
-         },
-         Recipes = {
-            { ID = 32274, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32277, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32281, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32282, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32283, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32284, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32286, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32287, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32288, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32290, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32291, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32292, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32293, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32294, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32299, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32300, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32301, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32302, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32304, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32305, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32306, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32308, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32309, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32310, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32311, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 32312, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35762, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35763, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35764, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35765, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Indormi"),
          Team = "Neutral",
@@ -28986,7 +24791,7 @@ RecipeRadar_RegionData = {
             { ID = 35762, Type = RRS("Jewelcrafting"), Skill = 375, Cost = 60000, Faction = RRS("The Scale of the Sands"), Level = 6 },
             { ID = 35764, Type = RRS("Jewelcrafting"), Skill = 375, Cost = 60000, Faction = RRS("The Scale of the Sands"), Level = 6 },
          },
-      },
+      }
    },
 },
 
@@ -29005,86 +24810,6 @@ RecipeRadar_RegionData = {
          Recipes = {
             { ID = 22903, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
             { ID = 23884, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Eldara Dawnrunner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.472, y = 0.308 },
-         },
-         Recipes = {
-            { ID = 34872, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 35500, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 35502, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35505, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35695, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35696, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35697, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35698, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35699, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35708, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35752, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 35753, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 35754, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 35755, Type = RRS("Alchemy"), Skill = 0, Cost = 0 },
-            { ID = 35766, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35767, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35768, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35769, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Shaani"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.515, y = 0.326 },
-         },
-         Recipes = {
-            { ID = 35238, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35239, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35240, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35241, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35242, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35243, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35244, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35245, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35246, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35247, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35248, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35249, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35250, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35251, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35252, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35253, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35254, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35255, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35256, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35257, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35258, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35259, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35260, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35261, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35262, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35263, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35264, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35265, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35266, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35267, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35268, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35269, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35270, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35271, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35322, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35323, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35325, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35766, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35767, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35768, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 35769, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 37504, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -29164,7 +24889,7 @@ RecipeRadar_RegionData = {
             { ID = 35323, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 120000, Faction = RRS("Shattered Sun Offensive"), Level = 8 },
             { ID = 37504, Type = RRS("Jewelcrafting"), Skill = 375, Cost = 500000, Faction = RRS("Shattered Sun Offensive"), Level = 8 },
          },
-      },
+      }
    },
 },
 
@@ -29173,44 +24898,6 @@ RecipeRadar_RegionData = {
    Continent = 4,
    MapFile = "Borean-Tundra",
    Vendors = {
-      {
-         Name = RRS("Librarian Erickson"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.467, y = 0.325 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Gara Skullcrush"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.414, y = 0.537 },
-         },
-         Recipes = {
-            { ID = 44502, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 44938, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Logistics Officer Silverstone"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.577, y = 0.664 },
-         },
-         Recipes = {
-            { ID = 44503, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 44937, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Librarian Erickson"),
          Team = "Neutral",
@@ -29257,7 +24944,7 @@ RecipeRadar_RegionData = {
             { ID = 44938, Type = RRS("Blacksmithing"), Skill = 450, Cost = 150000, Faction = RRS("Horde Expedition"), Level = 8 },
             { ID = 44502, Type = RRS("Engineering"), Skill = 450, Cost = 4000000, Faction = RRS("Horde Expedition"), Level = 8 },
          },
-      },
+      }
    },
 },
 
@@ -29277,405 +24964,6 @@ RecipeRadar_RegionData = {
             { ID = 10609, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
             { ID = 13311, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
             { ID = 16054, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ildine Sorrowspear"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.389, y = 0.417 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Ainderu Summerleaf"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.366, y = 0.345 },
-         },
-         Recipes = {
-            { ID = 21895, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21916, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21917, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21918, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21919, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Lalla Brightweave"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.367, y = 0.327 },
-         },
-         Recipes = {
-            { ID = 21908, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21909, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21910, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21911, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 24316, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Linna Bruder"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.346, y = 0.350 },
-         },
-         Recipes = {
-            { ID = 21912, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21913, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21914, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 21915, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 30483, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Bryan Landers"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.385, y = 0.251 },
-         },
-         Recipes = {
-            { ID = 23817, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Vanessa Sellers"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.385, y = 0.411 },
-         },
-         Recipes = {
-            { ID = 37339, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 37340, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 37344, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 37347, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 37349, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44471, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44472, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44473, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44483, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44484, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44485, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44486, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44487, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44488, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44489, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44490, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44491, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44492, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44494, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44495, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44496, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44498, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 44944, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 45059, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tiffany Cartier"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.408, y = 0.346 },
-         },
-         Recipes = {
-            { ID = 41576, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41577, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41578, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41579, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41580, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41581, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41582, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41686, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41687, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41688, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41689, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41690, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41692, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41693, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41694, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41696, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41697, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41698, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41699, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41701, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41702, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41703, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41704, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41705, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41706, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41707, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41708, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41709, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41710, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41711, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41719, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41747, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42138, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42298, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42299, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42300, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42301, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42302, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42303, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42304, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42305, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42306, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42307, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42308, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42309, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42310, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42311, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42312, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42313, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42314, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42315, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42648, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42649, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42650, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42651, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42652, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42653, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43317, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43318, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43319, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43320, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43485, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43497, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43597, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Archmage Alvareaux"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.252, y = 0.478 },
-         },
-         Recipes = {
-            { ID = 41718, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42188, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Misensi"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.699, y = 0.384 },
-         },
-         Recipes = {
-            { ID = 43017, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43018, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43019, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43020, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43021, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43022, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43023, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43024, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43025, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43026, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43027, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43028, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43029, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43030, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43031, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43032, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43033, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43034, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43035, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43036, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43037, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43505, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43506, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 44954, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Derek Odds"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.408, y = 0.661 },
-         },
-         Recipes = {
-            { ID = 43017, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43018, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43019, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43020, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43021, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43022, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43023, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43024, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43025, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43026, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43027, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43028, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43029, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43030, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43031, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43032, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43033, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43034, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43035, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43036, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43037, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43505, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43506, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 44954, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Braeg Stoutbeard"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.374, y = 0.289 },
-         },
-         Recipes = {
-            { ID = 44513, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44514, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44515, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44516, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44517, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44518, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44519, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44520, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44521, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44522, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44523, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44524, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44525, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44526, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44527, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44528, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44530, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44531, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44532, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44533, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44534, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44535, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44536, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44537, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44538, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44539, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44540, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44541, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44542, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44543, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44544, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44545, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44546, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44547, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44548, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44549, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44550, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44551, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44552, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44553, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44584, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44585, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44586, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44587, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44588, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44589, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44932, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44933, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Timothy Jones"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.408, y = 0.354 },
-         },
-         Recipes = {
-            { ID = 46897, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46898, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46899, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46900, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46901, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46902, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46903, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46904, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46905, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46906, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46907, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46908, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46909, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46910, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46911, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46912, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46913, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46914, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46915, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46916, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46917, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46918, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46919, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46920, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46921, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46922, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46923, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46924, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46925, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46926, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46927, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46928, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46929, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46930, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46931, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46932, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46933, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46934, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46935, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46936, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46937, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46938, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46939, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46940, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46941, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46942, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46943, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46944, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46945, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46946, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46947, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46948, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46949, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46950, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46951, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46952, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46953, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 46956, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47007, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47008, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47010, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47011, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47012, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47015, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47016, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47017, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47018, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47019, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47020, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47021, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47022, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 47023, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 49112, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -30084,7 +25372,7 @@ RecipeRadar_RegionData = {
             { ID = 46899, Type = RRS("Jewelcrafting"), Skill = 450, Cost = 4, Notes = RRS("CostItem: 41596") },
             { ID = 47011, Type = RRS("Jewelcrafting"), Skill = 450, Cost = 4, Notes = RRS("CostItem: 41596") },
          },
-      },
+      }
    },
 },
 
@@ -30094,48 +25382,6 @@ RecipeRadar_RegionData = {
    MapFile = "Dragonblight",
    Vendors = {
       {
-         Name = RRS("Modoru"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.288, y = 0.559 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Bradley Towns"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.769, y = 0.621 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Alys Vol'tyr"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.362, y = 0.465 },
-         },
-         Recipes = {
-            { ID = 20752, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20753, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 20758, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-            { ID = 22307, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Onslaught Mason"),
          Team = "Neutral",
          Notes = "Drop 0.6%",
@@ -30144,33 +25390,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 41124, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sairuk"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.485, y = 0.757 },
-         },
-         Recipes = {
-            { ID = 41568, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41574, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 44509, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44511, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 45774, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Cielstrasza"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.599, y = 0.530 },
-         },
-         Recipes = {
-            { ID = 41722, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42185, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -30269,7 +25488,7 @@ RecipeRadar_RegionData = {
             { ID = 41722, Type = RRS("Jewelcrafting"), Skill = 390, Cost = 40000, Faction = RRS("The Wyrmrest Accord"), Level = 8 },
             { ID = 42185, Type = RRS("Tailoring"), Skill = 440, Cost = 50000, Faction = RRS("The Wyrmrest Accord"), Level = 7 },
          },
-      },
+      }
    },
 },
 
@@ -30278,18 +25497,6 @@ RecipeRadar_RegionData = {
    Continent = 4,
    MapFile = "Grizzly-Hills",
    Vendors = {
-      {
-         Name = RRS("Provisioner Lorkran"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.227, y = 0.662 },
-         },
-         Recipes = {
-            { ID = 21099, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 21219, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Hath'ar Skimmer"),
          Team = "Neutral",
@@ -30344,7 +25551,7 @@ RecipeRadar_RegionData = {
             { ID = 21219, Type = RRS("Cooking"), Skill = 175, Cost = 5000 },
             { ID = 21099, Type = RRS("Cooking"), Skill = 80, Cost = 500 },
          },
-      },
+      }
    },
 },
 
@@ -30362,21 +25569,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 39152, Type = RRS("First Aid"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Tanaika"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.255, y = 0.587 },
-         },
-         Recipes = {
-            { ID = 41568, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41574, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 44509, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 44511, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-            { ID = 45774, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -30399,30 +25591,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 43876, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Sebastian Crane"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.796, y = 0.308 },
-         },
-         Recipes = {
-            { ID = 44502, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 44938, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Logistics Officer Brighton"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.596, y = 0.640 },
-         },
-         Recipes = {
-            { ID = 44503, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-            { ID = 44937, Type = RRS("Blacksmithing"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -30460,7 +25628,7 @@ RecipeRadar_RegionData = {
             { ID = 44938, Type = RRS("Blacksmithing"), Skill = 450, Cost = 150000, Faction = RRS("Horde Expedition"), Level = 8 },
             { ID = 44502, Type = RRS("Engineering"), Skill = 450, Cost = 4000000, Faction = RRS("Horde Expedition"), Level = 8 },
          },
-      },
+      }
    },
 },
 
@@ -30469,17 +25637,6 @@ RecipeRadar_RegionData = {
    Continent = 4,
    MapFile = "Icecrown",
    Vendors = {
-      {
-         Name = RRS("Fizzix Blastbolt"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.722, y = 0.209 },
-         },
-         Recipes = {
-            { ID = 23817, Type = RRS("Engineering"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Frostbrood Spawn"),
          Team = "Neutral",
@@ -30545,129 +25702,6 @@ RecipeRadar_RegionData = {
          },
          Recipes = {
             { ID = 37334, Type = RRS("Enchanting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Duchess Mynx"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.434, y = 0.206 },
-         },
-         Recipes = {
-            { ID = 41562, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41721, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41725, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42183, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 44512, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Anuur"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.714, y = 0.210 },
-         },
-         Recipes = {
-            { ID = 41576, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41577, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41578, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41579, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41580, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41581, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41582, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41686, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41687, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41688, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41689, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41690, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41692, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41693, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41694, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41696, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41697, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41698, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41699, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41701, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41702, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41703, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41704, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41705, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41706, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41707, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41708, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41709, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41710, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41711, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41719, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41747, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42138, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42298, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42299, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42300, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42301, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42302, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42303, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42304, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42305, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42306, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42307, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42308, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42309, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42310, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42311, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42312, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42313, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42314, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42315, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42648, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42649, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42650, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42651, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42652, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42653, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43317, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43318, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43319, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43320, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43485, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43497, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 43597, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Mera Mistrunner"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.724, y = 0.210 },
-         },
-         Recipes = {
-            { ID = 43017, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43018, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43019, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43020, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43021, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43022, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43023, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43024, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43025, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43026, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43027, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43028, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43029, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43030, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43031, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43032, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43033, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43034, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43035, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43036, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43037, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43505, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 43506, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
-            { ID = 44954, Type = RRS("Cooking"), Skill = 0, Cost = 0 },
          },
       },
       {
@@ -30921,7 +25955,7 @@ RecipeRadar_RegionData = {
             { ID = 43021, Type = RRS("Cooking"), Skill = 400, Cost = 3, Notes = RRS("CostItem: 43016") },
             { ID = 44954, Type = RRS("Cooking"), Skill = 400, Cost = 3, Notes = RRS("CostItem: 43016") },
          },
-      },
+      }
    },
 },
 
@@ -30930,31 +25964,6 @@ RecipeRadar_RegionData = {
    Continent = 4,
    MapFile = "Wintergrasp",
    Vendors = {
-      {
-         Name = RRS("Morgan Day"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.489, y = 0.175 },
-         },
-         Recipes = {
-            { ID = 41727, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41728, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41730, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41732, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41733, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41734, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41735, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41736, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41737, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41738, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41739, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41740, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41742, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41743, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41744, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Knight Dameron"),
          Team = "Alliance",
@@ -31026,7 +26035,7 @@ RecipeRadar_RegionData = {
             { ID = 41736, Type = RRS("Jewelcrafting"), Skill = 390, Cost = 12, Notes = RRS("CostItem: 43228") },
             { ID = 41737, Type = RRS("Jewelcrafting"), Skill = 390, Cost = 12, Notes = RRS("CostItem: 43228") },
          },
-      },
+      }
    },
 },
 
@@ -31080,30 +26089,6 @@ RecipeRadar_RegionData = {
          },
       },
       {
-         Name = RRS("Tanak"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.551, y = 0.691 },
-         },
-         Recipes = {
-            { ID = 41561, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41723, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
-         Name = RRS("Geen"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.546, y = 0.561 },
-         },
-         Recipes = {
-            { ID = 41567, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 41724, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-         },
-      },
-      {
          Name = RRS("Shattertusk Mammoth"),
          Team = "Neutral",
          Notes = "Drop 0.5%",
@@ -31135,7 +26120,7 @@ RecipeRadar_RegionData = {
             { ID = 41724, Type = RRS("Jewelcrafting"), Skill = 390, Cost = 40000, Faction = RRS("The Oracles"), Level = 7 },
             { ID = 41567, Type = RRS("Jewelcrafting"), Skill = 350, Cost = 20000, Faction = RRS("The Oracles"), Level = 5 },
          },
-      },
+      }
    },
 },
 
@@ -31144,19 +26129,6 @@ RecipeRadar_RegionData = {
    Continent = 4,
    MapFile = "The-Storm-Peaks",
    Vendors = {
-      {
-         Name = RRS("Lillehoff"),
-         Team = "Neutral",
-         Notes = "Vendedor",
-         Coordinates = {
-            { x = 0.662, y = 0.614 },
-         },
-         Recipes = {
-            { ID = 41720, Type = RRS("Jewelcrafting"), Skill = 0, Cost = 0 },
-            { ID = 42184, Type = RRS("Tailoring"), Skill = 0, Cost = 0 },
-            { ID = 44510, Type = RRS("Leatherworking"), Skill = 0, Cost = 0 },
-         },
-      },
       {
          Name = RRS("Nascent Val'kyr"),
          Team = "Neutral",
@@ -31245,7 +26217,7 @@ RecipeRadar_RegionData = {
             { ID = 41720, Type = RRS("Jewelcrafting"), Skill = 390, Cost = 40000, Faction = RRS("The Sons of Hodir"), Level = 8 },
             { ID = 42184, Type = RRS("Tailoring"), Skill = 445, Cost = 50000, Faction = RRS("The Sons of Hodir"), Level = 8 },
          },
-      },
+      }
    },
 },
 

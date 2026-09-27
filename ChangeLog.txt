@@ -1,6 +1,14 @@
 
 Recipe Radar ChangeLog
 
+v1.45; September 27, 2026
+
+- Fixed a bunch of vendors showing every recipe twice in the recipes tab.
+  346 vendors across 138 zones had a leftover duplicate entry from an old
+  data generation pass, alongside the real one with the actual price and
+  faction. The stray entries are gone; the handful of recipes only the
+  stray copy knew about got folded into the real entry instead of lost.
+
 v1.44; September 27, 2026
 
 - A recipe you already carry in bags or bank, but haven't learned yet,
