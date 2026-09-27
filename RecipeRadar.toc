@@ -1,5 +1,5 @@
 ﻿## Interface: 30200
-## Version: 1.43
+## Version: 1.44
 ## Title: Recipe Radar
 ## Author: Jay Miller
 ## Notes: Locates vendors who sell recipes in the current region or by profession.
@@ -20,5 +20,6 @@ Maps.xml
 MinimapButton.xml
 AvailabilityTooltip.xml
 RecipeRadar.xml
+Inventory.lua
 OptionsFrame.xml
 Broker.lua

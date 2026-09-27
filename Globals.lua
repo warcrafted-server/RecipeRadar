@@ -2,7 +2,7 @@
 -- Globals.lua: global/saved variables and some related initialization code
 -- $Id: Globals.lua 1099 2009-08-10 04:51:22Z jnmiller $
 
-RECIPERADAR_VERSION = "1.43"
+RECIPERADAR_VERSION = "1.44"
 
 RECIPERADAR_VENDORS_DISPLAYED = 8
 RECIPERADAR_VENDOR_HEIGHT = 16
@@ -40,6 +40,7 @@ RecipeRadar_Colors = {
    -- realm-wide availability tooltip/indicator colors
    LearnableByPlayer  = { r = 0.0, g = 1.0, b = 0.0 },
    LearnableByAlt     = { r = 0.0, g = 0.8, b = 0.0 },
+   InInventory        = { r = 0.0, g = 0.6, b = 1.0 },
    ProspectForPlayer  = { r = 1.0, g = 0.2, b = 0.2 },
    ProspectForAlt     = { r = 0.8, g = 0.2, b = 0.2 },
    KnownByPlayer      = { r = 0.7, g = 0.7, b = 0.7 },
@@ -211,38 +212,52 @@ RecipeRadar_Availabilities = {
       Color = RecipeRadar_Colors.LearnableByAlt,
       TestFunction = RecipeRadar_Availability_IsLearnableByAlt,
    },
+   ["InInventoryPlayer"] = {
+      Text = RRS("Already In Inventory (Player)"),
+      Tooltip = { Group = 4, Heading = RRS("Already In Inventory:") },
+      DropDown = { POrder = 2, ROrder = 3 },
+      Color = RecipeRadar_Colors.InInventory,
+      TestFunction = RecipeRadar_Availability_IsInInventoryPlayer,
+   },
+   ["InInventoryAlt"] = {
+      Text = RRS("Already In Inventory (Alts)"),
+      Tooltip = { Group = 4, Heading = RRS("Already In Inventory:") },
+      DropDown = { POrder = nil, ROrder = 4 },
+      Color = RecipeRadar_Colors.InInventory,
+      TestFunction = RecipeRadar_Availability_IsInInventoryAlt,
+   },
    ["ProspectForPlayer"] = {
       Text = RRS("Future Prospect (Player)"),
       Tooltip = { Group = 2, Heading = RRS("Future Prospect For:") },
-      DropDown = { POrder = 2, ROrder = 3 },
+      DropDown = { POrder = 3, ROrder = 5 },
       Color = RecipeRadar_Colors.ProspectForPlayer,
       TestFunction = RecipeRadar_Availability_IsProspectForPlayer,
    },
    ["ProspectForAlt"] = {
       Text = RRS("Future Prospect (Alts)"),
       Tooltip = { Group = 2, Heading = RRS("Future Prospect For:") },
-      DropDown = { POrder = nil, ROrder = 4 },
+      DropDown = { POrder = nil, ROrder = 6 },
       Color = RecipeRadar_Colors.ProspectForAlt,
       TestFunction = RecipeRadar_Availability_IsProspectForAlt,
    },
    ["KnownByPlayer"] = {
       Text = RRS("Already Known (Player)"),
       Tooltip = { Group = 3, Heading = RRS("Already Known By:") },
-      DropDown = { POrder = 3, ROrder = 5 },
+      DropDown = { POrder = 4, ROrder = 7 },
       Color = RecipeRadar_Colors.KnownByPlayer,
       TestFunction = RecipeRadar_Availability_IsKnownByPlayer,
    },
    ["KnownByAlt"] = {
       Text = RRS("Already Known (Alts)"),
       Tooltip = { Group = 3, Heading = RRS("Already Known By:") },
-      DropDown = { POrder = nil, ROrder = 6 },
+      DropDown = { POrder = nil, ROrder = 8 },
       Color = RecipeRadar_Colors.KnownByAlt,
       TestFunction = RecipeRadar_Availability_IsKnownByAlt,
    },
    ["NotApplicable"] = {
       Text = RRS("Inapplicable"),
       Tooltip = { Group = 0 },  -- do not show in tooltip
-      DropDown = { POrder = 4, ROrder = 7 },
+      DropDown = { POrder = 5, ROrder = 9 },
       Color = RecipeRadar_Colors.NotApplicable,
       TestFunction = nil,  -- don't need to test the default case
    },

@@ -19,6 +19,9 @@ function RecipeRadar_OnLoad()
    this:RegisterEvent("CHAT_MSG_SKILL")
    this:RegisterEvent("CHAT_MSG_SYSTEM")
    this:RegisterEvent("PLAYER_ENTERING_WORLD")
+   this:RegisterEvent("BAG_UPDATE")
+   this:RegisterEvent("BANKFRAME_OPENED")
+   this:RegisterEvent("PLAYERBANKSLOTS_CHANGED")
 
    -- 3.3.5 has no HookScript; chain onto whatever OnTooltipSetItem/OnHide
    -- FrameXML already wired up (both are nil by default on GameTooltip).
@@ -76,6 +79,16 @@ function RecipeRadar_OnEvent()
          RecipeRadar_Filters.Teams
                [RecipeRadar_GetOpposingFaction("player")] = true
       end
+
+      RecipeRadar_Inventory_Init()
+
+   elseif (event == "BAG_UPDATE") then
+
+      RecipeRadar_Inventory_ScanBags()
+
+   elseif (event == "BANKFRAME_OPENED" or event == "PLAYERBANKSLOTS_CHANGED") then
+
+      RecipeRadar_Inventory_ScanBank()
 
    elseif (event == "WORLD_MAP_UPDATE") then
 
@@ -691,10 +704,8 @@ end
 -- often 0), so anything richer has to be looked up by id in RecipeData.
 local recipes_by_id
 
-function RecipeRadar_GetRecipeRecord(recipe)
-
-   if (not recipe) then return nil end
-   if (recipe.SkillYellow) then return recipe end
+-- Builds (once) and returns the full RecipeData index, keyed by item ID.
+function RecipeRadar_GetRecipesByID()
 
    if (not recipes_by_id) then
       recipes_by_id = { }
@@ -705,7 +716,16 @@ function RecipeRadar_GetRecipeRecord(recipe)
       end
    end
 
-   return recipes_by_id[recipe.ID]
+   return recipes_by_id
+
+end
+
+function RecipeRadar_GetRecipeRecord(recipe)
+
+   if (not recipe) then return nil end
+   if (recipe.SkillYellow) then return recipe end
+
+   return RecipeRadar_GetRecipesByID()[recipe.ID]
 
 end
 

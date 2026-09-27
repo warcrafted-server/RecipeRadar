@@ -113,8 +113,8 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
 
    end
 
-   local avail, prosp, known, line_info = { }, { }, { }, { }
-   local num_avail, num_prosp, num_known = 0, 0, 0
+   local avail, inv, prosp, known, line_info = { }, { }, { }, { }, { }
+   local num_avail, num_inv, num_prosp, num_known = 0, 0, 0, 0
 
    -- recipe labels are not saved in the skill database
    recipe_name = RecipeRadar_TrimRecipeLabel(recipe_name)
@@ -148,6 +148,11 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
          if (RecipeRadar_Availability_IsAvailable(player, recipe)) then
             num_avail = num_avail + 1
             avail[num_avail] = {
+                  Name = player, Rank = rank, Rep = rep, Spec = spec }
+
+         elseif (RecipeRadar_Availability_IsInInventory(player, recipe)) then
+            num_inv = num_inv + 1
+            inv[num_inv] = {
                   Name = player, Rank = rank, Rep = rep, Spec = spec }
 
          elseif (RecipeRadar_Availability_IsProspect(player, recipe)) then
@@ -200,10 +205,33 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
 
    end
 
+   -- populate the "already in inventory" entries
+   if (num_inv > 0) then
+
+      if (num_avail > 0) then
+         RecipeRadar_AvailabilityTooltip_AddLine()
+      end
+      RecipeRadar_AvailabilityTooltip_AddLine(
+            RecipeRadar_Availabilities["InInventoryPlayer"].Tooltip.Heading,
+            RecipeRadar_Colors.TooltipHeading)
+      table.sort(inv, RecipeRadar_Availability_NameSort)
+
+      for _, line in pairs(inv) do
+
+         local rank_suffix = format(TEXT(PARENS_TEMPLATE), line.Rank)
+
+         RecipeRadar_AvailabilityTooltip_AddLine(
+               "   " .. line.Name .. " " .. rank_suffix,
+               RecipeRadar_Colors.InInventory)
+
+      end
+
+   end
+
    -- populate the "available soon" entries
    if (num_prosp > 0) then
 
-      if (num_avail > 0) then
+      if (num_avail > 0 or num_inv > 0) then
          RecipeRadar_AvailabilityTooltip_AddLine()
       end
       RecipeRadar_AvailabilityTooltip_AddLine(
@@ -254,7 +282,7 @@ function RecipeRadar_Availability_CreateTooltip(recipe)
    -- populate the "already known" entries
    if (num_known > 0) then
 
-      if (num_prosp > 0 or num_avail > 0) then
+      if (num_prosp > 0 or num_inv > 0 or num_avail > 0) then
          RecipeRadar_AvailabilityTooltip_AddLine()
       end
       RecipeRadar_AvailabilityTooltip_AddLine(
@@ -325,7 +353,8 @@ function RecipeRadar_Availability_IsAvailable(player, recipe)
          RecipeRadar_Availability_GetBooleans(player, recipe)
 
    return (has_prof and not has_rec and has_rank and has_rep
-         and has_spec and has_misc)
+         and has_spec and has_misc
+         and not RecipeRadar_Inventory_HasRecipe(player, recipe))
 
 end
 
@@ -334,9 +363,10 @@ function RecipeRadar_Availability_IsProspect(player, recipe)
 
    local has_prof, has_rec, has_rank, has_rep, has_spec, has_misc =
          RecipeRadar_Availability_GetBooleans(player, recipe)
-         
+
    return (has_prof and not has_rec and
-         (not has_rank or not has_rep) and has_spec and has_misc)
+         (not has_rank or not has_rep) and has_spec and has_misc
+         and not RecipeRadar_Inventory_HasRecipe(player, recipe))
 
 end
 
@@ -347,6 +377,17 @@ function RecipeRadar_Availability_IsKnown(player, recipe)
          RecipeRadar_Availability_GetBooleans(player, recipe)
 
    return (has_prof and has_rec)
+
+end
+
+-- Boolean test for a recipe the player has not learned but already
+-- carries in bags or bank, so it shouldn't be shown as missing.
+function RecipeRadar_Availability_IsInInventory(player, recipe)
+
+   local has_prof, has_rec = RecipeRadar_Availability_GetBooleans(player, recipe)
+
+   return (has_prof and not has_rec and
+         RecipeRadar_Inventory_HasRecipe(player, recipe))
 
 end
 
@@ -415,6 +456,14 @@ function RecipeRadar_Availability_GetKey(recipe)
          RecipeRadar_Availability_IsSatisfiedByAlt(recipe,
          RecipeRadar_Availability_IsAvailable)) then
       return "LearnableByAlt"
+
+   elseif (RecipeRadar_Availability_IsInInventory(player, recipe)) then
+      return "InInventoryPlayer"
+
+   elseif (RecipeRadar_Options.RealmAvailability and
+         RecipeRadar_Availability_IsSatisfiedByAlt(recipe,
+         RecipeRadar_Availability_IsInInventory)) then
+      return "InInventoryAlt"
 
    elseif (RecipeRadar_Availability_IsProspect(player, recipe)) then
       return "ProspectForPlayer"
