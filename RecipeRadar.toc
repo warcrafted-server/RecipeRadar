@@ -13,7 +13,7 @@
 Astrolabe\Load.xml
 Embeds.xml
 Localization.lua
-NpcNames-esES.lua
+Names-esES.lua
 Globals.lua
 FontStyles.xml
 FrameTemplates.xml

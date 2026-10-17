@@ -9,8 +9,8 @@ v1.49; October 17, 2026
   minimap also offers "Set TomTom Waypoint".
 - Fix: drop, quest and trainer sources no longer read "Drop 5% Vendedor";
   they show "Botin 5%", "Recompensa de mision", "Instructor" (localized).
-- esES: ~1550 NPC names translated (NpcNames-esES.lua, generated from
-  creature_template_locale). Fixed the "NULL" name of recipe 16073.
+- esES: ~1550 NPC names translated (Names-esES.lua, generated from
+  creature_template_locale), plus the dungeon and raid names from the esES DBCs. Fixed the "NULL" name of recipe 16073.
 
 v1.48; October 17, 2026
 

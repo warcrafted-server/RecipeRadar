@@ -1,7 +1,7 @@
 if (GetLocale() ~= "esES") then return end
 
--- Nombres de PNJ (creature_template_locale esES, con esMX de respaldo) para los que
--- Localization.lua no tiene traduccion. Se generan con un script; no editar a mano.
+-- Nombres de PNJ (creature_template_locale esES, con esMX de respaldo) y de zonas
+-- (DBC esES) para los que Localization.lua no tiene traduccion. Se generan con un script; no editar a mano.
 
 local S = RecipeRadar_Strings
 S["Abyssal Flamebringer"] = "Clamallamas abisal"
@@ -1563,3 +1563,47 @@ S["Zulian Cub"] = "Cachorro Zulian"
 S["Zulian Panther"] = "Pantera Zulian"
 S["Zulian Tiger"] = "Tigre Zulian"
 S["Zuramat the Obliterator"] = "Zuramat el Obliterador"
+
+-- Zonas e instancias (Map.dbc y AreaTable.dbc de esES)
+S["Ahn'kahet: The Old Kingdom"] = "Ahn'kahet: El Antiguo Reino"
+S["Alterac Valley"] = "Valle de Alterac"
+S["Auchenai Crypts"] = "Criptas Auchenai"
+S["Black Temple"] = "El Templo Oscuro"
+S["Blackfathom Deeps"] = "Cavernas de Brazanegra"
+S["Blackrock Spire"] = "Cumbre de Roca Negra"
+S["Blackwing Lair"] = "Guarida de Alanegra"
+S["Drak'Tharon Keep"] = "Fortaleza de Drak'Tharon"
+S["Gruul's Lair"] = "Guarida de Gruul"
+S["Halls of Lightning"] = "Cámaras de Relámpagos"
+S["Halls of Stone"] = "Cámaras de Piedra"
+S["Hyjal Summit"] = "Batalla del Monte Hyjal"
+S["Icecrown Citadel"] = "Ciudadela de la Corona de Hielo"
+S["Magisters' Terrace"] = "Bancal del Magister"
+S["Magtheridon's Lair"] = "Guarida de Magtheridon"
+S["Mana-Tombs"] = "Tumbas de Maná"
+S["Molten Core"] = "Núcleo de Magma"
+S["Onyxia's Lair"] = "Guarida de Onyxia"
+S["Outland"] = "Terrallende"
+S["Ragefire Chasm"] = "Sima Ígnea"
+S["Razorfen Downs"] = "Zahúrda Rajacieno"
+S["Razorfen Kraul"] = "Horado Rajacieno"
+S["Scarlet Monastery"] = "Monasterio Escarlata"
+S["Serpentshrine Cavern"] = "Caverna Santuario Serpiente"
+S["Sethekk Halls"] = "Salas Sethekk"
+S["Shadow Labyrinth"] = "Laberinto de las Sombras"
+S["Shadowfang Keep"] = "Castillo de Colmillo Oscuro"
+S["Tempest Keep"] = "El Castillo de la Tempestad"
+S["The Arcatraz"] = "El Arcatraz"
+S["The Botanica"] = "El Invernáculo"
+S["The Deadmines"] = "Minas de la Muerte"
+S["The Mechanar"] = "El Mechanar"
+S["The Nexus"] = "El Nexo"
+S["The Obsidian Sanctum"] = "El Sagrario Obsidiana"
+S["The Shattered Halls"] = "Salas Arrasadas"
+S["The Slave Pens"] = "Recinto de los Esclavos"
+S["The Steamvault"] = "Cámara de Vapor"
+S["The Underbog"] = "La Sotiénaga"
+S["The Violet Hold"] = "Bastión Violeta"
+S["Utgarde Keep"] = "Fortaleza de Utgarde"
+S["Utgarde Pinnacle"] = "Pináculo de Utgarde"
+S["Violet Hold"] = "Bastión Violeta"
