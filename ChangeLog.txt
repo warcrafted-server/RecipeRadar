@@ -1,6 +1,12 @@
 
 Recipe Radar ChangeLog
 
+v1.48; October 17, 2026
+
+- Fix: the vendor pins on the world map were misplaced, or vanished, when
+  zooming with Magnify-WotLK. They now hang from WorldMapButton and scale
+  with the map.
+
 v1.47; October 17, 2026
 
 - The "Show on Map / TomTom" right-click entry and Ctrl+left-click now

@@ -11,10 +11,29 @@ function RecipeRadar_Worldmap_Init()
    
 end
 
+-- Pins hang from an overlay on WorldMapButton, which inherits the scale of
+-- the map. Parented to WorldMapFrame and anchored to WorldMapDetailFrame, the
+-- pixel offset is not scaled with the map, so zoom addons (Magnify) displace it.
+local function GetOverlay()
+
+   if (not RecipeRadarWorldmapOverlay) then
+      local overlay = CreateFrame("Frame", "RecipeRadarWorldmapOverlay",
+            WorldMapButton)
+      overlay:SetAllPoints(WorldMapButton)
+   end
+   return RecipeRadarWorldmapOverlay
+
+end
+
 -- Map the given icon to the given vendor.
 function RecipeRadar_Worldmap_AddVendor(id, vendor, region, continent)
 
    local button = getglobal("RecipeRadarWorldmapIcon" .. id)
+   local overlay = GetOverlay()
+   if (button:GetParent() ~= overlay) then
+      button:SetParent(overlay)
+      button:SetFrameLevel(overlay:GetFrameLevel() + 2)
+   end
    button.Vendor = vendor
    button.Continent = continent
    button.RegionID = RecipeRadar_RegionNameToID(region, continent)
@@ -40,7 +59,7 @@ end
 function RecipeRadar_Worldmap_UpdateButton(button)
 
    local Astrolabe = DongleStub("Astrolabe-0.4")
-   Astrolabe:PlaceIconOnWorldMap(getglobal("WorldMapDetailFrame"),
+   Astrolabe:PlaceIconOnWorldMap(GetOverlay(),
          button, button.Continent, button.RegionID,
          button.Vendor.Coordinates[1].x, button.Vendor.Coordinates[1].y)
 
