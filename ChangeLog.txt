@@ -1,6 +1,13 @@
 
 Recipe Radar ChangeLog
 
+v1.46; October 17, 2026
+
+- New "Show on Map / TomTom" entry in a vendor's right-click menu, and
+  Ctrl+left-click on a vendor line: opens the world map on that vendor's
+  zone (pins are only drawn when the map shows their zone) and, if TomTom
+  is installed, sets a waypoint to it.
+
 v1.45; September 27, 2026
 
 - Fixed a bunch of vendors showing every recipe twice in the recipes tab.

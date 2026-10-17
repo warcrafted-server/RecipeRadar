@@ -52,6 +52,38 @@ function RecipeRadar_Maps_AddVendor(vendor, region)
 
 end
 
+-- Opens the world map on the vendor's zone (the pin is only drawn when
+-- the map shows its zone or continent) and, if TomTom is loaded, sets a
+-- waypoint there. Instance vendors have no coordinates and are skipped.
+function RecipeRadar_Maps_NavigateToVendor(vendor, region)
+
+   local continent = RecipeRadar_RegionData[region].Continent
+   if (continent == 0 or not vendor.Coordinates) then
+      RecipeRadar_Print(RRS("This vendor has no map location."))
+      return
+   end
+
+   local zone = RecipeRadar_RegionNameToID(region, continent)
+   if (not zone) then return end
+
+   if (not vendor.IsMapped) then
+      RecipeRadar_Maps_AddVendor(vendor, region)
+   end
+
+   local coord = vendor.Coordinates[1]
+
+   if (TomTom and TomTom.AddZWaypoint) then
+      TomTom:AddZWaypoint(continent, zone, coord.x * 100, coord.y * 100,
+            vendor.Name)
+   end
+
+   if (not WorldMapFrame:IsVisible()) then
+      ToggleFrame(WorldMapFrame)
+   end
+   SetMapZoom(continent, zone)
+
+end
+
 -- Unmap the vendor.
 function RecipeRadar_Maps_RemoveVendor(vendor)
 

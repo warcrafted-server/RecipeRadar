@@ -158,6 +158,8 @@ if (GetLocale() == "sample") then
 
    -- menu item in the right-click context menu for mapped vendor buttons
    RecipeRadar_Strings["Unmap Vendor"] = ""
+   RecipeRadar_Strings["Show on Map / TomTom"] = ""
+   RecipeRadar_Strings["This vendor has no map location."] = ""
    RecipeRadar_Strings["Collapse"] = ""
    RecipeRadar_Strings["Collapse All"] = ""
    RecipeRadar_Strings["Expand"] = ""
@@ -1397,6 +1399,8 @@ if (GetLocale() == "esES") then
    RecipeRadar_Strings["Expand All"] = "Ampliar Todos"
    RecipeRadar_Strings["Map Vendor"] = "Marcar a Vendedor"
    RecipeRadar_Strings["Unmap Vendor"] = "Quitar a vendedor"
+   RecipeRadar_Strings["Show on Map / TomTom"] = "Mostrar en el mapa / TomTom"
+   RecipeRadar_Strings["This vendor has no map location."] = "Este vendedor no tiene ubicación en el mapa."
    RecipeRadar_Strings["Goblin Engineer"] = "Ingeniero goblin"
    RecipeRadar_Strings["Gnomish Engineer"] = "Ingeniero gnomo"
    RecipeRadar_Strings["Eastern Kingdoms"] = "Reinos del Este"

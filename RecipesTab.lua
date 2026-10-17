@@ -328,6 +328,12 @@ function RecipeRadar_RecipesTab_ServiceClickIndex(index, button)
                         local vendor = RecipeRadar_RecipesTab_FindVendor(
                               location.Region, location.Vendor)
 
+                        -- ctrl-click: open the map there / TomTom waypoint
+                        if (IsControlKeyDown()) then
+                           RecipeRadar_Maps_NavigateToVendor(vendor,
+                                 location.Region)
+                        end
+
                         -- if the shift key is down, (un)map this vendor
                         if (IsShiftKeyDown()) then
                            if (vendor.IsMapped) then
@@ -450,6 +456,13 @@ function RecipeRadar_RecipesTab_ContextMenuInit()
       item.func = RecipeRadar_RecipesTab_ContextMenuOnClick
       UIDropDownMenu_AddButton(item)
 
+      item = { }
+      item.text = RRS("Show on Map / TomTom")
+      item.value = "navigate"
+      item.notCheckable = 1
+      item.func = RecipeRadar_RecipesTab_ContextMenuOnClick
+      UIDropDownMenu_AddButton(item)
+
    end
    
    item = { }
@@ -495,6 +508,11 @@ function RecipeRadar_RecipesTab_ContextMenuOnClick()
 
       elseif (this.value == "map") then
          RecipeRadar_Maps_AddVendor(vendor,
+               RecipeRadar_ContextMenuGlobal.Location.Region)
+         RecipeRadar_FrameUpdate()
+
+      elseif (this.value == "navigate") then
+         RecipeRadar_Maps_NavigateToVendor(vendor,
                RecipeRadar_ContextMenuGlobal.Location.Region)
          RecipeRadar_FrameUpdate()
       end
