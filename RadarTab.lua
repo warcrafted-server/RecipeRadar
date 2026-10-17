@@ -307,8 +307,13 @@ function RecipeRadar_RadarTab_ServiceClickIndex(index, button)
 
             if (button == "LeftButton") then
             
+               -- ctrl-click: open the map there / TomTom waypoint
+               if (IsControlKeyDown()) then
+                  RecipeRadar_Maps_NavigateToVendor(vendor,
+                        RecipeRadar_Options.CurrentRegion)
+
                -- if the shift key is down, the user wants to (un)map this vendor
-               if (IsShiftKeyDown()) then
+               elseif (IsShiftKeyDown()) then
                   if (vendor.IsMapped) then
                      RecipeRadar_Maps_RemoveVendor(vendor)
                   else
@@ -354,6 +359,12 @@ function RecipeRadar_RadarTab_ServiceClickIndex(index, button)
                   if (row == index or index == -1) then
 
                      if (button == "LeftButton") then
+
+                        -- ctrl-click: open the map there / TomTom waypoint
+                        if (IsControlKeyDown()) then
+                           RecipeRadar_Maps_NavigateToVendor(vendor,
+                                 RecipeRadar_Options.CurrentRegion)
+                        end
 
                         -- if the shift key is down, we map this recipe's vendor
                         if (IsShiftKeyDown()) then
@@ -453,6 +464,13 @@ function RecipeRadar_RadarTab_ContextMenuInit()
    UIDropDownMenu_AddButton(item)
 
    item = { }
+   item.text = RRS("Show on Map / TomTom")
+   item.value = "navigate"
+   item.notCheckable = 1
+   item.func = RecipeRadar_RadarTab_ContextMenuOnClick
+   UIDropDownMenu_AddButton(item)
+
+   item = { }
    item.text = RRS("Expand All")
    item.value = "expandall"
    item.notCheckable = 1
@@ -489,6 +507,11 @@ function RecipeRadar_RadarTab_ContextMenuOnClick()
       
    elseif (this.value == "map") then
       RecipeRadar_Maps_AddVendor(RecipeRadar_ContextMenuGlobal.Vendor,
+            RecipeRadar_Options.CurrentRegion)
+      RecipeRadar_FrameUpdate()
+
+   elseif (this.value == "navigate") then
+      RecipeRadar_Maps_NavigateToVendor(RecipeRadar_ContextMenuGlobal.Vendor,
             RecipeRadar_Options.CurrentRegion)
       RecipeRadar_FrameUpdate()
 

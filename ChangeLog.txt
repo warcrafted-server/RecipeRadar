@@ -1,6 +1,11 @@
 
 Recipe Radar ChangeLog
 
+v1.47; October 17, 2026
+
+- The "Show on Map / TomTom" right-click entry and Ctrl+left-click now
+  also work in the Radar tab, not just the Recipes tab.
+
 v1.46; October 17, 2026
 
 - New "Show on Map / TomTom" entry in a vendor's right-click menu, and
