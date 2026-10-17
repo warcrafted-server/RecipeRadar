@@ -307,9 +307,13 @@ function RecipeRadar_RadarTab_ServiceClickIndex(index, button)
 
             if (button == "LeftButton") then
             
-               -- ctrl-click: open the map there / TomTom waypoint
+               -- ctrl-click: open the map there; alt-click: TomTom waypoint
                if (IsControlKeyDown()) then
-                  RecipeRadar_Maps_NavigateToVendor(vendor,
+                  RecipeRadar_Maps_ShowVendorOnMap(vendor,
+                        RecipeRadar_Options.CurrentRegion)
+
+               elseif (IsAltKeyDown()) then
+                  RecipeRadar_Maps_SetVendorWaypoint(vendor,
                         RecipeRadar_Options.CurrentRegion)
 
                -- if the shift key is down, the user wants to (un)map this vendor
@@ -360,9 +364,12 @@ function RecipeRadar_RadarTab_ServiceClickIndex(index, button)
 
                      if (button == "LeftButton") then
 
-                        -- ctrl-click: open the map there / TomTom waypoint
+                        -- ctrl-click: open the map there; alt-click: TomTom
                         if (IsControlKeyDown()) then
-                           RecipeRadar_Maps_NavigateToVendor(vendor,
+                           RecipeRadar_Maps_ShowVendorOnMap(vendor,
+                                 RecipeRadar_Options.CurrentRegion)
+                        elseif (IsAltKeyDown()) then
+                           RecipeRadar_Maps_SetVendorWaypoint(vendor,
                                  RecipeRadar_Options.CurrentRegion)
                         end
 
@@ -464,8 +471,15 @@ function RecipeRadar_RadarTab_ContextMenuInit()
    UIDropDownMenu_AddButton(item)
 
    item = { }
-   item.text = RRS("Show on Map / TomTom")
-   item.value = "navigate"
+   item.text = RRS("Show on Map")
+   item.value = "showmap"
+   item.notCheckable = 1
+   item.func = RecipeRadar_RadarTab_ContextMenuOnClick
+   UIDropDownMenu_AddButton(item)
+
+   item = { }
+   item.text = RRS("Set TomTom Waypoint")
+   item.value = "tomtom"
    item.notCheckable = 1
    item.func = RecipeRadar_RadarTab_ContextMenuOnClick
    UIDropDownMenu_AddButton(item)
@@ -510,10 +524,14 @@ function RecipeRadar_RadarTab_ContextMenuOnClick()
             RecipeRadar_Options.CurrentRegion)
       RecipeRadar_FrameUpdate()
 
-   elseif (this.value == "navigate") then
-      RecipeRadar_Maps_NavigateToVendor(RecipeRadar_ContextMenuGlobal.Vendor,
+   elseif (this.value == "showmap") then
+      RecipeRadar_Maps_ShowVendorOnMap(RecipeRadar_ContextMenuGlobal.Vendor,
             RecipeRadar_Options.CurrentRegion)
       RecipeRadar_FrameUpdate()
+
+   elseif (this.value == "tomtom") then
+      RecipeRadar_Maps_SetVendorWaypoint(RecipeRadar_ContextMenuGlobal.Vendor,
+            RecipeRadar_Options.CurrentRegion)
 
    elseif (this.value == "expandall") then
       RecipeRadar_RadarTab_ExpandAll(true)

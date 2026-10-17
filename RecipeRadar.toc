@@ -1,5 +1,5 @@
 ﻿## Interface: 30200
-## Version: 1.48
+## Version: 1.49
 ## Title: Recipe Radar
 ## Author: Jay Miller
 ## Notes: Locates vendors who sell recipes in the current region or by profession.
@@ -13,6 +13,7 @@
 Astrolabe\Load.xml
 Embeds.xml
 Localization.lua
+NpcNames-esES.lua
 Globals.lua
 FontStyles.xml
 FrameTemplates.xml

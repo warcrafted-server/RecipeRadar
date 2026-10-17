@@ -36,6 +36,7 @@ function RecipeRadar_Worldmap_AddVendor(id, vendor, region, continent)
    end
    button.Vendor = vendor
    button.Continent = continent
+   button.Region = region
    button.RegionID = RecipeRadar_RegionNameToID(region, continent)
    button.IsMapped = true
 

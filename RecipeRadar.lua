@@ -587,13 +587,37 @@ end
 -- a boolean that specifies whether the string should be in parens.
 function RecipeRadar_FormatVendorNote(note, include_parens)
 
-   local note_type = RecipeRadar_ParseNote(note)
-   if (note_type) then note = note_type end
-   
-   if (include_parens) then
-      return format(TEXT(PARENS_TEMPLATE), format(RRS("%s Vendor"), note))
+   local text = RecipeRadar_SourceNoteText(note)
+   if (not text) then
+      local note_type = RecipeRadar_ParseNote(note)
+      if (note_type) then note = note_type end
+      text = format(RRS("%s Vendor"), note)
    end
-   return format(RRS("%s Vendor"), note)
+
+   if (include_parens) then
+      return format(TEXT(PARENS_TEMPLATE), text)
+   end
+   return text
+
+end
+
+-- Source notes in RegionData.lua ("Drop N%", "Mision", "Instructor",
+-- "Vendedor") already say how the recipe is obtained, so they must not get
+-- the " Vendor" suffix. Returns the localized text, or nil for the older
+-- vendor notes (Roving, Seasonal...).
+function RecipeRadar_SourceNoteText(note)
+
+   local chance = string.match(note, "^Drop ([%d%.]+%%)")
+   if (chance) then
+      local text = format(RRS("Drop %s"), chance)
+      if (string.find(note, "(heroica)", 1, true)) then
+         text = text .. " " .. format(TEXT(PARENS_TEMPLATE), RRS("heroic"))
+      end
+      return text
+   end
+   if (note == "Mision") then return RRS("Quest reward") end
+   if (note == "Instructor") then return RRS("Trainer") end
+   if (note == "Vendedor") then return RRS("Vendor") end
 
 end
 

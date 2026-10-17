@@ -26,6 +26,7 @@
             if (arg1 and arg1 == "RightButton") then
                HideDropDownMenu(1)
                RecipeRadar_ContextMenuGlobal.Vendor = this.Vendor
+               RecipeRadar_ContextMenuGlobal.Region = this.Region
                ToggleDropDownMenu(1, nil, UnmapVendorDropDown, this:GetName(), 6, 6)
             end
          </OnClick>
@@ -73,6 +74,7 @@
             if (arg1 and arg1 == "RightButton") then
                HideDropDownMenu(1)
                RecipeRadar_ContextMenuGlobal.Vendor = this.Vendor
+               RecipeRadar_ContextMenuGlobal.Region = this.Region
                ToggleDropDownMenu(1, nil, UnmapVendorDropDown, this:GetName(), 6, 6)
             end
          </OnClick>

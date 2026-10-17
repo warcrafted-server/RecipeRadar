@@ -328,9 +328,12 @@ function RecipeRadar_RecipesTab_ServiceClickIndex(index, button)
                         local vendor = RecipeRadar_RecipesTab_FindVendor(
                               location.Region, location.Vendor)
 
-                        -- ctrl-click: open the map there / TomTom waypoint
+                        -- ctrl-click: open the map there; alt-click: TomTom
                         if (IsControlKeyDown()) then
-                           RecipeRadar_Maps_NavigateToVendor(vendor,
+                           RecipeRadar_Maps_ShowVendorOnMap(vendor,
+                                 location.Region)
+                        elseif (IsAltKeyDown()) then
+                           RecipeRadar_Maps_SetVendorWaypoint(vendor,
                                  location.Region)
                         end
 
@@ -457,8 +460,15 @@ function RecipeRadar_RecipesTab_ContextMenuInit()
       UIDropDownMenu_AddButton(item)
 
       item = { }
-      item.text = RRS("Show on Map / TomTom")
-      item.value = "navigate"
+      item.text = RRS("Show on Map")
+      item.value = "showmap"
+      item.notCheckable = 1
+      item.func = RecipeRadar_RecipesTab_ContextMenuOnClick
+      UIDropDownMenu_AddButton(item)
+
+      item = { }
+      item.text = RRS("Set TomTom Waypoint")
+      item.value = "tomtom"
       item.notCheckable = 1
       item.func = RecipeRadar_RecipesTab_ContextMenuOnClick
       UIDropDownMenu_AddButton(item)
@@ -511,10 +521,14 @@ function RecipeRadar_RecipesTab_ContextMenuOnClick()
                RecipeRadar_ContextMenuGlobal.Location.Region)
          RecipeRadar_FrameUpdate()
 
-      elseif (this.value == "navigate") then
-         RecipeRadar_Maps_NavigateToVendor(vendor,
+      elseif (this.value == "showmap") then
+         RecipeRadar_Maps_ShowVendorOnMap(vendor,
                RecipeRadar_ContextMenuGlobal.Location.Region)
          RecipeRadar_FrameUpdate()
+
+      elseif (this.value == "tomtom") then
+         RecipeRadar_Maps_SetVendorWaypoint(vendor,
+               RecipeRadar_ContextMenuGlobal.Location.Region)
       end
 
    end

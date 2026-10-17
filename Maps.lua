@@ -52,10 +52,9 @@ function RecipeRadar_Maps_AddVendor(vendor, region)
 
 end
 
--- Opens the world map on the vendor's zone (the pin is only drawn when
--- the map shows its zone or continent) and, if TomTom is loaded, sets a
--- waypoint there. Instance vendors have no coordinates and are skipped.
-function RecipeRadar_Maps_NavigateToVendor(vendor, region)
+-- Returns the continent and zone IDs of a vendor that can be located on a
+-- map, or nil (after telling the user) for instance vendors.
+local function GetVendorMapZone(vendor, region)
 
    local continent = RecipeRadar_RegionData[region].Continent
    if (continent == 0 or not vendor.Coordinates) then
@@ -66,21 +65,44 @@ function RecipeRadar_Maps_NavigateToVendor(vendor, region)
    local zone = RecipeRadar_RegionNameToID(region, continent)
    if (not zone) then return end
 
+   return continent, zone
+
+end
+
+-- Maps the vendor and opens the world map on its zone (the pin is only
+-- drawn when the map shows its zone or continent). Instance vendors have no
+-- coordinates and are skipped.
+function RecipeRadar_Maps_ShowVendorOnMap(vendor, region)
+
+   local continent, zone = GetVendorMapZone(vendor, region)
+   if (not continent) then return end
+
    if (not vendor.IsMapped) then
       RecipeRadar_Maps_AddVendor(vendor, region)
-   end
-
-   local coord = vendor.Coordinates[1]
-
-   if (TomTom and TomTom.AddZWaypoint) then
-      TomTom:AddZWaypoint(continent, zone, coord.x * 100, coord.y * 100,
-            vendor.Name)
    end
 
    if (not WorldMapFrame:IsVisible()) then
       ToggleFrame(WorldMapFrame)
    end
    SetMapZoom(continent, zone)
+
+end
+
+-- Sets a TomTom waypoint on the vendor without touching the map or the
+-- vendor's mapped state.
+function RecipeRadar_Maps_SetVendorWaypoint(vendor, region)
+
+   if (not (TomTom and TomTom.AddZWaypoint)) then
+      RecipeRadar_Print(RRS("TomTom is not loaded."))
+      return
+   end
+
+   local continent, zone = GetVendorMapZone(vendor, region)
+   if (not continent) then return end
+
+   local coord = vendor.Coordinates[1]
+   TomTom:AddZWaypoint(continent, zone, coord.x * 100, coord.y * 100,
+         vendor.Name)
 
 end
 
@@ -162,6 +184,13 @@ function RecipeRadar_Maps_ContextMenuInit()
    UIDropDownMenu_AddButton(item)
 
    item = { }
+   item.text = RRS("Set TomTom Waypoint")
+   item.value = "tomtom"
+   item.notCheckable = 1
+   item.func = RecipeRadar_Maps_ContextMenuOnClick
+   UIDropDownMenu_AddButton(item)
+
+   item = { }
    item.text = CANCEL
    item.notCheckable = 1
    item.func = RecipeRadar_Maps_ContextMenuOnClick
@@ -175,6 +204,10 @@ function RecipeRadar_Maps_ContextMenuOnClick()
    if (this.value == "unmap") then
       RecipeRadar_Maps_RemoveVendor(RecipeRadar_ContextMenuGlobal.Vendor)
       RecipeRadar_FrameUpdate()
+
+   elseif (this.value == "tomtom") then
+      RecipeRadar_Maps_SetVendorWaypoint(RecipeRadar_ContextMenuGlobal.Vendor,
+            RecipeRadar_ContextMenuGlobal.Region)
    end
 
 end
